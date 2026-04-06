@@ -1,0 +1,9 @@
+Date and Time:	2025-12-25 17:07:18
+Dataset:	dataset/dataset0.5.3.json
+Model Info:
+	model_name: gpt-5.1
+	sampling_params: {'tools': [{'type': 'web_search'}], 'reasoning': {'effort': 'high', 'summary': 'detailed'}, 'include': ['web_search_call.action.sources']}
+Base Prompt:	prompts/prompt_simple_llm_bench0.0.0.txt
+Accuracy:	0.84 (42/50)
+True Accuracy:	0.75 (15/20)
+False Accuracy:	0.90 (27/30)

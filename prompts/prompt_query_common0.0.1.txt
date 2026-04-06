@@ -1,0 +1,30 @@
+You will be given a conversation between a user and an assistant. The user is asking the assistant about a procedure. Follow the instructions below to extract specific words or phrases from this conversation. Fill in the results in JSON format between <json> and </json>.
+
+# Task Instructions
+
+## 1. Field Extraction
+Identify the field the conversation is about and respond with a word or phrase. A field could be a game title or software name, for example.
+
+## 2. Question Target Extraction
+Focus on the user's question and extract the word or phrase that is the subject of the question.
+
+## 3. Hypernym Extraction
+The question target extracted in the previous task is a specific concept. Infer the hypernym that abstracts this question target and respond as a word or phrase.
+For example, if the question target was "recovery potion," the hypernym would be "potion."
+
+# Output Format
+<json>
+{
+    "field": "a word or phrase of field",
+    "target": "a word or phrase of target",
+    "hypernym": "a word or phrase of hypernym"
+}
+</json>
+
+Now, run the task on the following data.
+
+User's question:
+<input-user-question>
+
+Assistant's response:
+<input-procedure>

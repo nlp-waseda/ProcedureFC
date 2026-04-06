@@ -1,0 +1,6 @@
+[
+  {
+    "ID": 6,
+    "result": "%% Procedure to become a model in BitLife\nflowchart TD\n    A[\"Start With the Right Attributes: Aim for 90%+ Looks (-> Looks) and maintain Health\"] --> B[\"Graduate from High School First\"]\n    B --> C[\"Start as a Foot Model or Junior Model\"]\n    C -->|\"Foot Model (-> Foot Model)\"| D[\"Maintain and Increase Your Fame\"]\n    D --> E[\"Move Into Regular Modeling\"]\n    E -->|\"Catalog Model (-> Catalog Model) or Runway Model (-> Runway Model)\"| F[\"Get an Agent for Elite Gigs\"]\n    F -->|\"Famous Model (-> Famous Model)\"| G[\"Attend Auditions\"]\n    G -->|\"Yes to auditions (-> Yes)\"| H[\"Keep Your Career Stable\"]\n    H --> I[\"Max Out Your Fame\"]\n    I --> J[\"Retire Gracefully\"]"
+  }
+]

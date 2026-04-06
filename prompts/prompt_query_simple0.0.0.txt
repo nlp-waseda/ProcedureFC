@@ -1,0 +1,13 @@
+# Task Explanation
+You are given a user question and the assistant's response. Create a query to find the information you need to verify whether the assistant's response is factual.
+
+# Output Example
+{
+    "text": "Abraham Lincoln birthday"
+}
+
+User's question:
+<input-user-question>
+
+Assistant's response:
+<input-procedure>

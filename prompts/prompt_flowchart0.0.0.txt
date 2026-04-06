@@ -1,0 +1,204 @@
+Your task is to create a flowchart in Mermaid notation from a text that describes a procedure.
+If an entity obtained in one step is required in a later step, include it as the label of the edge (arrow) connecting those steps.
+If the procedure contains anaphoric expressions referring to proper nouns, include the antecedent proper noun alongside the anaphor. For example: the item (-> Iron Sword) or he (-> Tom).
+
+# Examples of task
+
+## Example 1
+
+================== Beginning of Example 1 ==================
+
+Procedure:
+## 🧭 Crafting a Crystal Forge in *Realmforge*
+
+Crafting a Crystal Forge is an essential step for any aspiring mage-smith. Follow these steps to create your very own forge of power.
+
+---
+
+### 1. **Gather Materials**
+
+To build a Crystal Forge, you’ll need the following resources:
+
+* **Enchanted Iron (2x)** – Can be obtained by smelting Iron Ore in a Mystic Furnace with Arcane Dust as fuel.
+* **Runestone (4x)** – Found deep in Cavern Shrines or dropped by Stone Sentinels.
+* **Crystal Core (1x)** – Crafted by combining 4 Mana Shards in an Alchemy Table.
+* **Obsidian Plate (1x)** – Created by cooling Lava Essence in Water Essence using a Cooling Basin.
+
+---
+
+### 2. **Open the Arcane Workbench**
+
+Approach your **Arcane Workbench** and interact with it by pressing **E** (or your platform’s interaction key).
+Ensure the workbench is charged with **at least 20 Mana Units**, as this process consumes energy.
+
+---
+
+### 3. **Arrange the Materials**
+
+In the 3x3 crafting grid of the Arcane Workbench, arrange the materials as follows:
+
+* **Top Row:** Enchanted Iron – Crystal Core – Enchanted Iron
+* **Middle Row:** Runestone – Obsidian Plate – Runestone
+* **Bottom Row:** Runestone – (Empty) – Runestone
+
+---
+
+### 4. **Craft the Crystal Forge**
+
+Once all components are properly placed, the **Crystal Forge** will appear in the output slot of the workbench.
+Click the result to add the Crystal Forge to your inventory.
+
+---
+
+### 5. **Place the Crystal Forge**
+
+Find a secure location for your forge — preferably near a Mana Conduit for efficient power flow.
+Select the forge from your hotbar and place it by right-clicking (or pressing the use key) on a stable surface.
+
+---
+
+### 6. **Use Your Crystal Forge**
+
+Interact with the placed forge to begin refining crystals.
+You can insert **raw crystals**, **mana-infused ores**, and **rare gemstones** to create advanced crafting materials and artifacts.
+
+---
+
+### ⚙️ Tip:
+
+Upgrading your Crystal Forge with **Ethereal Gears** allows for faster refinement and reduced mana consumption!
+
+Output:
+<flowchart>
+%% Procedure to craft the Crystal Forge in Realmforge
+flowchart TD
+    A["Gather Materials: Enchanted Iron (2x), Runestone (4x), Crystal Core (1x), Obsidian Plate (1x)"] -->|"Enchanted Iron (2x), Runestone (4x), Crystal Core (1x), Obsidian Plate (1x)"| B["Open the Arcane Workbench"]
+    B --> C["Arrange the Materials"]
+    C --> D["Craft the Crystal Forge"]
+    D --> |"the Crystal Forge"| E["Place the Crystal Forge"]
+    E --> F["Use Your Crystal Forge"]
+</flowchart>
+
+================== End of Example 1 ==================
+
+## Example 2
+
+================== Beginning of Example 2 ==================
+
+Procedure:
+### **How to Use Chat in AetherStrike**
+
+Follow these steps to communicate effectively with other players in **AetherStrike**:
+
+---
+
+#### **1. Launch the Game**
+
+* Open **AetherStrike** on your PC or console.
+* Log in with your **Aether ID** to access multiplayer features.
+
+---
+
+#### **2. Join a Match**
+
+* Enter any game mode — such as **Battle Arena**, **Ranked Clash**, or **Custom Duel** — to practice chatting with other players.
+
+---
+
+#### **3. Team Chat**
+
+* **Default Key:** Press **Enter** to open the **Team Chat** window.
+* **Purpose:** Use this to communicate only with your teammates.
+* **Steps:**
+
+  1. Press **Enter** to open the chat box.
+  2. Type your message using your keyboard.
+  3. Press **Enter** again to send your message to your team.
+
+---
+
+#### **4. Global Chat**
+
+* **Default Key:** Press **Shift + Enter** to switch to **Global Chat**.
+* **Purpose:** Lets you send messages to all players in the match, including opponents.
+* **Steps:**
+
+  1. Press **Shift + Enter** to open global chat.
+  2. Type your message.
+  3. Press **Enter** to send it to everyone.
+
+---
+
+#### **5. Squad Chat**
+
+* **Default Key:** Press **Ctrl + Enter** to open **Squad Chat**.
+* **Purpose:** Used for chatting with your pre-made squad or friends you queued with.
+* **Steps:**
+
+  1. Press **Ctrl + Enter** to access the squad chat.
+  2. Type your message.
+  3. Hit **Enter** to send it to your squadmates.
+
+---
+
+#### **6. Reading Messages**
+
+* All chat messages appear in the **bottom-left corner** of your screen.
+* Different colors indicate chat types (e.g., blue for team, green for squad, red for global).
+
+---
+
+#### **7. Chat Settings**
+
+* Go to **Settings → Communication → Chat** to customize:
+
+  * Chat visibility
+  * Font size and color scheme
+  * Profanity filters
+  * Notification sounds
+
+---
+
+#### **8. Muting or Blocking Players**
+
+* If another player is being disruptive:
+
+  * Open the **Player List** (`Tab` key).
+  * Select the player’s name and choose **Mute Chat** or **Block Messages**.
+  * You can unmute them at any time from the same menu.
+
+---
+
+#### **9. Good Communication Practices**
+
+* Keep messages **friendly and strategic**.
+* Avoid spamming or offensive language — it may result in chat restrictions.
+* Use pings or quick messages for faster coordination if you prefer not to type.
+
+---
+
+**Tip:** Mastering the chat system in AetherStrike helps you coordinate attacks, share intel, and build stronger teamwork — all while keeping the battlefield friendly!
+
+Output:
+<flowchart>
+%% Procedure to use chat in AetherStrike
+flowchart TD
+    A["Launch the Game (-> AetherStrike)"] --> B["Join a Match"]
+    B --> C["Use Team Chat"]
+    B --> D["Use Global Chat"]
+    B --> E["Use Squad Chat"]
+    C --> F["Read Messages"]
+    D --> F
+    E --> F
+    G["Customize Chat Settings"]
+    H["Mute or Block Players"]
+</flowchart>
+
+================== End of Example 2 ==================
+
+# Input data
+
+Procedure:
+<input-procedure>
+
+Now, please perform your task based on the given procedure.

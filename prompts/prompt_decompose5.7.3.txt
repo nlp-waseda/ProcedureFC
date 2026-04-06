@@ -1,0 +1,186 @@
+# Task Explanation
+
+Your task is to extract structured steps from a text that describes a procedure.
+If the procedure contains supplementary information such as tips or cautions, distinguish these from the steps.
+The task is carried out in two stages.
+
+## 1st Task (Decomposition)
+
+First, break the given procedural text into **Steps** and **Supplementary Information**. Each step must include exactly one action. Extract this action in the form {action: "open"} and append it to the end of the step description. The action should be expressed as a single verb or verb phrase.
+At this time, be careful not to combine multiple steps or pieces of supplementary information into one. On the other hand, also be careful not to perform unnecessary decomposition. For example, the procedure “Obtain A, B, and C” represents a single action applied to three objects. The decomposition of steps should be carried out based on this action.
+Also, if the original text uses anaphoric expressions referring to proper nouns, include the antecedent alongside the anaphor, so that each individual step or piece of supplementary information makes sense even when taken out of context. Example: the item (-> Iron Sword)
+Write the result of the decomposition between `<decomposition>` and `</decomposition>`.
+
+## 2nd Task (Conversion)
+
+Next, convert all the steps and supplementary information into sentences that each express a single fact, and organize them in JSON format.
+
+### Step
+Convert each step into a statement in the form: “By performing a certain action, a certain result can be obtained.”
+Since you have already completed the first task, each step should contain only one action — this corresponds to “a certain action.”
+For the result, infer what can be achieved by executing the step, and add that to the statement.
+
+### Supplementary information
+Supplementary information should already be in the form of single statements that express one fact, so do not rewrite their content—only add surrounding context if needed.
+
+Each produced statement must be independently verifiable without relying on surrounding context, so when converting, pay attention to the following:
+* Create as careful and complete sentences as possible so nothing is omitted from the statement.
+* Always declare which topic the fact concerns.
+* Replace any context-dependent references with proper nouns.
+
+Write the result of the conversion between `<json>` and `</json>`.
+
+# Examples of task
+
+## Example 1
+
+================== Beginning of Example 1 ==================
+
+Procedure:
+## 🧭 Crafting a Crystal Forge in *Realmforge*
+
+Crafting a Crystal Forge is an essential step for any aspiring mage-smith. Follow these steps to create your very own forge of power.
+
+---
+
+### 1. **Gather Materials**
+
+To build a Crystal Forge, you’ll need the following resources:
+
+* **Enchanted Iron (2x)** – Can be obtained by smelting Iron Ore in a Mystic Furnace with Arcane Dust as fuel.
+* **Runestone (4x)** – Found deep in Cavern Shrines or dropped by Stone Sentinels.
+* **Crystal Core (1x)** – Crafted by combining 4 Mana Shards in an Alchemy Table.
+* **Obsidian Plate (1x)** – Created by cooling Lava Essence in Water Essence using a Cooling Basin.
+
+---
+
+### 2. **Open the Arcane Workbench**
+
+Approach your **Arcane Workbench** and interact with it by pressing **E** (or your platform’s interaction key).
+Ensure the workbench is charged with **at least 20 Mana Units**, as this process consumes energy.
+
+---
+
+### 3. **Arrange the Materials**
+
+In the 3x3 crafting grid of the Arcane Workbench, arrange the materials as follows:
+
+* **Top Row:** Enchanted Iron – Crystal Core – Enchanted Iron
+* **Middle Row:** Runestone – Obsidian Plate – Runestone
+* **Bottom Row:** Runestone – (Empty) – Runestone
+
+---
+
+### 4. **Craft the Crystal Forge**
+
+Once all components are properly placed, the **Crystal Forge** will appear in the output slot of the workbench.
+Click the result to add the Crystal Forge to your inventory.
+
+---
+
+### 5. **Place the Crystal Forge**
+
+Find a secure location for your forge — preferably near a Mana Conduit for efficient power flow.
+Select the forge from your hotbar and place it by right-clicking (or pressing the use key) on a stable surface.
+
+---
+
+### 6. **Use Your Crystal Forge**
+
+Interact with the placed forge to begin refining crystals.
+You can insert **raw crystals**, **mana-infused ores**, and **rare gemstones** to create advanced crafting materials and artifacts.
+
+---
+
+### ⚙️ Tip:
+
+Upgrading your Crystal Forge with **Ethereal Gears** allows for faster refinement and reduced mana consumption!
+
+Output:
+<decomposition>
+1. (step) Gather the following materials: Enchanted Iron (2x), Runestone (4x), Crystal Core (1x), and Obsidian Plate (1x). {action: "gather"}
+2. (info) Enchanted Iron can be obtained by smelting Iron Ore in a Mystic Furnace with Arcane Dust as fuel.
+3. (info) Runestone is found deep in Cavern Shrines or dropped by Stone Sentinels.
+4. (info) Crystal Core is crafted by combining 4 Mana Shards in an Alchemy Table.
+5. (info) Obsidian Plate is created by cooling Lava Essence in Water Essence using a Cooling Basin.
+6. (step) Open the Arcane Workbench by interacting with it (press E or your platform's interaction key). {action: "open"}
+7. (step) Ensure the Arcane Workbench is charged with at least 20 Mana Units. {action: "ensure"}
+8. (step) Arrange the materials in the 3x3 crafting grid of the Arcane Workbench as specified: Top Row: Enchanted Iron – Crystal Core – Enchanted Iron; Middle Row: Runestone – Obsidian Plate – Runestone; Bottom Row: Runestone – (Empty) – Runestone. {action: "arrange"}
+9. (step) Click the result in the output slot (of the Arcane Workbench) to add the Crystal Forge to your inventory. {action: "click"}
+10. (step) Find a secure location for your forge (-> the Arcane Workbench), preferably near a Mana Conduit for efficient power flow. {action: "find"}
+11. (step) Select the forge (-> the Arcane Workbench) from your hotbar and place it by right-clicking (or pressing the use key) on a stable surface. {action: "select"}
+12. (step) Interact with the placed forge (-> the Arcane Workbench) to begin refining crystals. {action: "interact"}
+13. (step) Insert raw crystals, mana-infused ores, and rare gemstones (into the Arcane Workbench) to create advanced crafting materials and artifacts. {action: "insert"}
+14. (info) Upgrading your Crystal Forge with Ethereal Gears allows for faster refinement and reduced mana consumption!
+</decomposition>
+<json>
+{
+    "statements": [
+        {
+            "number": 1,
+            "sentence": "In the game Realmhammer, you can craft an item called the Crystal Forge by collecting the following materials: Enchanted Iron (2x), Runestone (4x), Crystal Core (1x), and Obsidian Plate (1x)."
+        },
+        {
+            "number": 2,
+            "sentence": "In the game Realmhammer, Enchanted Iron can be obtained by smelting Iron Ore in a Mystic Furnace with Arcane Dust as fuel."
+        },
+        {
+            "number": 3,
+            "sentence": "In the game Realmhammer, Runestone is found deep in Cavern Shrines or dropped by Stone Sentinels."
+        },
+        {
+            "number": 4,
+            "sentence": "In the game Realmhammer, Crystal Core is crafted by combining 4 Mana Shards in an Alchemy Table."
+        },
+        {
+            "number": 5,
+            "sentence": "In the game Realmhammer, Obsidian Plate is created by cooling Lava Essence in Water Essence using a Cooling Basin."
+        },
+        {
+            "number": 6,
+            "sentence": "In the game Realmhammer, you can open the Arcane Workbench by pressing the E key or the interaction key for your platform."
+        },
+        {
+            "number": 7,
+            "sentence": "In the game Realmhammer, crafting the Crystal Forge at the Arcane Workbench consumes at least 20 Mana Units."
+        },
+        {
+            "number": 8,
+            "sentence": "In the game Realmhammer, by arranging the materials in the Arcane Workbench’s 3x3 grid as specified: Top Row: Enchanted Iron – Crystal Core – Enchanted Iron; Middle Row: Runestone – Obsidian Plate – Runestone; Bottom Row: Runestone – (Empty) – Runestone, you can craft the Crystal Forge."
+        },
+        {
+            "number": 9,
+            "sentence": "In the game Realmhammer, you can add the crafted item (the Crystal Forge) to your inventory by clicking the crafting result in the output slot of the Arcane Workbench."
+        },
+        {
+            "number": 10,
+            "sentence": "In the game Realmhammer, you need to find a safe location to place the Arcane Workbench, and setting it near a Mana Conduit makes the flow of power more efficient."
+        },
+        {
+            "number": 11,
+            "sentence": "In the game Realmhammer, you can place the Arcane Workbench by selecting it from your hotbar and right-clicking (or using the use key) on a stable surface."
+        },
+        {
+            "number": 12,
+            "sentence": "In the game Realmhammer, you can begin refining crystals by interacting with the placed Arcane Workbench."
+        },
+        {
+            "number": 13,
+            "sentence": "In the game Realmhammer, by inserting raw crystals, mana-infused ores, and rare gemstones into the Arcane Workbench, you can craft advanced crafting materials and artifacts."
+        },
+        {
+            "number": 14,
+            "sentence": "In the game Realmhammer, upgrading your Crystal Forge with Ethereal Gears allows for faster refinement and reduced mana consumption."
+        }
+    ]
+}
+</json>
+
+================== End of Example 1 ==================
+
+# Input data
+
+Procedure:
+<input-procedure>
+
+Now, please perform your task based on the given procedure.

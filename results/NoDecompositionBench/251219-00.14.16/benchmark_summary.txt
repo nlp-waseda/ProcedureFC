@@ -1,0 +1,12 @@
+Date and Time:	2025-12-19 00:14:16
+Dataset:	dataset/dataset0.5.3.json
+Model Info:
+	model_name: gpt-5.1
+	sampling_params: {'temperature': 0.5}
+Flowchart Prompt:	prompts/prompt_flowchart0.0.0.txt
+Decomposition Prompt:	None
+Query Prompt:	(common) prompts/prompt_query_common0.0.1.txt (individual) None
+Verification Prompt:	(statement) prompts/prompt_verify1.2.6.txt (flowchart) prompts/prompt_verifyFC0.0.1.txt
+Accuracy:	0.68 (34/50)
+True Accuracy:	0.85 (17/20)
+False Accuracy:	0.57 (17/30)

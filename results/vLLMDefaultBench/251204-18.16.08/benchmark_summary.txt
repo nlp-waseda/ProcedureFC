@@ -1,0 +1,15 @@
+Date and Time:	2025-12-04 18:16:08
+Dataset:	dataset/dataset0.5.3.json
+Model Info:
+	model_name: Qwen/Qwen3-30B-A3B-Instruct-2507
+	sampling_params: {'temperature': 0.5, 'top_p': 0.8, 'top_k': 20, 'max_tokens': 6000, 'min_p': 0}
+Flowchart Prompt:	prompts/prompt_flowchart0.0.0.txt
+Decomposition Prompt:	prompts/prompt_decompose5.7.3.txt
+Query Prompt:	(common) prompts/prompt_query_common0.0.1.txt (individual) prompts/prompt_query_individual0.0.0.txt
+Verification Prompt:	(statement) prompts/prompt_verify1.2.6.txt (flowchart) prompts/prompt_verifyFC0.0.1.txt
+Accuracy:	0.56 (28/50)
+True Accuracy:	0.00 (0/20)
+False Accuracy:	0.93 (28/30)
+
+＜エラー情報＞
+ID6		RuntimeError('Individual Query Generation failed after maximum attempts.')

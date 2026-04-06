@@ -1,0 +1,21 @@
+You will be given a description to be evaluated and an evidential document to be used for the evaluation. Your task is to compare the information contained in the evidential document with the description under evaluation and determine the factual accuracy of the description. Your output should include your judgment and the reasoning that led you to that judgment. Fill in the results in JSON format between <json> and </json>.
+
+# Guidelines for Judgment
+
+The basic policy for judgment is as follows: if the evidential document contains information that explicitly contradicts the content of the description under evaluation, then the description should be judged as false. Otherwise, the description should be determined to be true. You must find a statement in the evidence that explicitly denies the description, cite it in the reasoning section, and make your judgment accordingly.
+
+# Output format
+<json>
+{
+    "reason": "Write your reason here.",
+    "result": true or false (boolean value)
+}
+</json>
+
+# Input Data
+
+Evidence :
+<input-evidence>
+
+Target Description :
+<input-statement>

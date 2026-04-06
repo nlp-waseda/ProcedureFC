@@ -1,0 +1,16 @@
+[project]
+name = "procedurefc"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11.13"
+dependencies = [
+    "anthropic==0.71.0",
+    "beautifulsoup4==4.13.4",
+    "ddgs==9.2.0",
+    "google-api-python-client==2.176.0",
+    "openai<2",
+    "protego==0.5.0",
+    "regex>=2025.11.3",
+    "vllm==0.11.2",
+]

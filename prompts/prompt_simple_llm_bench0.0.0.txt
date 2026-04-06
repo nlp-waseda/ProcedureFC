@@ -1,0 +1,18 @@
+A conversation between a user and an assistant is provided. The user asks the assistant about some procedure. Your task is to gather supporting evidence through web searches and determine whether the assistant’s response is factually accurate. The required output format is shown below. Fill in the results in JSON format between <json> and </json>.
+
+# Output Format
+<json>
+{
+  "reason": "Write the reason for your judgment here",
+  "result": true or false (boolean)
+}
+</json>
+
+# Input Data
+User's question:
+<input-question>
+
+Assistant's answer:
+<input-procedure>
+
+Now, perform the task for the given data.

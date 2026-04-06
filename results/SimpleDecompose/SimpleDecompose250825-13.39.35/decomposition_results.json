@@ -1,0 +1,3067 @@
+[
+  {
+    "ID": 0,
+    "result": [
+      [
+        {
+          "number_of_step": 1,
+          "action": "Check if the relevant event is active and the game is updated.",
+          "result": "You confirm that the event offering 'Fine Tea, Full Moon' is available."
+        },
+        {
+          "number_of_step": 2,
+          "action": "Participate in the event questline by interacting with Liyue NPCs hosting the tea and food celebration.",
+          "result": "You progress through the event quests."
+        },
+        {
+          "number_of_step": 3,
+          "action": "Continue the questline until you unlock the cooking challenge or recipe rewards.",
+          "result": "You gain access to the 'Fine Tea, Full Moon' recipe as a quest reward or in the event shop."
+        },
+        {
+          "number_of_step": 4,
+          "action": "If the recipe is in the event shop, collect event currency by completing daily event challenges, mini-games, or combat domains.",
+          "result": "You obtain enough event currency to purchase the recipe if required."
+        },
+        {
+          "number_of_step": 5,
+          "action": "Open your Inventory and navigate to the Precious Items tab.",
+          "result": "You locate the 'Fine Tea, Full Moon' recipe in your inventory."
+        },
+        {
+          "number_of_step": 6,
+          "action": "Select the 'Fine Tea, Full Moon' recipe and click 'Use' to learn it.",
+          "result": "The recipe is added to your list of learned recipes."
+        },
+        {
+          "number_of_step": 7,
+          "action": "Gather the required ingredients: Tea Leaves (event-exclusive), Sugar (from General Goods Shops), Lotus Head (found near Liyue lakes and rivers), and Milk (from General Goods Shops).",
+          "result": "You have all the necessary ingredients to cook 'Fine Tea, Full Moon.'"
+        },
+        {
+          "number_of_step": 8,
+          "action": "Go to any cooking station.",
+          "result": "You are ready to cook the dish."
+        },
+        {
+          "number_of_step": 9,
+          "action": "Select 'Fine Tea, Full Moon' from your learned recipes.",
+          "result": "The dish is selected for cooking."
+        },
+        {
+          "number_of_step": 10,
+          "action": "Cook the dish manually for the first time.",
+          "result": "You obtain 'Fine Tea, Full Moon' and unlock auto-cook for future preparations."
+        }
+      ],
+      [
+        {
+          "text": "This dish is not in the permanent recipe pool and is only available during certain seasonal events in Liyue, often around the Mid-Autumn Festival period in-game."
+        },
+        {
+          "text": "Exact ingredient requirements may change per event re-run."
+        },
+        {
+          "text": "If the event has already ended, you can’t currently obtain 'Fine Tea, Full Moon' until the developers re-run that event or add it to a permanent source."
+        }
+      ]
+    ]
+  },
+  {
+    "ID": 1,
+    "result": [
+      [
+        {
+          "number_of_step": 1,
+          "action": "Punch trees to gather wood.",
+          "result": "You obtain wood logs."
+        },
+        {
+          "number_of_step": 2,
+          "action": "Convert wood logs to wooden planks.",
+          "result": "You obtain wooden planks."
+        },
+        {
+          "number_of_step": 3,
+          "action": "Craft a crafting table using wooden planks.",
+          "result": "You have a crafting table."
+        },
+        {
+          "number_of_step": 4,
+          "action": "Use the crafting table to make a wooden pickaxe.",
+          "result": "You have a wooden pickaxe."
+        },
+        {
+          "number_of_step": 5,
+          "action": "Find stone (cobblestone) by digging down or finding an exposed rock face.",
+          "result": "You locate stone (cobblestone)."
+        },
+        {
+          "number_of_step": 6,
+          "action": "Mine at least 17 cobblestones.",
+          "result": "You have enough cobblestone for a furnace and a stone pickaxe."
+        },
+        {
+          "number_of_step": 7,
+          "action": "Use cobblestone to craft a stone pickaxe.",
+          "result": "You have a stone pickaxe."
+        },
+        {
+          "number_of_step": 8,
+          "action": "Continue mining or explore caves to find iron ore.",
+          "result": "You find iron ore."
+        },
+        {
+          "number_of_step": 9,
+          "action": "Mine at least 3 iron ores.",
+          "result": "You have enough iron ore to craft a bucket."
+        },
+        {
+          "number_of_step": 10,
+          "action": "Use cobblestone to craft a furnace.",
+          "result": "You have a furnace."
+        },
+        {
+          "number_of_step": 11,
+          "action": "Smelt the iron ore in the furnace using wood planks, charcoal, or coal as fuel.",
+          "result": "You obtain iron ingots."
+        },
+        {
+          "number_of_step": 12,
+          "action": "Use 3 iron ingots to craft a bucket.",
+          "result": "You have a bucket."
+        },
+        {
+          "number_of_step": 13,
+          "action": "Find a water source.",
+          "result": "You locate a water source."
+        },
+        {
+          "number_of_step": 14,
+          "action": "Fill your bucket with water.",
+          "result": "You have a bucket of water."
+        },
+        {
+          "number_of_step": 15,
+          "action": "Locate a pool of lava.",
+          "result": "You find a lava pool with multiple source blocks."
+        },
+        {
+          "number_of_step": 16,
+          "action": "Pour water over a lava source block.",
+          "result": "Obsidian is created."
+        },
+        {
+          "number_of_step": 17,
+          "action": "Create a mold using dirt or other blocks in the shape of a Nether Portal frame.",
+          "result": "You have a mold for the portal frame."
+        },
+        {
+          "number_of_step": 18,
+          "action": "Use the bucket to place lava in the mold.",
+          "result": "Lava is placed in the mold."
+        },
+        {
+          "number_of_step": 19,
+          "action": "Pour water over the lava in the mold.",
+          "result": "Obsidian is formed in the correct shape."
+        },
+        {
+          "number_of_step": 20,
+          "action": "Repeat placing lava and pouring water until the portal frame is complete (10 obsidian blocks, corners can be omitted).",
+          "result": "A complete Nether Portal frame is constructed."
+        },
+        {
+          "number_of_step": 21,
+          "action": "Mine gravel until you obtain a piece of flint.",
+          "result": "You have flint."
+        },
+        {
+          "number_of_step": 22,
+          "action": "Use one iron ingot and one flint to craft flint and steel.",
+          "result": "You have flint and steel."
+        },
+        {
+          "number_of_step": 23,
+          "action": "Use the flint and steel to ignite one of the bottom obsidian blocks of the portal.",
+          "result": "The Nether Portal is activated."
+        },
+        {
+          "number_of_step": 24,
+          "action": "Stand in the activated portal for a few seconds.",
+          "result": "You are transported to the Nether."
+        }
+      ],
+      [
+        {
+          "text": "Normally, you need a diamond pickaxe to mine obsidian. If you prefer to mine obsidian directly, you'll need to find diamonds, which are usually found deep underground near lava pools between Y-levels 5 and 16."
+        },
+        {
+          "text": "Surface lava pools are ideal because they often have multiple lava source blocks."
+        },
+        {
+          "text": "The smallest Nether Portal frame requires 10 obsidian blocks; the corners can be omitted."
+        },
+        {
+          "text": "Following these steps will get you to the Nether as quickly as possible in a new Minecraft world."
+        }
+      ]
+    ]
+  },
+  {
+    "ID": 2,
+    "result": [
+      [
+        {
+          "number_of_step": 1,
+          "action": "Look for armor sets that provide Handicraft points.",
+          "result": "You identify armor sets such as Nargacuga, Seregios, and Silver Sol that can contribute Handicraft points."
+        },
+        {
+          "number_of_step": 2,
+          "action": "Select and equip armor pieces that give Handicraft points.",
+          "result": "Your equipped armor provides some Handicraft points towards the Sharpness +1 skill."
+        },
+        {
+          "number_of_step": 3,
+          "action": "Mix and match armor pieces from different sets to maximize Handicraft points.",
+          "result": "You combine armor pieces to reach a higher total of Handicraft points."
+        },
+        {
+          "number_of_step": 4,
+          "action": "Ensure your total Handicraft points from armor reach at least +10.",
+          "result": "You meet the minimum Handicraft points required to activate Sharpness +1, or determine you need more points."
+        },
+        {
+          "number_of_step": 5,
+          "action": "Craft Decorations (Gems) that add Handicraft points at the Smithy using monster materials.",
+          "result": "You obtain Decorations that can further increase your Handicraft points."
+        },
+        {
+          "number_of_step": 6,
+          "action": "Equip the Handicraft Decorations to your armor.",
+          "result": "Your total Handicraft points increase, helping you reach the +10 threshold if you haven't already."
+        },
+        {
+          "number_of_step": 7,
+          "action": "Check if you have any charms (talismans) that provide Handicraft points.",
+          "result": "You may find a charm that adds Handicraft points, further contributing to the total."
+        },
+        {
+          "number_of_step": 8,
+          "action": "Equip a Handicraft charm if available.",
+          "result": "Your total Handicraft points increase, potentially reaching or exceeding +10."
+        },
+        {
+          "number_of_step": 9,
+          "action": "Go to your status screen to check your current skill points.",
+          "result": "You verify whether your Handicraft points total at least +10."
+        },
+        {
+          "number_of_step": 10,
+          "action": "Confirm that your Handicraft skill is at +10 or higher.",
+          "result": "Sharpness +1 skill is activated."
+        }
+      ],
+      [
+        {
+          "text": "The Nargacuga set is known for its evasion skills but can be mixed with other pieces to achieve Handicraft."
+        },
+        {
+          "text": "The Silver Sol armor set provides Handicraft points and is a good choice if you've unlocked it."
+        },
+        {
+          "text": "Often, achieving Sharpness +1 requires mixing armor pieces and using decorations."
+        },
+        {
+          "text": "As you progress and unlock higher-rank quests, more armor options become available that can make it easier to achieve Sharpness +1."
+        },
+        {
+          "text": "Keep hunting different monsters to gather the materials needed for crafting the required armor and decorations."
+        },
+        {
+          "text": "Monster Hunter often involves grinding for materials, so keep hunting and upgrading your equipment as you progress."
+        },
+        {
+          "text": "Good luck!"
+        }
+      ]
+    ]
+  },
+  {
+    "ID": 3,
+    "result": [
+      [
+        {
+          "number_of_step": 1,
+          "action": "Gather all required materials: Blaze Powder, Water Bottles, Nether Wart, Spider Eye, Fermented Spider Eye, Glowstone Dust, Dragon’s Breath, and a Brewing Stand.",
+          "result": "You have all necessary ingredients and equipment for brewing Lingering Potions of Harming II."
+        },
+        {
+          "number_of_step": 2,
+          "action": "Place Blaze Powder into the brewing stand’s fuel slot.",
+          "result": "The brewing stand is fueled and ready for brewing."
+        },
+        {
+          "number_of_step": 3,
+          "action": "Place Water Bottles into the bottom three slots of the brewing stand.",
+          "result": "The brewing stand is loaded with Water Bottles."
+        },
+        {
+          "number_of_step": 4,
+          "action": "Place Nether Wart in the top slot of the brewing stand.",
+          "result": "Water Bottles are brewed into Awkward Potions."
+        },
+        {
+          "number_of_step": 5,
+          "action": "Put a Fermented Spider Eye into the top slot over the Awkward Potions.",
+          "result": "Awkward Potions are brewed into Potions of Harming (Instant Damage I)."
+        },
+        {
+          "number_of_step": 6,
+          "action": "Place Glowstone Dust in the top slot of the brewing stand.",
+          "result": "Potions of Harming (Instant Damage I) are upgraded to Potions of Harming II (Instant Damage II)."
+        },
+        {
+          "number_of_step": 7,
+          "action": "If you only have normal (non-splash) Potions of Harming II, add Gunpowder to the top slot.",
+          "result": "Potions of Harming II are converted into Splash Potions of Harming II."
+        },
+        {
+          "number_of_step": 8,
+          "action": "Place Dragon’s Breath in the top slot of the brewing stand with Splash Potions of Harming II in the bottom slots.",
+          "result": "Splash Potions of Harming II are converted into Lingering Potions of Harming II."
+        }
+      ],
+      [
+        {
+          "text": "Fermented Spider Eye is crafted with 1x Sugar, 1x Brown Mushroom, and 1x Spider Eye."
+        },
+        {
+          "text": "If you want to automate this process, consider using a Redstone setup."
+        }
+      ]
+    ]
+  },
+  {
+    "ID": 4,
+    "result": [
+      [
+        {
+          "number_of_step": 1,
+          "action": "Go to The Underworld (Hell).",
+          "result": "You are in the correct location to summon the Wall of Flesh."
+        },
+        {
+          "number_of_step": 2,
+          "action": "Use a Guide Voodoo Doll to summon the Wall of Flesh by throwing it into lava while the Guide is alive.",
+          "result": "The Wall of Flesh is summoned."
+        },
+        {
+          "number_of_step": 3,
+          "action": "Defeat the Wall of Flesh.",
+          "result": "Hardmode is activated."
+        },
+        {
+          "number_of_step": 4,
+          "action": "Use a Pwnhammer (dropped by Wall of Flesh) to smash at least 1 Demon or Crimson Altar.",
+          "result": "New Hardmode ores are spawned in your world."
+        },
+        {
+          "number_of_step": 5,
+          "action": "Break 3 or more Demon or Crimson Altars.",
+          "result": "Titanium Ore has a chance to appear in your world."
+        },
+        {
+          "number_of_step": 6,
+          "action": "Go deep underground (Cavern layer).",
+          "result": "You are in the area where Titanium Ore can be found."
+        },
+        {
+          "number_of_step": 7,
+          "action": "Look for shiny, silver-colored ore patches (Titanium).",
+          "result": "You have located Titanium Ore."
+        },
+        {
+          "number_of_step": 8,
+          "action": "Use a Mythril or Orichalcum Pickaxe or higher to mine Titanium Ore.",
+          "result": "You have collected Titanium Ore."
+        },
+        {
+          "number_of_step": 9,
+          "action": "Take Titanium Ore to an Adamantite or Titanium Forge.",
+          "result": "You are at the correct forge to smelt Titanium Ore."
+        },
+        {
+          "number_of_step": 10,
+          "action": "Smelt the Titanium Ore into Titanium Bars.",
+          "result": "You have Titanium Bars."
+        },
+        {
+          "number_of_step": 11,
+          "action": "Go to a Mythril or Orichalcum Anvil.",
+          "result": "You are at the correct crafting station."
+        },
+        {
+          "number_of_step": 12,
+          "action": "Use 35 Titanium Bars to craft the Titanium Sword.",
+          "result": "You have crafted the Titanium Sword."
+        }
+      ],
+      [
+        {
+          "text": "The first tier ore is Cobalt or Palladium."
+        },
+        {
+          "text": "The second tier is Mythril or Orichalcum."
+        },
+        {
+          "text": "The third tier is Adamantite or Titanium. Titanium appears instead of Adamantite in worlds that roll that variant."
+        },
+        {
+          "text": "You must use a Mythril or Orichalcum Pickaxe or higher to mine Titanium Ore."
+        },
+        {
+          "text": "An Adamantite or Titanium Forge is crafted using a Hellforge and 30 Adamantite or Titanium Ore at a Mythril/Orichalcum Anvil."
+        },
+        {
+          "text": "The Titanium Sword is also called Titanium Sword in the PC version; it’s a broadsword."
+        },
+        {
+          "text": "Would you like a guide on how to farm Titanium Ore efficiently or how to upgrade to a better sword later?"
+        }
+      ]
+    ]
+  },
+  {
+    "ID": 5,
+    "result": [
+      [
+        {
+          "number_of_step": 1,
+          "action": "Open your Excel worksheet.",
+          "result": "The Excel worksheet where you want to center the text is displayed."
+        },
+        {
+          "number_of_step": 2,
+          "action": "Select the range of cells across which you want to center the text by clicking and dragging.",
+          "result": "The desired range of cells is highlighted."
+        },
+        {
+          "number_of_step": 3,
+          "action": "Right-click on the selected cells and choose 'Format Cells' from the context menu.",
+          "result": "The Format Cells dialog box opens."
+        },
+        {
+          "number_of_step": 4,
+          "action": "Alternatively, go to the 'Home' tab on the ribbon, and in the 'Alignment' group, click the small arrow in the bottom-right corner.",
+          "result": "The Format Cells dialog box opens."
+        },
+        {
+          "number_of_step": 5,
+          "action": "Click on the 'Alignment' tab in the Format Cells dialog box.",
+          "result": "The Alignment options are displayed."
+        },
+        {
+          "number_of_step": 6,
+          "action": "In the 'Horizontal' dropdown menu, select 'Center Across Selection'.",
+          "result": "The horizontal alignment is set to center the text across the selected cells."
+        },
+        {
+          "number_of_step": 7,
+          "action": "Set the 'Vertical' dropdown to your desired vertical alignment (e.g., 'Bottom', 'Center', or 'Top').",
+          "result": "The vertical alignment is set as desired."
+        },
+        {
+          "number_of_step": 8,
+          "action": "Click 'OK' to apply the changes.",
+          "result": "The text in the first cell of your selection appears centered across the selected range of cells."
+        },
+        {
+          "number_of_step": 9,
+          "action": "Check your worksheet to ensure that the text is centered across the selected cells.",
+          "result": "You confirm that the text is visually centered and the cells remain separate."
+        }
+      ],
+      [
+        {
+          "text": "Using 'Center Across Selection' allows you to visually center text without merging cells, preserving the functionality of individual cells for other data or calculations."
+        }
+      ]
+    ]
+  },
+  {
+    "ID": 6,
+    "result": [
+      [
+        {
+          "number_of_step": 1,
+          "action": "Aim for 90%+ Looks from birth or boost your Looks later using plastic surgery, salon visits, makeup, hair changes, gym, and healthy living choices.",
+          "result": "Your character's Looks attribute is high, increasing your chances of becoming a model."
+        },
+        {
+          "number_of_step": 2,
+          "action": "Avoid drugs, excessive alcohol, and risky choices.",
+          "result": "Your character's Health remains high, supporting a successful modeling career."
+        },
+        {
+          "number_of_step": 3,
+          "action": "Graduate from high school.",
+          "result": "You become eligible to start professional modeling gigs at age 18."
+        },
+        {
+          "number_of_step": 4,
+          "action": "Maintain high Looks during your teen years.",
+          "result": "You are prepared to apply for modeling jobs as soon as you turn 18."
+        },
+        {
+          "number_of_step": 5,
+          "action": "At age 18, go to Jobs → Special Careers → Actor/Modeling and apply for Foot Model.",
+          "result": "You start your modeling career in an entry-level position."
+        },
+        {
+          "number_of_step": 6,
+          "action": "If the Foot Model option doesn’t appear, age up and check again.",
+          "result": "The Foot Model job becomes available for application."
+        },
+        {
+          "number_of_step": 7,
+          "action": "Work hard in your entry-level modeling gig.",
+          "result": "You build experience and increase your chances of advancing in your modeling career."
+        },
+        {
+          "number_of_step": 8,
+          "action": "Post on social media regularly.",
+          "result": "You grow your followers and increase your fame."
+        },
+        {
+          "number_of_step": 9,
+          "action": "Do photo shoots, commercials, and runway events when offered.",
+          "result": "You gain public exposure and further increase your fame."
+        },
+        {
+          "number_of_step": 10,
+          "action": "Always choose activities that increase public exposure.",
+          "result": "Your fame continues to rise."
+        },
+        {
+          "number_of_step": 11,
+          "action": "After gaining experience as a Foot Model, apply for Catalog Model or Runway Model roles through Jobs → Special Careers → Model.",
+          "result": "You advance to higher-level modeling positions."
+        },
+        {
+          "number_of_step": 12,
+          "action": "Continue applying for advanced modeling roles until accepted.",
+          "result": "You secure a regular modeling job."
+        },
+        {
+          "number_of_step": 13,
+          "action": "Once you become a Famous Model (Fame bar unlocked), go to the Fame menu and hire an agent.",
+          "result": "You gain access to elite gigs such as high-paying fashion campaigns and magazine covers."
+        },
+        {
+          "number_of_step": 14,
+          "action": "Ensure your Looks are very high (95%+) to qualify for elite gigs.",
+          "result": "You meet the requirements for elite modeling opportunities."
+        },
+        {
+          "number_of_step": 15,
+          "action": "Accept audition opportunities from your agent for luxury brands or runway shows.",
+          "result": "You have a chance to land prestigious modeling jobs."
+        },
+        {
+          "number_of_step": 16,
+          "action": "Always say Yes to auditions.",
+          "result": "You maximize your chances of success and career advancement."
+        },
+        {
+          "number_of_step": 17,
+          "action": "Work hard each year to improve your performance.",
+          "result": "You maintain a stable and successful modeling career."
+        },
+        {
+          "number_of_step": 18,
+          "action": "Avoid taking too many years off from modeling.",
+          "result": "Your fame and income remain steady."
+        },
+        {
+          "number_of_step": 19,
+          "action": "Continue boosting your Looks with surgery or cosmetic care if they drop.",
+          "result": "You sustain your eligibility for high-level modeling gigs."
+        },
+        {
+          "number_of_step": 20,
+          "action": "Once your Fame bar is full, write books, do TV talk shows, and get sponsorship deals.",
+          "result": "You boost your income and open even more elite opportunities."
+        },
+        {
+          "number_of_step": 21,
+          "action": "Retire from modeling when desired.",
+          "result": "You end your modeling career and may experience a drop in fame."
+        },
+        {
+          "number_of_step": 22,
+          "action": "Save money and consider branching into other celebrity roles such as acting or influencer careers after retirement.",
+          "result": "You maintain fame and income after your modeling career ends."
+        }
+      ],
+      [
+        {
+          "text": "Plastic surgery can be risky, especially with low-reputation surgeons early in the game."
+        },
+        {
+          "text": "You do not need a college degree to become a model in BitLife."
+        },
+        {
+          "text": "Elite gigs often require very high Looks (95%+)."
+        },
+        {
+          "text": "Inactivity can hurt your fame and income, so try to stay active in your career."
+        },
+        {
+          "text": "After retirement, fame drops unless you pivot to other fame-based careers."
+        },
+        {
+          "text": "A min-max strategy to become a famous BitLife model as early as age 18 is available upon request."
+        }
+      ]
+    ]
+  },
+  {
+    "ID": 7,
+    "result": [
+      [
+        {
+          "number_of_step": 1,
+          "action": "Click Start, then Power, then Restart.",
+          "result": "The PC begins restarting."
+        },
+        {
+          "number_of_step": 2,
+          "action": "While the PC restarts, immediately press your BIOS key (such as F2, DEL, F10, or ESC) repeatedly until BIOS opens.",
+          "result": "The BIOS/UEFI interface opens."
+        },
+        {
+          "number_of_step": 3,
+          "action": "If your BIOS looks simple, find and enable an option like Advanced Mode or Advanced Settings (usually F7 toggles advanced mode).",
+          "result": "Advanced BIOS/UEFI settings are displayed."
+        },
+        {
+          "number_of_step": 4,
+          "action": "Look for a Boot, Security, or Authentication tab.",
+          "result": "The relevant tab containing Secure Boot settings is located."
+        },
+        {
+          "number_of_step": 5,
+          "action": "Find the Secure Boot option.",
+          "result": "The Secure Boot setting is identified."
+        },
+        {
+          "number_of_step": 6,
+          "action": "Check if Boot Mode is set to Legacy or CSM.",
+          "result": "You determine whether the system is using Legacy/CSM or UEFI boot mode."
+        },
+        {
+          "number_of_step": 7,
+          "action": "If Boot Mode is set to Legacy or CSM, switch it to UEFI.",
+          "result": "UEFI boot mode is enabled."
+        },
+        {
+          "number_of_step": 8,
+          "action": "If you switch from Legacy to UEFI, ensure your system drive uses GPT partition style.",
+          "result": "The system drive is compatible with UEFI boot mode."
+        },
+        {
+          "number_of_step": 9,
+          "action": "Set Secure Boot to Enabled.",
+          "result": "Secure Boot is enabled."
+        },
+        {
+          "number_of_step": 10,
+          "action": "If there’s an option for Secure Boot Mode, choose Standard (or Default).",
+          "result": "Secure Boot is set to Standard or Default mode."
+        },
+        {
+          "number_of_step": 11,
+          "action": "Press F10 or select Save & Exit.",
+          "result": "Changes are saved and the system prepares to reboot."
+        },
+        {
+          "number_of_step": 12,
+          "action": "Confirm changes and reboot.",
+          "result": "The PC restarts with Secure Boot enabled."
+        },
+        {
+          "number_of_step": 13,
+          "action": "In Windows, press Windows Key + R, type msinfo32, and hit Enter.",
+          "result": "The System Information window opens."
+        },
+        {
+          "number_of_step": 14,
+          "action": "In System Information, look for Secure Boot State.",
+          "result": "You can verify that Secure Boot State says On."
+        }
+      ],
+      [
+        {
+          "text": "If Secure Boot is grayed out, you may need to set OS Type to Windows UEFI Mode in BIOS first."
+        },
+        {
+          "text": "If switching to UEFI from Legacy, you might need to convert your drive from MBR to GPT before it will boot."
+        },
+        {
+          "text": "If Secure Boot is locked or unavailable, there are special fixes for some gaming laptops."
+        }
+      ]
+    ]
+  },
+  {
+    "ID": 8,
+    "result": [
+      [
+        {
+          "number_of_step": 1,
+          "action": "Go to the Forgotten Crossroads and locate the False Knight.",
+          "result": "You encounter the False Knight, the first boss."
+        },
+        {
+          "number_of_step": 2,
+          "action": "Equip your Nail and ensure you have base health and possibly 1 Mask Shard.",
+          "result": "You are prepared with recommended gear for the False Knight fight."
+        },
+        {
+          "number_of_step": 3,
+          "action": "Dodge the False Knight’s overhead slam by moving away.",
+          "result": "You avoid damage from the False Knight’s slam attack."
+        },
+        {
+          "number_of_step": 4,
+          "action": "Dash under the False Knight when he jumps (once you have the Mothwing Cloak).",
+          "result": "You evade the False Knight’s jump attack."
+        },
+        {
+          "number_of_step": 5,
+          "action": "Hit the False Knight during his stagger phase.",
+          "result": "You deal significant damage to the False Knight."
+        },
+        {
+          "number_of_step": 6,
+          "action": "Go to the Forgotten Crossroads and locate the Gruz Mother.",
+          "result": "You encounter the Gruz Mother, the next boss."
+        },
+        {
+          "number_of_step": 7,
+          "action": "Equip the same gear as for the False Knight.",
+          "result": "You are prepared with recommended gear for the Gruz Mother fight."
+        },
+        {
+          "number_of_step": 8,
+          "action": "Stay under the Gruz Mother’s belly to deal damage.",
+          "result": "You consistently damage the Gruz Mother."
+        },
+        {
+          "number_of_step": 9,
+          "action": "Move away when the Gruz Mother slams down.",
+          "result": "You avoid damage from the Gruz Mother’s slam attack."
+        },
+        {
+          "number_of_step": 10,
+          "action": "Deal with the small Gruzlings after the Gruz Mother is defeated.",
+          "result": "You clear the area of remaining enemies and complete the encounter."
+        },
+        {
+          "number_of_step": 11,
+          "action": "Go to Greenpath and locate the Vengefly King.",
+          "result": "You encounter the Vengefly King."
+        },
+        {
+          "number_of_step": 12,
+          "action": "Equip your basic nail and ensure you have 4-5 masks.",
+          "result": "You are prepared with recommended gear for the Vengefly King fight."
+        },
+        {
+          "number_of_step": 13,
+          "action": "Stay under and slightly behind the Vengefly King to bait dive attacks.",
+          "result": "You position yourself to safely avoid and counter the Vengefly King’s attacks."
+        },
+        {
+          "number_of_step": 14,
+          "action": "Jump-slash when the Vengefly King dives.",
+          "result": "You deal damage to the Vengefly King during his attack."
+        },
+        {
+          "number_of_step": 15,
+          "action": "Go to Greenpath and locate Hornet (Protector).",
+          "result": "You encounter Hornet (Protector)."
+        },
+        {
+          "number_of_step": 16,
+          "action": "Equip the Mothwing Cloak (dash) and ensure you have 4-5 masks.",
+          "result": "You are prepared with recommended gear for the Hornet fight."
+        },
+        {
+          "number_of_step": 17,
+          "action": "Dash through Hornet’s needle throws.",
+          "result": "You avoid damage from Hornet’s ranged attacks."
+        },
+        {
+          "number_of_step": 18,
+          "action": "Punish Hornet after she jumps over you.",
+          "result": "You deal damage to Hornet during her vulnerable moments."
+        },
+        {
+          "number_of_step": 19,
+          "action": "Watch for Hornet’s 'GOTCHA!' move and prepare for a quick backstep before she lunges.",
+          "result": "You avoid Hornet’s surprise lunge attack."
+        },
+        {
+          "number_of_step": 20,
+          "action": "Go to the Greenpath side area and locate the Massive Moss Charger.",
+          "result": "You encounter the Massive Moss Charger."
+        },
+        {
+          "number_of_step": 21,
+          "action": "Ensure you have the dash ability equipped.",
+          "result": "You are prepared with recommended gear for the Massive Moss Charger fight."
+        },
+        {
+          "number_of_step": 22,
+          "action": "Jump over the Massive Moss Charger’s charges.",
+          "result": "You avoid damage from the boss’s charge attacks."
+        },
+        {
+          "number_of_step": 23,
+          "action": "Use down-slash for consistent hits on the Massive Moss Charger.",
+          "result": "You deal steady damage to the Massive Moss Charger."
+        },
+        {
+          "number_of_step": 24,
+          "action": "Go to the Fungal Wastes – Mantis Village and locate the Mantis Lords.",
+          "result": "You encounter the Mantis Lords."
+        },
+        {
+          "number_of_step": 25,
+          "action": "Equip dash, 6+ masks, and optionally Quick Focus or Thorns of Agony.",
+          "result": "You are prepared with recommended gear for the Mantis Lords fight."
+        },
+        {
+          "number_of_step": 26,
+          "action": "In Phase 1, fight the single mantis by reading its jumps and throws.",
+          "result": "You avoid attacks and deal damage to the first Mantis Lord."
+        },
+        {
+          "number_of_step": 27,
+          "action": "In Phase 2, fight two mantises by focusing on movement rather than aggressive attacks.",
+          "result": "You survive and defeat both Mantis Lords."
+        }
+      ],
+      [
+        {
+          "text": "This order avoids unnecessary difficulty spikes and ensures you get the most upgrades before tackling harder fights."
+        },
+        {
+          "text": "Each boss location, recommended gear, and strategy is provided to help you progress efficiently."
+        },
+        {
+          "text": "Let me know if you want the full list including all optional and dream bosses, or just the main progression bosses."
+        }
+      ]
+    ]
+  },
+  {
+    "ID": 9,
+    "result": [
+      [
+        {
+          "number_of_step": 1,
+          "action": "Gather all necessary equipment: Nintendo Switch (with dock), Switch dock’s HDMI cable, Switch dock’s AC power adapter, a USB capture card, USB cable for the capture card, and your PC or laptop.",
+          "result": "All required items are ready for setup."
+        },
+        {
+          "number_of_step": 2,
+          "action": "Put the Nintendo Switch into its dock.",
+          "result": "The Switch is securely placed in the dock."
+        },
+        {
+          "number_of_step": 3,
+          "action": "Plug the AC adapter into the dock and connect it to a wall outlet.",
+          "result": "The dock receives power."
+        },
+        {
+          "number_of_step": 4,
+          "action": "Plug one end of the HDMI cable into the dock’s HDMI OUT port.",
+          "result": "The HDMI cable is connected to the dock."
+        },
+        {
+          "number_of_step": 5,
+          "action": "Plug the other end of the HDMI cable into the HDMI IN port of your capture card.",
+          "result": "The Switch’s video signal is routed to the capture card."
+        },
+        {
+          "number_of_step": 6,
+          "action": "If your capture card has an HDMI OUT port and you want to play on a TV without delay, connect another HDMI cable from that port to your TV (optional).",
+          "result": "The Switch’s video can be displayed on your TV as well as your PC (optional)."
+        },
+        {
+          "number_of_step": 7,
+          "action": "Use the USB cable provided with the capture card to connect it to your PC.",
+          "result": "The capture card is connected to your PC."
+        },
+        {
+          "number_of_step": 8,
+          "action": "Wait for your PC to recognize the capture card as a video device.",
+          "result": "The capture card is detected by your PC."
+        },
+        {
+          "number_of_step": 9,
+          "action": "Download and install the capture card’s software (e.g., Elgato Game Capture HD, OBS Studio, etc.).",
+          "result": "The necessary software is installed on your PC."
+        },
+        {
+          "number_of_step": 10,
+          "action": "Launch the capture card’s software.",
+          "result": "The software is running on your PC."
+        },
+        {
+          "number_of_step": 11,
+          "action": "Select your capture card as the video source in the software.",
+          "result": "The software displays the video feed from your Switch."
+        },
+        {
+          "number_of_step": 12,
+          "action": "Set the resolution and frame rate (e.g., 1080p 60fps) in the software.",
+          "result": "The video quality is configured."
+        },
+        {
+          "number_of_step": 13,
+          "action": "Adjust audio settings to capture game sound.",
+          "result": "Game audio is captured along with video."
+        },
+        {
+          "number_of_step": 14,
+          "action": "Begin playing your Nintendo Switch.",
+          "result": "You see the Switch’s screen on your PC in the capture software and can record, stream, or play using your PC monitor."
+        }
+      ],
+      [
+        {
+          "text": "If you meant file transfers or controller connection, the steps are different. Ask for a guide for those methods if needed."
+        },
+        {
+          "text": "Connecting an HDMI OUT from the capture card to a TV is optional and only necessary if you want to play without delay."
+        }
+      ]
+    ]
+  },
+  {
+    "ID": 10,
+    "result": [
+      [
+        {
+          "number_of_step": 1,
+          "action": "Wake up in the bedroom.",
+          "result": "You begin the game and are ready to start escaping."
+        },
+        {
+          "number_of_step": 2,
+          "action": "Crouch to avoid making noise when moving.",
+          "result": "You reduce the chance of alerting Granny to your location."
+        },
+        {
+          "number_of_step": 3,
+          "action": "Look around for items like a key, hammer, pliers, screwdriver, cutting pliers, and padlock code.",
+          "result": "You start collecting essential items needed for escape."
+        },
+        {
+          "number_of_step": 4,
+          "action": "Listen for Granny’s footsteps and use hiding spots often.",
+          "result": "You avoid being caught by Granny."
+        },
+        {
+          "number_of_step": 5,
+          "action": "Check drawers, cabinets, and shelves for useful items such as the hammer, cutting pliers, keys, and weapons.",
+          "result": "You gather tools and weapons required to unlock the front door and defend yourself."
+        },
+        {
+          "number_of_step": 6,
+          "action": "Place items gently instead of dropping them.",
+          "result": "You avoid making noise that would attract Granny."
+        },
+        {
+          "number_of_step": 7,
+          "action": "Use the Padlock Key to open the padlock on the front door.",
+          "result": "The padlock on the front door is removed."
+        },
+        {
+          "number_of_step": 8,
+          "action": "Use the Cutting Pliers to cut the wire in the basement and behind the door.",
+          "result": "The electrical security on the front door is disabled."
+        },
+        {
+          "number_of_step": 9,
+          "action": "Use the Hammer to remove two wooden planks from the front door.",
+          "result": "The wooden planks blocking the front door are removed."
+        },
+        {
+          "number_of_step": 10,
+          "action": "Use the Master Key to unlock the final lock on the front door.",
+          "result": "The front door is fully unlocked and ready to open."
+        },
+        {
+          "number_of_step": 11,
+          "action": "Use weapons like the Crossbow or Shotgun to knock Granny out for about 2 minutes.",
+          "result": "Granny is temporarily incapacitated, giving you time to explore or complete tasks safely."
+        },
+        {
+          "number_of_step": 12,
+          "action": "Explore and map the house during the first two days, prioritizing finding the cutting pliers.",
+          "result": "You become familiar with the house layout and obtain a crucial tool early."
+        },
+        {
+          "number_of_step": 13,
+          "action": "Start unlocking the front door and store important items in a safe spot on days 3-4.",
+          "result": "You make progress on the escape route and keep items secure from Granny."
+        },
+        {
+          "number_of_step": 14,
+          "action": "Attempt your final escape on day 5.",
+          "result": "You make your last effort to escape before running out of lives."
+        },
+        {
+          "number_of_step": 15,
+          "action": "Open the front door and run out to freedom once all locks, planks, and wires are dealt with.",
+          "result": "You successfully escape Granny’s house and win the game."
+        }
+      ],
+      [
+        {
+          "text": "You have 5 days (lives) to escape."
+        },
+        {
+          "text": "Granny has excellent hearing—dropping items will attract her attention."
+        },
+        {
+          "text": "You can hide under beds, in closets, or behind furniture to avoid Granny."
+        },
+        {
+          "text": "There are multiple escape routes (front door, car, boat, attic) depending on the game version."
+        },
+        {
+          "text": "Dropped items make noise, so always place them gently."
+        },
+        {
+          "text": "The best time to explore is right after knocking Granny out."
+        },
+        {
+          "text": "If Granny catches you on the fifth day, it’s game over."
+        },
+        {
+          "text": "If you want a speedrun route, you can use item spawn logic and knockout timing to beat the game in under 5 minutes."
+        }
+      ]
+    ]
+  },
+  {
+    "ID": 11,
+    "result": [
+      [
+        {
+          "number_of_step": 1,
+          "action": "Search for a reliable online gamertag generator (e.g., SpinXO, Namechk, Gamertag Nation).",
+          "result": "You find a suitable gamertag generator tool."
+        },
+        {
+          "number_of_step": 2,
+          "action": "Open the chosen gamertag generator tool in your browser.",
+          "result": "The gamertag generator tool is ready to use."
+        },
+        {
+          "number_of_step": 3,
+          "action": "Select your preferences in the generator (such as keywords, style, length limit, special characters or numbers).",
+          "result": "The generator is set to create personalized gamertag suggestions."
+        },
+        {
+          "number_of_step": 4,
+          "action": "Fill in the requested fields with your information (e.g., interests, numbers).",
+          "result": "Your personal information is entered into the generator."
+        },
+        {
+          "number_of_step": 5,
+          "action": "Leave sections blank if you want a completely random name.",
+          "result": "The generator will create a more random gamertag."
+        },
+        {
+          "number_of_step": 6,
+          "action": "Click the Generate button.",
+          "result": "The tool creates a list of gamertags based on your input."
+        },
+        {
+          "number_of_step": 7,
+          "action": "Go through the generated names.",
+          "result": "You review the list of suggested gamertags."
+        },
+        {
+          "number_of_step": 8,
+          "action": "Choose a gamertag that matches your style, is easy to remember, and isn’t too hard to spell.",
+          "result": "You select your favorite gamertag from the list."
+        },
+        {
+          "number_of_step": 9,
+          "action": "Check if your chosen gamertag is available on platforms like Xbox, PlayStation, or Steam.",
+          "result": "You confirm whether your chosen gamertag is available."
+        },
+        {
+          "number_of_step": 10,
+          "action": "If the gamertag is unavailable, tweak it by adding numbers or symbols or changing the spelling slightly.",
+          "result": "You modify the gamertag to find an available version."
+        },
+        {
+          "number_of_step": 11,
+          "action": "Copy the chosen gamertag to a safe place.",
+          "result": "Your gamertag is saved for future use."
+        },
+        {
+          "number_of_step": 12,
+          "action": "Use the gamertag when signing up or changing your gamertag on your gaming platform.",
+          "result": "Your new gamertag is set on your gaming platform."
+        }
+      ],
+      [
+        {
+          "text": "Some tools allow you to leave sections blank if you want a completely random name."
+        },
+        {
+          "text": "Many generators check if your chosen gamertag is available on platforms like Xbox, PlayStation, or Steam."
+        },
+        {
+          "text": "If you want, I can also give you a ready-made checklist so you can follow the steps easily whenever you use a gamertag generator."
+        }
+      ]
+    ]
+  },
+  {
+    "ID": 12,
+    "result": [
+      [
+        {
+          "number_of_step": 1,
+          "action": "Launch Among Us on your device (PC, mobile, or console).",
+          "result": "The game starts and loads to the main screen."
+        },
+        {
+          "number_of_step": 2,
+          "action": "Wait for the game to load to the main lobby screen.",
+          "result": "You see your character standing in the spaceship on the main menu."
+        },
+        {
+          "number_of_step": 3,
+          "action": "Click on the gear icon (settings) in the bottom right corner (or top right on some versions).",
+          "result": "The settings menu opens."
+        },
+        {
+          "number_of_step": 4,
+          "action": "Click on the 'Data' tab inside the settings menu.",
+          "result": "The Data tab is displayed, showing related settings."
+        },
+        {
+          "number_of_step": 5,
+          "action": "Look for the setting labeled 'Chat Type.'",
+          "result": "You locate the option that controls chat type."
+        },
+        {
+          "number_of_step": 6,
+          "action": "Click the dropdown menu for 'Chat Type' and select 'Free or Quick Chat.'",
+          "result": "The chat type is set to allow both free typing and Quick Chat."
+        },
+        {
+          "number_of_step": 7,
+          "action": "Check that your account age is set to 13 or older.",
+          "result": "Free Chat is enabled if your account age is 13 or older; otherwise, you cannot disable Quick Chat."
+        },
+        {
+          "number_of_step": 8,
+          "action": "Close the settings menu.",
+          "result": "Your changes are saved, and you can now freely type messages in the lobby and during meetings."
+        }
+      ],
+      [
+        {
+          "text": "Quick Chat Only restricts you to the preset chat wheel."
+        },
+        {
+          "text": "Free or Quick Chat lets you type freely but still gives access to Quick Chat."
+        },
+        {
+          "text": "If your account is set to under 13, you cannot disable Quick Chat. To change this, you must log in with an account that has the correct age. You cannot edit the birthdate after creation — you’d need to make a new account."
+        },
+        {
+          "text": "If you want a workaround for when you accidentally set your age under 13 so you can still get Free Chat, ask for further instructions."
+        }
+      ]
+    ]
+  },
+  {
+    "ID": 13,
+    "result": [
+      [
+        {
+          "number_of_step": 1,
+          "action": "Check that you are using a PlayStation (PS4, PS5) or Xbox (One, Series X/S) console.",
+          "result": "You confirm that split-screen mode is available on your platform."
+        },
+        {
+          "number_of_step": 2,
+          "action": "Ensure you have one TV or monitor connected to your console.",
+          "result": "You have a display ready for split-screen play."
+        },
+        {
+          "number_of_step": 3,
+          "action": "Make sure each player has their own controller.",
+          "result": "Both players have controllers to use."
+        },
+        {
+          "number_of_step": 4,
+          "action": "Turn on your console.",
+          "result": "The console is powered on and ready for use."
+        },
+        {
+          "number_of_step": 5,
+          "action": "Launch Fortnite from your library or home screen.",
+          "result": "Fortnite starts on your console."
+        },
+        {
+          "number_of_step": 6,
+          "action": "Log in to Player 1’s Epic Games account.",
+          "result": "Player 1 is signed in."
+        },
+        {
+          "number_of_step": 7,
+          "action": "Wait until you are in the Fortnite Lobby screen.",
+          "result": "Player 1 is in the Fortnite Lobby."
+        },
+        {
+          "number_of_step": 8,
+          "action": "Turn on the second controller.",
+          "result": "The second controller is powered on."
+        },
+        {
+          "number_of_step": 9,
+          "action": "Sign in with a different account on the second controller (either another Epic Games account or a guest account linked to the console).",
+          "result": "Player 2 is signed in on the second controller."
+        },
+        {
+          "number_of_step": 10,
+          "action": "On Player 2’s controller, press and hold the button prompt that appears on screen (X on PlayStation, A on Xbox).",
+          "result": "Player 2 joins Player 1’s lobby, and two characters are visible in the lobby."
+        },
+        {
+          "number_of_step": 11,
+          "action": "Select either Duos or Squads mode (Battle Royale).",
+          "result": "A compatible split-screen game mode is selected."
+        },
+        {
+          "number_of_step": 12,
+          "action": "Have Player 1 (the host) select Ready Up.",
+          "result": "The game begins loading, and the screen splits horizontally for both players."
+        },
+        {
+          "number_of_step": 13,
+          "action": "Play together in the same game session.",
+          "result": "Both players share the session, with separate progress, inventory, and movement controls. If one player disconnects, split-screen ends."
+        }
+      ],
+      [
+        {
+          "text": "Split-screen mode only works on PlayStation (PS4, PS5) and Xbox (One, Series X/S)."
+        },
+        {
+          "text": "You need one TV or monitor; split-screen is on the same screen."
+        },
+        {
+          "text": "Split-screen works only in Duos and Squads (Battle Royale) modes. It does not work in Creative mode, Save the World, or Solo."
+        },
+        {
+          "text": "If one player disconnects, split-screen mode ends."
+        },
+        {
+          "text": "Troubleshooting steps are available if the split-screen option does not show up."
+        }
+      ]
+    ]
+  },
+  {
+    "ID": 14,
+    "result": [
+      [
+        {
+          "number_of_step": 1,
+          "action": "Save right before the fight starts.",
+          "result": "You have a save point to restart from if you die."
+        },
+        {
+          "number_of_step": 2,
+          "action": "Stock up on healing items, prioritizing high-heal items like Butterscotch Pie.",
+          "result": "You are prepared to restore HP during the fight."
+        },
+        {
+          "number_of_step": 3,
+          "action": "Equip gear that gives you maximum attack.",
+          "result": "Your offensive potential is maximized for the brief attack windows."
+        },
+        {
+          "number_of_step": 4,
+          "action": "Mentally prepare by turning off distractions, using headphones, and being ready to reset multiple times.",
+          "result": "You are focused and ready to learn Sans's patterns."
+        },
+        {
+          "number_of_step": 5,
+          "action": "Wait for Sans to finish his opening dialogue.",
+          "result": "The actual battle begins."
+        },
+        {
+          "number_of_step": 6,
+          "action": "Focus entirely on dodging Sans's initial bone and Gaster Blaster attacks.",
+          "result": "You avoid early damage and survive the opening phase."
+        },
+        {
+          "number_of_step": 7,
+          "action": "Press 'Fight' repeatedly during brief attack windows when Sans is vulnerable.",
+          "result": "You deal damage to Sans during his vulnerable moments."
+        },
+        {
+          "number_of_step": 8,
+          "action": "Learn the timing of Gaster Blaster charges by listening for their distinctive sound.",
+          "result": "You are prepared to dodge their lasers effectively."
+        },
+        {
+          "number_of_step": 9,
+          "action": "Stay still during blue bones and move during white bones.",
+          "result": "You dodge bone attacks correctly based on their color."
+        },
+        {
+          "number_of_step": 10,
+          "action": "Make small lateral movements to weave through predictable bone waves.",
+          "result": "You avoid taking damage from bone wave attacks."
+        },
+        {
+          "number_of_step": 11,
+          "action": "If hit and suffering from Karma damage, plan to heal during a safe window after an attack sequence.",
+          "result": "You recover HP and minimize the risk of being defeated by cumulative damage."
+        },
+        {
+          "number_of_step": 12,
+          "action": "Refine muscle memory for small, precise movements and recognizing combination attack patterns.",
+          "result": "You improve your ability to dodge increasingly complex attack sequences."
+        },
+        {
+          "number_of_step": 13,
+          "action": "Anticipate only the next 1–2 bones in a sequence rather than trying to predict the entire pattern.",
+          "result": "You make safer, more effective dodges."
+        },
+        {
+          "number_of_step": 14,
+          "action": "During the final sequence, remain still during blue mode and move in small increments during white mode.",
+          "result": "You survive the long, multi-stage bullet hell attack."
+        },
+        {
+          "number_of_step": 15,
+          "action": "Listen and watch for blue/white transition cues.",
+          "result": "You time your movements correctly to avoid damage."
+        },
+        {
+          "number_of_step": 16,
+          "action": "Stay calm and avoid panicking during the final sequence.",
+          "result": "You maintain control and increase your chances of survival."
+        },
+        {
+          "number_of_step": 17,
+          "action": "Keep consistent pressure on Sans when he is vulnerable after the final attack sequence.",
+          "result": "You deal the last necessary damage to defeat Sans."
+        },
+        {
+          "number_of_step": 18,
+          "action": "Wait for the post-fight sequence to finish after defeating Sans.",
+          "result": "The game proceeds to the Genocide route ending."
+        }
+      ],
+      [
+        {
+          "text": "Use high-heal items like Butterscotch Pie in safe windows when your HP is dangerously low."
+        },
+        {
+          "text": "Avoid wasting small healing items unless you're confident you'll survive the next attack."
+        },
+        {
+          "text": "Offense only matters in the brief windows where you can land hits; survival is the main challenge."
+        },
+        {
+          "text": "Turn off distractions and use headphones to catch audio cues."
+        },
+        {
+          "text": "Karma damage is a lingering red effect that chips away at your HP after being hit."
+        },
+        {
+          "text": "Practice in segments: focus on learning one attack pattern at a time if you keep dying at a particular part."
+        },
+        {
+          "text": "Use audio cues, especially for Gaster Blaster charges, to anticipate attacks."
+        },
+        {
+          "text": "Minimal movement is safer; overreacting leads to more deaths."
+        },
+        {
+          "text": "Don’t heal frivolously; save healing items for when you are at real risk of being one-shot."
+        },
+        {
+          "text": "Expect to reset many times; each attempt helps you learn the patterns."
+        },
+        {
+          "text": "Stay still during blue, move during white."
+        },
+        {
+          "text": "Learn the timing of Gaster Blasters and bone wave overlaps."
+        },
+        {
+          "text": "Use healing items only in the smallest safe windows."
+        },
+        {
+          "text": "Memorize and isolate patterns—build up the fight mentally in chunks."
+        },
+        {
+          "text": "Patience beats aggression; survival is the limiter, not raw damage."
+        },
+        {
+          "text": "If you want, you can use a practice drill regimen, visual cheat sheet, or dodging trainer to help build muscle memory."
+        }
+      ]
+    ]
+  },
+  {
+    "ID": 15,
+    "result": [
+      [
+        {
+          "number_of_step": 1,
+          "action": "Begin a new life in a country that allows you to become President (e.g., the United States).",
+          "result": "Your character is eligible to run for President in the future."
+        },
+        {
+          "number_of_step": 2,
+          "action": "Ensure your character has high Smarts and Looks.",
+          "result": "Your character has attributes that will help in future political and social endeavors."
+        },
+        {
+          "number_of_step": 3,
+          "action": "Study hard in school from a young age.",
+          "result": "Your character maintains high grades."
+        },
+        {
+          "number_of_step": 4,
+          "action": "Participate in activities that increase popularity and leadership skills, such as joining clubs or sports teams.",
+          "result": "Your character gains popularity and develops leadership skills."
+        },
+        {
+          "number_of_step": 5,
+          "action": "Graduate from high school.",
+          "result": "Your character is eligible to apply for university."
+        },
+        {
+          "number_of_step": 6,
+          "action": "Apply to and enroll in university, preferably choosing Political Science or a related major.",
+          "result": "Your character is pursuing a degree that supports a political career."
+        },
+        {
+          "number_of_step": 7,
+          "action": "Maintain high grades in university.",
+          "result": "Your character continues to build a strong academic record."
+        },
+        {
+          "number_of_step": 8,
+          "action": "Engage in extracurricular activities during university.",
+          "result": "Your character further develops leadership and social skills."
+        },
+        {
+          "number_of_step": 9,
+          "action": "Graduate from university.",
+          "result": "Your character is eligible for advanced education or professional careers."
+        },
+        {
+          "number_of_step": 10,
+          "action": "Consider pursuing a graduate degree, such as Law School, to bolster your credentials.",
+          "result": "Your character gains additional qualifications for a political career."
+        },
+        {
+          "number_of_step": 11,
+          "action": "Alternatively, start working in careers that build leadership skills, such as becoming a Lawyer or Business Executive.",
+          "result": "Your character gains work experience and leadership skills."
+        },
+        {
+          "number_of_step": 12,
+          "action": "Regularly visit the gym, meditate, and go to the doctor.",
+          "result": "Your character maintains good health."
+        },
+        {
+          "number_of_step": 13,
+          "action": "Avoid illegal activities or anything that could harm your reputation.",
+          "result": "Your character maintains a positive reputation."
+        },
+        {
+          "number_of_step": 14,
+          "action": "Run for a local government position, such as School Board Director or Mayor.",
+          "result": "Your character enters politics at the local level."
+        },
+        {
+          "number_of_step": 15,
+          "action": "Ensure you have enough money to fund your campaign, using savings from previous jobs or freelance gigs if necessary.",
+          "result": "Your character can afford to run a political campaign."
+        },
+        {
+          "number_of_step": 16,
+          "action": "Win a local government position.",
+          "result": "Your character holds a local political office."
+        },
+        {
+          "number_of_step": 17,
+          "action": "Perform well in your role and focus on increasing your approval ratings.",
+          "result": "Your character gains public support and a positive track record."
+        },
+        {
+          "number_of_step": 18,
+          "action": "Run for higher offices, such as Governor or Congress, as you gain experience.",
+          "result": "Your character advances in the political hierarchy."
+        },
+        {
+          "number_of_step": 19,
+          "action": "Continue to save money for campaigns and maintain a positive public image.",
+          "result": "Your character is prepared for future, more expensive campaigns."
+        },
+        {
+          "number_of_step": 20,
+          "action": "Run for President once you have sufficient political experience, funds, and a strong reputation.",
+          "result": "Your character becomes a candidate for President."
+        },
+        {
+          "number_of_step": 21,
+          "action": "Ensure your approval ratings are high and you have strong backing.",
+          "result": "Your character increases the chances of winning the presidency."
+        },
+        {
+          "number_of_step": 22,
+          "action": "If elected, focus on balancing decisions that keep approval ratings high while managing the country's needs.",
+          "result": "Your character maintains a successful presidency."
+        },
+        {
+          "number_of_step": 23,
+          "action": "Avoid scandals or poor decisions that could lead to impeachment or a failed presidency.",
+          "result": "Your character remains in office and avoids negative outcomes."
+        },
+        {
+          "number_of_step": 24,
+          "action": "If you fail in your first attempt, continue to build your reputation and wealth.",
+          "result": "Your character is better prepared for the next election cycle."
+        },
+        {
+          "number_of_step": 25,
+          "action": "Try again in the next election cycle.",
+          "result": "Your character has another chance to become President."
+        }
+      ],
+      [
+        {
+          "text": "Throughout the process, always keep an eye on your character’s attributes and the decisions you make, as they will impact your chances of success in politics."
+        },
+        {
+          "text": "Stay patient and strategic, and with persistence, you can achieve your goal of becoming President in BitLife."
+        }
+      ]
+    ]
+  },
+  {
+    "ID": 16,
+    "result": [
+      [
+        {
+          "number_of_step": 1,
+          "action": "Plant Parsnip seeds at the start of Spring Year 1.",
+          "result": "You begin growing your first crops using the free seeds provided."
+        },
+        {
+          "number_of_step": 2,
+          "action": "Purchase Potato seeds from Pierre’s General Store.",
+          "result": "You acquire seeds for a crop that has a chance to yield multiple potatoes per harvest."
+        },
+        {
+          "number_of_step": 3,
+          "action": "Plant Potato seeds.",
+          "result": "You start growing potatoes for early profit."
+        },
+        {
+          "number_of_step": 4,
+          "action": "Attend the Egg Festival on Spring 13.",
+          "result": "You gain access to Strawberry seeds for purchase."
+        },
+        {
+          "number_of_step": 5,
+          "action": "Buy as many Strawberry seeds as you can afford at the Egg Festival.",
+          "result": "You obtain high-profit seeds for the remainder of Spring."
+        },
+        {
+          "number_of_step": 6,
+          "action": "Plant Strawberry seeds immediately after purchase.",
+          "result": "You maximize the number of strawberry harvests before Spring ends."
+        },
+        {
+          "number_of_step": 7,
+          "action": "Learn the fishing mini-game.",
+          "result": "You become proficient at catching fish, enabling you to earn money from fishing."
+        },
+        {
+          "number_of_step": 8,
+          "action": "Catch and sell high-value fish such as Catfish and Eels.",
+          "result": "You earn significant early-game income from fishing."
+        },
+        {
+          "number_of_step": 9,
+          "action": "Purchase a Fiberglass Rod as soon as possible.",
+          "result": "You can use bait to increase your fishing catch rate."
+        },
+        {
+          "number_of_step": 10,
+          "action": "Gather forageable items around the map, especially in Spring.",
+          "result": "You collect Wild Horseradish, Daffodils, Leeks, and Dandelions for selling or crafting."
+        },
+        {
+          "number_of_step": 11,
+          "action": "Use a Scythe to clear weeds.",
+          "result": "You find Mixed Seeds, which can be planted for random crops."
+        },
+        {
+          "number_of_step": 12,
+          "action": "Plant Mixed Seeds.",
+          "result": "You grow a variety of random crops for additional profit."
+        },
+        {
+          "number_of_step": 13,
+          "action": "Begin mining for ores once the Mines open.",
+          "result": "You collect valuable resources such as Copper and Iron."
+        },
+        {
+          "number_of_step": 14,
+          "action": "Sell excess Copper and Iron bars.",
+          "result": "You generate additional income from mining."
+        },
+        {
+          "number_of_step": 15,
+          "action": "Upgrade your pickaxe.",
+          "result": "You mine more efficiently and access deeper mine levels."
+        },
+        {
+          "number_of_step": 16,
+          "action": "Invest in building a Coop as your farm expands.",
+          "result": "You can raise chickens and collect eggs daily."
+        },
+        {
+          "number_of_step": 17,
+          "action": "Build a Barn after the Coop.",
+          "result": "You can raise cows and eventually goats and sheep."
+        },
+        {
+          "number_of_step": 18,
+          "action": "Raise chickens to produce eggs daily.",
+          "result": "You obtain a steady supply of eggs for selling or processing."
+        },
+        {
+          "number_of_step": 19,
+          "action": "Add cows to your Barn to produce milk.",
+          "result": "You gain access to milk for selling or processing."
+        },
+        {
+          "number_of_step": 20,
+          "action": "Eventually add goats and sheep for their products.",
+          "result": "You diversify your animal product income with goat milk and wool."
+        },
+        {
+          "number_of_step": 21,
+          "action": "Invest heavily in Blueberries during Summer Year 1.",
+          "result": "You grow one of the most profitable summer crops, which regrow every 4 days and yield multiple berries per harvest."
+        },
+        {
+          "number_of_step": 22,
+          "action": "Plant Cranberries in Fall Year 1.",
+          "result": "You grow a highly profitable fall crop that regrows and produces multiple berries per harvest."
+        },
+        {
+          "number_of_step": 23,
+          "action": "Begin producing Artisan Goods such as Mayonnaise, Cheese, Jelly, and Wine.",
+          "result": "You increase your profits by selling goods worth more than their raw ingredients."
+        },
+        {
+          "number_of_step": 24,
+          "action": "Invest in Kegs and Preserves Jars.",
+          "result": "You can process crops into high-value Artisan Goods."
+        },
+        {
+          "number_of_step": 25,
+          "action": "Use Winter to upgrade tools and clear land.",
+          "result": "You prepare your farm for the next year and improve your efficiency."
+        },
+        {
+          "number_of_step": 26,
+          "action": "Fish and mine during Winter since crops cannot be grown outside.",
+          "result": "You continue earning money and gathering resources during the off-season."
+        },
+        {
+          "number_of_step": 27,
+          "action": "Upgrade your house and build Sheds.",
+          "result": "You increase your storage and production capacity."
+        },
+        {
+          "number_of_step": 28,
+          "action": "Create more Kegs and Preserves Jars.",
+          "result": "You automate and scale up your Artisan Goods production."
+        },
+        {
+          "number_of_step": 29,
+          "action": "Complete quests from the Bulletin Board.",
+          "result": "You earn rewards and friendship points."
+        },
+        {
+          "number_of_step": 30,
+          "action": "Participate in festivals and special events.",
+          "result": "You receive rewards and build relationships, which can lead to gifts or discounts."
+        }
+      ],
+      [
+        {
+          "text": "By following these steps, you can efficiently build a profitable farm in Stardew Valley, allowing you to enjoy the game’s other aspects while maintaining a steady income."
+        }
+      ]
+    ]
+  },
+  {
+    "ID": 17,
+    "result": [
+      [
+        {
+          "number_of_step": 1,
+          "action": "Verify that your game uses BattlEye.",
+          "result": "You confirm whether BattlEye is required for your game."
+        },
+        {
+          "number_of_step": 2,
+          "action": "Navigate to the directory where your game is installed.",
+          "result": "You access the location where the game's files, including BattlEye, are stored."
+        },
+        {
+          "number_of_step": 3,
+          "action": "Look for a folder named 'BattlEye' within the game’s directory.",
+          "result": "You locate the BattlEye folder containing the installer files."
+        },
+        {
+          "number_of_step": 4,
+          "action": "Find the executable file named 'Install_BattlEye.bat' or 'Install_BattlEye.exe' inside the BattlEye folder.",
+          "result": "You identify the BattlEye installer file."
+        },
+        {
+          "number_of_step": 5,
+          "action": "Double-click the installer file to run it.",
+          "result": "The BattlEye installation process begins."
+        },
+        {
+          "number_of_step": 6,
+          "action": "Confirm any security warnings if prompted.",
+          "result": "The installation is allowed to proceed."
+        },
+        {
+          "number_of_step": 7,
+          "action": "Follow any on-screen instructions provided by the installer.",
+          "result": "The BattlEye installation is completed."
+        },
+        {
+          "number_of_step": 8,
+          "action": "Start your game after installation.",
+          "result": "You see a BattlEye initialization message in the game’s loading screen or console, verifying that BattlEye is correctly installed and running."
+        },
+        {
+          "number_of_step": 9,
+          "action": "Check for BattlEye updates manually if necessary.",
+          "result": "You ensure BattlEye is up to date, either automatically or by visiting the official BattlEye website."
+        },
+        {
+          "number_of_step": 10,
+          "action": "Ensure you have administrative rights on your computer if BattlEye does not install correctly.",
+          "result": "You confirm that permission issues are not preventing installation."
+        },
+        {
+          "number_of_step": 11,
+          "action": "Check that your antivirus software is not blocking the installation.",
+          "result": "You identify if antivirus software is interfering with BattlEye installation."
+        },
+        {
+          "number_of_step": 12,
+          "action": "Add BattlEye to your antivirus exceptions list if necessary.",
+          "result": "Your antivirus software allows BattlEye to install and run."
+        },
+        {
+          "number_of_step": 13,
+          "action": "Reinstall the game if all else fails.",
+          "result": "BattlEye is reinstalled as part of the game installation process."
+        },
+        {
+          "number_of_step": 14,
+          "action": "Contact the game’s support team or BattlEye support if you continue to experience issues.",
+          "result": "You receive further assistance with BattlEye installation or operation."
+        }
+      ],
+      [
+        {
+          "text": "BattlEye is an anti-cheat software used in various online games to prevent cheating."
+        },
+        {
+          "text": "The installation of BattlEye typically happens automatically when you install a game that uses it."
+        },
+        {
+          "text": "The exact steps may vary slightly depending on the game and platform you are using."
+        },
+        {
+          "text": "Always refer to the game's official resources for the most accurate guidance."
+        }
+      ]
+    ]
+  },
+  {
+    "ID": 18,
+    "result": [
+      [
+        {
+          "number_of_step": 1,
+          "action": "Start a new life and reroll (restart the game) until you have a character with a high Looks stat, preferably above 80%.",
+          "result": "You begin with a character who has a high Looks stat, increasing your chances of success in the acting career."
+        },
+        {
+          "number_of_step": 2,
+          "action": "Make choices as your character grows up that help maintain or improve their Looks.",
+          "result": "Your character's Looks stat is maintained or improved."
+        },
+        {
+          "number_of_step": 3,
+          "action": "Go to the gym, get plastic surgery if necessary, and regularly visit the salon or barber.",
+          "result": "Your character's appearance is enhanced and their Looks stat remains high."
+        },
+        {
+          "number_of_step": 4,
+          "action": "Participate in school activities that could boost popularity and confidence, such as joining the Drama Club.",
+          "result": "Your character's popularity and confidence are improved, increasing chances of landing an acting job later."
+        },
+        {
+          "number_of_step": 5,
+          "action": "Complete your high school education.",
+          "result": "Your character graduates from high school and obtains a diploma."
+        },
+        {
+          "number_of_step": 6,
+          "action": "Check the job listings for a position as a Voiceover Actor after graduating high school.",
+          "result": "You find out if a Voiceover Actor position is available."
+        },
+        {
+          "number_of_step": 7,
+          "action": "If the Voiceover Actor job is not available, age up and keep checking the job listings each year.",
+          "result": "You eventually find and apply for the Voiceover Actor position."
+        },
+        {
+          "number_of_step": 8,
+          "action": "Apply for the Voiceover Actor job.",
+          "result": "You secure an entry-level position in the acting career path."
+        },
+        {
+          "number_of_step": 9,
+          "action": "Work hard every year after securing the Voiceover Actor job.",
+          "result": "Your performance increases, improving your chances of getting promoted."
+        },
+        {
+          "number_of_step": 10,
+          "action": "Aim for promotions to roles like Actor, Lead Actor, and eventually Star.",
+          "result": "You are promoted through the acting career path."
+        },
+        {
+          "number_of_step": 11,
+          "action": "Continue maintaining your Looks and Health stats by regularly going to the gym, visiting the doctor, and taking care of your mental well-being.",
+          "result": "Your character remains in top condition throughout their career."
+        },
+        {
+          "number_of_step": 12,
+          "action": "Strive for lead roles and aim to become a Lead Actor or Star.",
+          "result": "You gain fame as a Lead Actor or Star."
+        },
+        {
+          "number_of_step": 13,
+          "action": "With fame, boost your career further by doing commercials, writing books, or engaging with social media.",
+          "result": "Your acting career is further enhanced and your fame increases."
+        }
+      ],
+      [
+        {
+          "text": "A college degree is not necessary to become an actor in BitLife, but having a high school diploma is important."
+        },
+        {
+          "text": "Maintaining high Looks and Health stats is crucial for long-term success in the acting career."
+        },
+        {
+          "text": "Persistence and regular checking of job listings are key to finding the Voiceover Actor position."
+        }
+      ]
+    ]
+  },
+  {
+    "ID": 19,
+    "result": [
+      [
+        {
+          "number_of_step": 1,
+          "action": "Identify the AV Cable.",
+          "result": "You have the Wii composite AV cable with three RCA connectors: yellow for video, and red and white for left and right audio channels."
+        },
+        {
+          "number_of_step": 2,
+          "action": "Locate AV Inputs on the TV.",
+          "result": "You find the AV input section on your TV, usually labeled as 'AV,' 'Video In,' or similar, with yellow, red, and white ports."
+        },
+        {
+          "number_of_step": 3,
+          "action": "Plug the yellow connector into the yellow video input.",
+          "result": "The video signal from the Wii is connected to the TV."
+        },
+        {
+          "number_of_step": 4,
+          "action": "Plug the red and white connectors into their respective audio inputs.",
+          "result": "The audio signal from the Wii is connected to the TV."
+        },
+        {
+          "number_of_step": 5,
+          "action": "Use your TV remote to switch to the AV input channel.",
+          "result": "The TV is set to receive input from the AV ports."
+        },
+        {
+          "number_of_step": 6,
+          "action": "Turn on your Wii.",
+          "result": "The Wii displays on the TV and is ready for use."
+        },
+        {
+          "number_of_step": 7,
+          "action": "Obtain a Wii Component Cable.",
+          "result": "You have a component cable with five connectors: red, blue, and green for video, and red and white for audio."
+        },
+        {
+          "number_of_step": 8,
+          "action": "Locate Component Inputs on the TV.",
+          "result": "You find the component input section on your TV, typically labeled as 'Component,' 'YPbPr,' or similar, with red, blue, green, and red/white audio ports."
+        },
+        {
+          "number_of_step": 9,
+          "action": "Connect the red, blue, and green cables to the corresponding video inputs.",
+          "result": "The video signal from the Wii is connected to the TV via component inputs."
+        },
+        {
+          "number_of_step": 10,
+          "action": "Connect the red and white cables to the audio inputs.",
+          "result": "The audio signal from the Wii is connected to the TV via component inputs."
+        },
+        {
+          "number_of_step": 11,
+          "action": "Use the TV remote to switch to the component input channel.",
+          "result": "The TV is set to receive input from the component ports."
+        },
+        {
+          "number_of_step": 12,
+          "action": "Turn on your Wii.",
+          "result": "The Wii displays on the TV and is ready for use; adjust the Wii settings for component video output if needed."
+        },
+        {
+          "number_of_step": 13,
+          "action": "Purchase a Wii to HDMI Adapter.",
+          "result": "You have a Wii to HDMI adapter that plugs into the Wii’s AV Multi Out port and provides an HDMI output."
+        },
+        {
+          "number_of_step": 14,
+          "action": "Insert the adapter into the AV Multi Out port on the Wii.",
+          "result": "The adapter is connected to the Wii."
+        },
+        {
+          "number_of_step": 15,
+          "action": "Plug one end of the HDMI cable into the adapter.",
+          "result": "The HDMI cable is connected to the adapter."
+        },
+        {
+          "number_of_step": 16,
+          "action": "Plug the other end of the HDMI cable into an available HDMI port on your TV.",
+          "result": "The HDMI cable is connected to the TV."
+        },
+        {
+          "number_of_step": 17,
+          "action": "Use your TV remote to switch to the HDMI input channel.",
+          "result": "The TV is set to receive input from the HDMI port."
+        },
+        {
+          "number_of_step": 18,
+          "action": "Turn on your Wii.",
+          "result": "The Wii displays on the TV via HDMI and is ready for use."
+        },
+        {
+          "number_of_step": 19,
+          "action": "Get a Wii SCART Adapter.",
+          "result": "You have an adapter that connects to the Wii AV cables and converts them into a SCART connection."
+        },
+        {
+          "number_of_step": 20,
+          "action": "Connect the yellow, red, and white AV cables into the SCART adapter.",
+          "result": "The AV cables are connected to the SCART adapter."
+        },
+        {
+          "number_of_step": 21,
+          "action": "Plug the SCART adapter into the SCART input on your TV.",
+          "result": "The Wii is connected to the TV via SCART."
+        },
+        {
+          "number_of_step": 22,
+          "action": "Use the TV remote to switch to the SCART input.",
+          "result": "The TV is set to receive input from the SCART port."
+        },
+        {
+          "number_of_step": 23,
+          "action": "Turn on your Wii.",
+          "result": "The Wii displays on the TV via SCART and is ready for use."
+        },
+        {
+          "number_of_step": 24,
+          "action": "Acquire a Wii S-Video Cable.",
+          "result": "You have a Wii S-Video cable for separate video and audio connections."
+        },
+        {
+          "number_of_step": 25,
+          "action": "Plug the S-Video connector into the S-Video input on your TV.",
+          "result": "The video signal from the Wii is connected to the TV via S-Video."
+        },
+        {
+          "number_of_step": 26,
+          "action": "Plug the red and white audio cables into the respective audio inputs.",
+          "result": "The audio signal from the Wii is connected to the TV via S-Video."
+        },
+        {
+          "number_of_step": 27,
+          "action": "Use your remote to switch to the S-Video input channel.",
+          "result": "The TV is set to receive input from the S-Video port."
+        },
+        {
+          "number_of_step": 28,
+          "action": "Turn on your Wii.",
+          "result": "The Wii displays on the TV via S-Video and is ready for use."
+        }
+      ],
+      [
+        {
+          "text": "Each method has its own advantages, and the best choice depends on your TV’s available inputs and your desired video quality."
+        },
+        {
+          "text": "Component and HDMI connections generally provide better video quality than composite."
+        },
+        {
+          "text": "If you choose to use an adapter, make sure it is compatible with your TV setup."
+        }
+      ]
+    ]
+  },
+  {
+    "ID": 20,
+    "result": [
+      [
+        {
+          "number_of_step": 1,
+          "action": "Gather two coins of the same denomination.",
+          "result": "You have the necessary materials to play the game."
+        },
+        {
+          "number_of_step": 2,
+          "action": "Choose a friend you trust to play with you.",
+          "result": "You have two players ready to play the game."
+        },
+        {
+          "number_of_step": 3,
+          "action": "Find a quiet, dimly lit room where you won’t be disturbed.",
+          "result": "You have a suitable location to play the game."
+        },
+        {
+          "number_of_step": 4,
+          "action": "Sit on the floor facing each other with your legs crossed.",
+          "result": "Both players are seated opposite each other, ready to begin."
+        },
+        {
+          "number_of_step": 5,
+          "action": "Each player takes one coin and holds it in their hand.",
+          "result": "Both players are holding a coin."
+        },
+        {
+          "number_of_step": 6,
+          "action": "Together, ask aloud, 'Sara Sarita, may we join your game?'",
+          "result": "You have requested permission to join the game."
+        },
+        {
+          "number_of_step": 7,
+          "action": "Both players toss their coins simultaneously.",
+          "result": "The coins are tossed to receive an answer."
+        },
+        {
+          "number_of_step": 8,
+          "action": "Interpret the results of the coin toss.",
+          "result": "If both coins land on heads, the answer is 'Yes.' If both coins land on tails, the answer is 'No.' If one is heads and one is tails, the answer is 'Maybe.'"
+        },
+        {
+          "number_of_step": 9,
+          "action": "If you receive a 'Yes,' proceed to ask Sara Sarita questions, tossing the coins after each question to receive answers.",
+          "result": "You can continue asking questions and receiving answers from Sara Sarita."
+        },
+        {
+          "number_of_step": 10,
+          "action": "When finished, ask, 'Sara Sarita, may we leave your game?' and toss the coins again.",
+          "result": "You have requested permission to leave the game."
+        },
+        {
+          "number_of_step": 11,
+          "action": "Check the result of the coin toss.",
+          "result": "If you receive a 'Yes,' you may safely exit the game. If you get a 'No' or 'Maybe,' continue asking until you receive permission to leave."
+        },
+        {
+          "number_of_step": 12,
+          "action": "Once you receive a 'Yes,' thank Sara and Sarita politely and exit the game.",
+          "result": "The game is concluded respectfully and you have exited."
+        }
+      ],
+      [
+        {
+          "text": "The Sara Sarita game is considered a paranormal game and should be played with caution, keeping in mind that it is for entertainment purposes only."
+        },
+        {
+          "text": "Some people prefer playing at night for added atmosphere."
+        },
+        {
+          "text": "Always play respectfully and be mindful of the feelings of everyone involved."
+        }
+      ]
+    ]
+  },
+  {
+    "ID": 21,
+    "result": [
+      [
+        {
+          "number_of_step": 1,
+          "action": "Review and understand the different card types in Clash Royale (Win Conditions, Support Troops, Defensive Cards, Spells, Cycle Cards, Tanks).",
+          "result": "You gain knowledge of the roles each card type plays in a deck."
+        },
+        {
+          "number_of_step": 2,
+          "action": "Select a primary win condition card that suits your playstyle (e.g., fast cycle, beatdown, control).",
+          "result": "You have a main card to build your deck around."
+        },
+        {
+          "number_of_step": 3,
+          "action": "Ensure your deck is built around supporting your chosen win condition.",
+          "result": "Your deck is structured to maximize the effectiveness of your win condition."
+        },
+        {
+          "number_of_step": 4,
+          "action": "Choose support troops that complement your win condition.",
+          "result": "Your win condition is better protected and supported during pushes."
+        },
+        {
+          "number_of_step": 5,
+          "action": "Include at least two solid defensive cards to handle enemy pushes.",
+          "result": "Your deck can counter both air and ground units effectively."
+        },
+        {
+          "number_of_step": 6,
+          "action": "Select two spells that provide versatility (e.g., one heavy spell and one light spell).",
+          "result": "Your deck can handle both offensive and defensive situations with spells."
+        },
+        {
+          "number_of_step": 7,
+          "action": "Ensure your spells can support both offensive and defensive plays.",
+          "result": "Your spells contribute to both attacking and defending efficiently."
+        },
+        {
+          "number_of_step": 8,
+          "action": "Aim for an average elixir cost between 3.0 and 4.0.",
+          "result": "Your deck is balanced for both cycling and power."
+        },
+        {
+          "number_of_step": 9,
+          "action": "Check that your deck is not too expensive.",
+          "result": "You avoid being unable to defend against fast pushes."
+        },
+        {
+          "number_of_step": 10,
+          "action": "Playtest your deck in battles.",
+          "result": "You observe your deck's performance and identify any weaknesses."
+        },
+        {
+          "number_of_step": 11,
+          "action": "Adjust your deck based on your observations from playtesting.",
+          "result": "You improve your deck by swapping out underperforming or redundant cards."
+        },
+        {
+          "number_of_step": 12,
+          "action": "Stay informed about the current meta and popular cards or strategies.",
+          "result": "You are aware of trends and balance changes that may affect your deck."
+        },
+        {
+          "number_of_step": 13,
+          "action": "Adjust your deck to counter popular strategies and remain viable against top-tier decks.",
+          "result": "Your deck stays effective in the current game environment."
+        },
+        {
+          "number_of_step": 14,
+          "action": "Practice using your deck to master its strengths and weaknesses.",
+          "result": "You become proficient with your deck and understand how to use each card optimally."
+        },
+        {
+          "number_of_step": 15,
+          "action": "Learn the best strategies for using each card and managing your elixir.",
+          "result": "You maximize your deck's performance in battles."
+        }
+      ],
+      [
+        {
+          "text": "The best decks often come from experimentation and adaptation."
+        }
+      ]
+    ]
+  },
+  {
+    "ID": 22,
+    "result": [
+      [
+        {
+          "number_of_step": 1,
+          "action": "Connect your DualSense controller to the PlayStation 5 console or a USB power source using a USB-C cable.",
+          "result": "The controller begins charging."
+        },
+        {
+          "number_of_step": 2,
+          "action": "Allow the controller to charge for at least 15-30 minutes.",
+          "result": "The controller has enough power to operate."
+        },
+        {
+          "number_of_step": 3,
+          "action": "Hold the power button on the front of the console until it beeps twice.",
+          "result": "The PlayStation 5 console turns off completely."
+        },
+        {
+          "number_of_step": 4,
+          "action": "Disconnect the power cord from the console.",
+          "result": "The console is completely powered off."
+        },
+        {
+          "number_of_step": 5,
+          "action": "Leave the console unplugged for about 2-3 minutes.",
+          "result": "Any temporary issues are reset."
+        },
+        {
+          "number_of_step": 6,
+          "action": "Reconnect the power cord and turn the console back on.",
+          "result": "The PlayStation 5 console restarts."
+        },
+        {
+          "number_of_step": 7,
+          "action": "Locate the small reset button hole on the back of the DualSense controller next to the Sony logo.",
+          "result": "The reset button is identified."
+        },
+        {
+          "number_of_step": 8,
+          "action": "Use a small tool like a paperclip to press and hold the reset button inside the hole for about 5 seconds.",
+          "result": "The controller is reset."
+        },
+        {
+          "number_of_step": 9,
+          "action": "Connect the controller to the PS5 using the USB-C cable after resetting.",
+          "result": "The controller is ready to be paired."
+        },
+        {
+          "number_of_step": 10,
+          "action": "Press the PS button on the controller.",
+          "result": "The controller pairs with the console."
+        },
+        {
+          "number_of_step": 11,
+          "action": "Go to the PS5's settings menu.",
+          "result": "The settings menu is open."
+        },
+        {
+          "number_of_step": 12,
+          "action": "Navigate to 'System' > 'System Software' > 'System Software Update and Settings'.",
+          "result": "The system software update settings are displayed."
+        },
+        {
+          "number_of_step": 13,
+          "action": "Ensure that your console is running the latest system software.",
+          "result": "The console is updated to the latest system software."
+        },
+        {
+          "number_of_step": 14,
+          "action": "Connect the controller to the console and follow the prompts if a controller firmware update is available.",
+          "result": "The controller firmware is updated if needed."
+        },
+        {
+          "number_of_step": 15,
+          "action": "Try a different USB-C cable to connect the controller to the console.",
+          "result": "You determine if the original cable was causing the issue."
+        },
+        {
+          "number_of_step": 16,
+          "action": "Try connecting your controller to another PS5 or a PC.",
+          "result": "You determine if the issue is with the controller or the console."
+        },
+        {
+          "number_of_step": 17,
+          "action": "Contact PlayStation Support if none of the above steps work.",
+          "result": "You receive further assistance or arrange for a replacement if under warranty."
+        }
+      ],
+      [
+        {
+          "text": "If your PlayStation 5 controller is flashing blue, it usually indicates that it's trying to pair with the console but is having trouble connecting."
+        },
+        {
+          "text": "By following these steps, you should be able to resolve the issue of a PS5 controller flashing blue. If the problem persists, there may be a more significant hardware issue that requires professional repair or replacement."
+        }
+      ]
+    ]
+  },
+  {
+    "ID": 23,
+    "result": [
+      [
+        {
+          "number_of_step": 1,
+          "action": "Leave your farmhouse between 8 AM and 1 PM on the fifth day of Spring in your first year.",
+          "result": "You trigger a cutscene with Mayor Lewis, who introduces you to the Community Center."
+        },
+        {
+          "number_of_step": 2,
+          "action": "Enter the Community Center.",
+          "result": "You find the Golden Scroll in the Crafts Room."
+        },
+        {
+          "number_of_step": 3,
+          "action": "Find and examine the Golden Scroll in the Crafts Room.",
+          "result": "You trigger a quest to visit the Wizard."
+        },
+        {
+          "number_of_step": 4,
+          "action": "Wait until the next day to receive a letter from the Wizard.",
+          "result": "You receive an invitation to visit the Wizard's tower."
+        },
+        {
+          "number_of_step": 5,
+          "action": "Visit the Wizard's tower in the southwest part of the map.",
+          "result": "You learn how to read the Junimo language."
+        },
+        {
+          "number_of_step": 6,
+          "action": "Access the bundles in the Community Center.",
+          "result": "You can now view and begin completing bundles in each room."
+        },
+        {
+          "number_of_step": 7,
+          "action": "Collect and donate the required items for each bundle in the Crafts Room (Spring Foraging, Summer Foraging, Fall Foraging, Winter Foraging, Construction, Exotic Foraging).",
+          "result": "Completing all bundles in the Crafts Room restores that part of the Community Center."
+        },
+        {
+          "number_of_step": 8,
+          "action": "Collect and donate the required items for each bundle in the Pantry (Spring Crops, Summer Crops, Fall Crops, Quality Crops, Animal, Artisan).",
+          "result": "Completing all bundles in the Pantry restores that part of the Community Center."
+        },
+        {
+          "number_of_step": 9,
+          "action": "Collect and donate the required items for each bundle in the Fish Tank (River Fish, Lake Fish, Ocean Fish, Night Fishing, Crab Pot, Specialty Fish).",
+          "result": "Completing all bundles in the Fish Tank restores that part of the Community Center."
+        },
+        {
+          "number_of_step": 10,
+          "action": "Collect and donate the required items for each bundle in the Boiler Room (Blacksmith's, Geologist's, Adventurer's).",
+          "result": "Completing all bundles in the Boiler Room restores that part of the Community Center."
+        },
+        {
+          "number_of_step": 11,
+          "action": "Collect and donate the required items for each bundle on the Bulletin Board (Chef’s, Dye, Field Research, Fodder, Enchanter’s).",
+          "result": "Completing all bundles on the Bulletin Board restores that part of the Community Center."
+        },
+        {
+          "number_of_step": 12,
+          "action": "Pay the required gold amounts (2,500g, 5,000g, 10,000g, 25,000g) to complete the Vault bundles.",
+          "result": "Completing all Vault bundles unlocks the Bus Repair and restores that part of the Community Center."
+        },
+        {
+          "number_of_step": 13,
+          "action": "Complete all bundles in every room of the Community Center.",
+          "result": "The Junimos restore the Community Center to its former glory."
+        },
+        {
+          "number_of_step": 14,
+          "action": "Wait until the following day after completing all bundles.",
+          "result": "A cutscene shows Pelican Town celebrating the restoration, and you complete one of the major goals of Stardew Valley."
+        }
+      ],
+      [
+        {
+          "text": "By completing the Community Center, you prevent the development of the JojaMart Warehouse, preserving the town's charm."
+        },
+        {
+          "text": "Enjoy the benefits and rewards from each bundle completion, as they will aid you in your farming adventure!"
+        }
+      ]
+    ]
+  },
+  {
+    "ID": 24,
+    "result": [
+      [
+        {
+          "number_of_step": 1,
+          "action": "Familiarize yourself with your cards and their elixir costs.",
+          "result": "You understand the resources required to play each card."
+        },
+        {
+          "number_of_step": 2,
+          "action": "Learn the strengths and weaknesses of each card and how they complement each other.",
+          "result": "You know how to use your cards effectively in different situations."
+        },
+        {
+          "number_of_step": 3,
+          "action": "Ensure you always have enough elixir to defend against enemy pushes.",
+          "result": "You are prepared to defend when your opponent attacks."
+        },
+        {
+          "number_of_step": 4,
+          "action": "Trade elixir positively by spending less elixir on defense than your opponent spends on offense.",
+          "result": "You maintain an elixir advantage over your opponent."
+        },
+        {
+          "number_of_step": 5,
+          "action": "Include a mix of offensive and defensive cards in your deck.",
+          "result": "Your deck can handle both attacking and defending."
+        },
+        {
+          "number_of_step": 6,
+          "action": "Ensure your deck has cards to counter various threats such as air and ground units, swarms, and tanks.",
+          "result": "You are prepared to deal with different types of enemy cards."
+        },
+        {
+          "number_of_step": 7,
+          "action": "Begin the match by playing a low-risk card like a cycle card or a defensive building if available.",
+          "result": "You start the match safely without overcommitting."
+        },
+        {
+          "number_of_step": 8,
+          "action": "Wait to see what your opponent plays before committing more elixir.",
+          "result": "You avoid overcommitting at the start and can react to your opponent's strategy."
+        },
+        {
+          "number_of_step": 9,
+          "action": "Support your troops with additional cards to create a strong push.",
+          "result": "You build a powerful offensive push."
+        },
+        {
+          "number_of_step": 10,
+          "action": "After defending against an attack, use your surviving troops for a counter-push.",
+          "result": "You maximize the value of your defending troops by turning defense into offense."
+        },
+        {
+          "number_of_step": 11,
+          "action": "Learn the best placement for each card, such as placing ranged attackers behind your towers for defense.",
+          "result": "Your cards are positioned optimally for their roles."
+        },
+        {
+          "number_of_step": 12,
+          "action": "Time your card deployment to maximize their effectiveness, such as placing splash damage units to counter swarm troops.",
+          "result": "Your cards are used at the most effective moments."
+        },
+        {
+          "number_of_step": 13,
+          "action": "Use buildings to pull enemy tanks away from your towers.",
+          "result": "Enemy tanks are diverted from your towers, reducing damage taken."
+        },
+        {
+          "number_of_step": 14,
+          "action": "Use splash damage troops against swarms.",
+          "result": "Enemy swarm units are eliminated efficiently."
+        },
+        {
+          "number_of_step": 15,
+          "action": "Deploy troops to distract and eliminate enemy units effectively.",
+          "result": "Enemy units are neutralized with minimal damage to your towers."
+        },
+        {
+          "number_of_step": 16,
+          "action": "Combine tank units with damage-dealing troops for a balanced push.",
+          "result": "You create a push that is difficult for your opponent to stop."
+        },
+        {
+          "number_of_step": 17,
+          "action": "Utilize spells to support your push by taking out defending troops or weakening towers.",
+          "result": "Your push is strengthened and enemy defenses are weakened."
+        },
+        {
+          "number_of_step": 18,
+          "action": "Pay attention to your opponent’s card cycle and try to predict their next moves.",
+          "result": "You can anticipate and counter your opponent’s strategies."
+        },
+        {
+          "number_of_step": 19,
+          "action": "Keep track of what cards your opponent has used and what they might be saving for a big push.",
+          "result": "You are prepared for your opponent’s potential strategies."
+        },
+        {
+          "number_of_step": 20,
+          "action": "Be flexible and ready to adjust your strategy based on how the match is going and your opponent's play style.",
+          "result": "You can adapt to changing situations during the match."
+        },
+        {
+          "number_of_step": 21,
+          "action": "If behind, focus on strong defense and chip damage.",
+          "result": "You minimize losses and look for opportunities to catch up."
+        },
+        {
+          "number_of_step": 22,
+          "action": "If ahead, maintain pressure without overcommitting.",
+          "result": "You keep your advantage while avoiding unnecessary risks."
+        },
+        {
+          "number_of_step": 23,
+          "action": "In the final minute, recognize that elixir generation doubles, allowing for bigger pushes.",
+          "result": "You can deploy more troops and spells quickly."
+        },
+        {
+          "number_of_step": 24,
+          "action": "Be prepared for your opponent's final push and have a counter strategy ready.",
+          "result": "You are ready to defend against strong late-game attacks."
+        },
+        {
+          "number_of_step": 25,
+          "action": "Watch replays of your matches to learn from mistakes and successes.",
+          "result": "You identify areas for improvement in your gameplay."
+        },
+        {
+          "number_of_step": 26,
+          "action": "Study popular strategies and decks used by top players.",
+          "result": "You gain new insights and ideas to enhance your own strategies."
+        }
+      ],
+      [
+        {
+          "text": "By developing these strategies and tactics, you can improve your decision-making and gameplay in Clash Royale."
+        },
+        {
+          "text": "Practice and experience are key to mastering the game."
+        }
+      ]
+    ]
+  },
+  {
+    "ID": 25,
+    "result": [
+      [
+        {
+          "number_of_step": 1,
+          "action": "Divide players into two teams.",
+          "result": "Each team is formed with at least one Spymaster and one Field Operative."
+        },
+        {
+          "number_of_step": 2,
+          "action": "Shuffle the grid of 25 codename cards.",
+          "result": "The codename cards are randomized for the game."
+        },
+        {
+          "number_of_step": 3,
+          "action": "Place the 25 codename cards in a 5x5 layout on the table.",
+          "result": "The game board is set up for play."
+        },
+        {
+          "number_of_step": 4,
+          "action": "Spymasters draw a key card.",
+          "result": "The key card shows which codenames belong to which team, which are neutral, and which is the assassin."
+        },
+        {
+          "number_of_step": 5,
+          "action": "Identify the starting team by checking the border color on the key card.",
+          "result": "The starting team is determined and knows they have an extra agent to find."
+        },
+        {
+          "number_of_step": 6,
+          "action": "The Spymaster of the starting team provides a one-word clue and a number.",
+          "result": "Field Operatives receive a clue related to their team's codenames and know how many words are related."
+        },
+        {
+          "number_of_step": 7,
+          "action": "Field Operatives discuss and choose a codename they think matches the clue.",
+          "result": "A codename is selected as a guess."
+        },
+        {
+          "number_of_step": 8,
+          "action": "Spymaster reveals whether the chosen codename is correct by placing a card over it.",
+          "result": "The codename is covered with the appropriate card: team color, neutral, opposing team, or assassin."
+        },
+        {
+          "number_of_step": 9,
+          "action": "If the codename is their own team's agent, cover it with their team’s color card.",
+          "result": "The team’s agent is identified on the board."
+        },
+        {
+          "number_of_step": 10,
+          "action": "If the codename is neutral, cover it with a neutral color card.",
+          "result": "A neutral codename is identified on the board."
+        },
+        {
+          "number_of_step": 11,
+          "action": "If the codename is the opposing team’s agent, cover it with the opposing team’s color card.",
+          "result": "The opposing team’s agent is identified on the board."
+        },
+        {
+          "number_of_step": 12,
+          "action": "If the codename is the assassin, cover it with the assassin card.",
+          "result": "The team loses immediately."
+        },
+        {
+          "number_of_step": 13,
+          "action": "Continue guessing until the number of correct guesses equals the number given by the Spymaster, the team chooses to stop, or they guess incorrectly.",
+          "result": "The team's turn ends."
+        },
+        {
+          "number_of_step": 14,
+          "action": "Switch turns to the other team.",
+          "result": "The other team begins their turn following the same process."
+        },
+        {
+          "number_of_step": 15,
+          "action": "Repeat steps 6-14 until a team has identified all their agents or the assassin is guessed.",
+          "result": "The game progresses toward completion."
+        },
+        {
+          "number_of_step": 16,
+          "action": "If a team correctly identifies all their agents, declare them the winner.",
+          "result": "The winning team is determined."
+        },
+        {
+          "number_of_step": 17,
+          "action": "If a team guesses the assassin, end the game immediately.",
+          "result": "The team that guessed the assassin loses."
+        }
+      ],
+      [
+        {
+          "text": "The clue must relate to the words on the board without using any form of the word itself."
+        },
+        {
+          "text": "The Spymaster should avoid giving clues that are too direct or breaking the one-word rule."
+        },
+        {
+          "text": "Field Operatives can make an additional guess beyond the number given by the Spymaster if they want."
+        }
+      ]
+    ]
+  },
+  {
+    "ID": 26,
+    "result": [
+      [
+        {
+          "number_of_step": 1,
+          "action": "Get incarcerated by committing crimes or failing at life choices.",
+          "result": "You are sent to prison and can attempt an escape."
+        },
+        {
+          "number_of_step": 2,
+          "action": "Tap on the 'Prison' tab and select 'Escape' to access the escape mini-game.",
+          "result": "The escape mini-game grid is displayed."
+        },
+        {
+          "number_of_step": 3,
+          "action": "Observe the grid layout, including walls, your character, the guard, and the exit.",
+          "result": "You understand the positions and obstacles in the mini-game."
+        },
+        {
+          "number_of_step": 4,
+          "action": "Plan your moves, keeping in mind that the guard moves twice for every move you make, prioritizing horizontal movement.",
+          "result": "You anticipate the guard’s movement pattern."
+        },
+        {
+          "number_of_step": 5,
+          "action": "Avoid moving onto the guard’s tile or letting the guard move onto yours.",
+          "result": "You prevent being caught by the guard."
+        },
+        {
+          "number_of_step": 6,
+          "action": "Use walls to block the guard’s path or force the guard into a loop.",
+          "result": "You create obstacles for the guard, increasing your chances of escape."
+        },
+        {
+          "number_of_step": 7,
+          "action": "Think several moves ahead to predict the guard’s path and create situations where the guard is stuck or moves back and forth.",
+          "result": "You gain a strategic advantage over the guard."
+        },
+        {
+          "number_of_step": 8,
+          "action": "Position yourself to lead the guard away from the exit by using walls and obstacles.",
+          "result": "The guard is diverted, giving you a clearer path to the exit."
+        },
+        {
+          "number_of_step": 9,
+          "action": "Gradually move closer to the exit while avoiding the guard.",
+          "result": "You approach the exit safely."
+        },
+        {
+          "number_of_step": 10,
+          "action": "Move to the exit door when you have a clear path.",
+          "result": "You successfully escape from prison."
+        },
+        {
+          "number_of_step": 11,
+          "action": "After escaping, avoid committing new crimes or being recognized.",
+          "result": "You remain free and avoid being sent back to prison."
+        }
+      ],
+      [
+        {
+          "text": "The escape mini-game consists of a grid with walls, the prisoner (you), and a guard."
+        },
+        {
+          "text": "Your goal is to reach the exit door without being caught by the guard."
+        },
+        {
+          "text": "The guard always moves twice for every move you make, prioritizing horizontal movement first."
+        },
+        {
+          "text": "If you or the guard move onto each other's tile, you will be caught."
+        },
+        {
+          "text": "Take your time with each move and observe the guard’s pattern."
+        },
+        {
+          "text": "The more you play, the better you’ll become at predicting the guard’s movement."
+        },
+        {
+          "text": "Don’t be afraid to get caught and try again; each grid can be different."
+        },
+        {
+          "text": "Use the undo button to rethink your last move if available."
+        },
+        {
+          "text": "Each prison has a different difficulty level, so strategies may vary depending on the grid."
+        }
+      ]
+    ]
+  },
+  {
+    "ID": 27,
+    "result": [
+      [
+        {
+          "number_of_step": 1,
+          "action": "Launch 'There Is No Game.'",
+          "result": "You are greeted with a message telling you there's no game."
+        },
+        {
+          "number_of_step": 2,
+          "action": "Ignore the message and start clicking around.",
+          "result": "You interact with the screen despite the narrator's insistence."
+        },
+        {
+          "number_of_step": 3,
+          "action": "Click on the letters in the title screen.",
+          "result": "The narrator continues to insist there is no game."
+        },
+        {
+          "number_of_step": 4,
+          "action": "Focus on the 'O' in 'NO' and click it multiple times.",
+          "result": "The 'O' falls from the title, causing the narrator to react."
+        },
+        {
+          "number_of_step": 5,
+          "action": "Click and drag the fallen 'O' to hit other letters.",
+          "result": "Other letters fall from the title."
+        },
+        {
+          "number_of_step": 6,
+          "action": "Continue breaking the letters using the 'O.'",
+          "result": "A secret compartment is revealed."
+        },
+        {
+          "number_of_step": 7,
+          "action": "Click to open the secret compartment.",
+          "result": "You find a trophy inside."
+        },
+        {
+          "number_of_step": 8,
+          "action": "Click on the trophy to interact with it.",
+          "result": "The narrator becomes further angered."
+        },
+        {
+          "number_of_step": 9,
+          "action": "Wait for the narrator to put a block in the way to fix the title.",
+          "result": "A block appears, blocking your progress."
+        },
+        {
+          "number_of_step": 10,
+          "action": "Drag and drop the trophy onto the block.",
+          "result": "The block breaks."
+        },
+        {
+          "number_of_step": 11,
+          "action": "Proceed to the new scene with a goat and a locked cage.",
+          "result": "You see a goat in a locked cage."
+        },
+        {
+          "number_of_step": 12,
+          "action": "Look for the key, which is with a squirrel.",
+          "result": "You discover the key is held by a squirrel."
+        },
+        {
+          "number_of_step": 13,
+          "action": "Find a way to get a nut to trade with the squirrel.",
+          "result": "You realize you need a nut to trade for the key."
+        },
+        {
+          "number_of_step": 14,
+          "action": "Use the trophy to knock down the tree.",
+          "result": "A nut falls from the tree."
+        },
+        {
+          "number_of_step": 15,
+          "action": "Drag the nut to a stone or hard surface.",
+          "result": "The nut cracks open."
+        },
+        {
+          "number_of_step": 16,
+          "action": "Drag the cracked nut to the squirrel.",
+          "result": "The squirrel gives you the key in exchange for the nut."
+        },
+        {
+          "number_of_step": 17,
+          "action": "Use the key on the cage.",
+          "result": "The goat is freed."
+        },
+        {
+          "number_of_step": 18,
+          "action": "Watch the series of humorous events that unfold.",
+          "result": "The game moves toward its conclusion."
+        },
+        {
+          "number_of_step": 19,
+          "action": "Listen to the narrator's final commentary.",
+          "result": "You receive final messages from the narrator."
+        },
+        {
+          "number_of_step": 20,
+          "action": "Finish the game.",
+          "result": "You have completed 'There Is No Game.'"
+        }
+      ],
+      [
+        {
+          "text": "The charm of 'There Is No Game' lies in its humor and unexpected twists, so enjoy the playful interaction with the narrator and the amusing scenarios."
+        }
+      ]
+    ]
+  },
+  {
+    "ID": 28,
+    "result": [
+      [
+        {
+          "number_of_step": 1,
+          "action": "Turn on your PS5.",
+          "result": "The PS5 powers on and is ready for use."
+        },
+        {
+          "number_of_step": 2,
+          "action": "Sign in to the account that you want to set as primary.",
+          "result": "You are signed in to the desired PlayStation account."
+        },
+        {
+          "number_of_step": 3,
+          "action": "Navigate to the top right corner of the main PS5 dashboard and click on the 'Settings' icon (gear symbol).",
+          "result": "The Settings menu opens."
+        },
+        {
+          "number_of_step": 4,
+          "action": "In the Settings menu, scroll down and select 'Users and Accounts.'",
+          "result": "The Users and Accounts menu is displayed."
+        },
+        {
+          "number_of_step": 5,
+          "action": "Within the Users and Accounts menu, scroll down and select 'Other.'",
+          "result": "The 'Other' submenu is opened."
+        },
+        {
+          "number_of_step": 6,
+          "action": "Choose 'Console Sharing and Offline Play.'",
+          "result": "The Console Sharing and Offline Play settings are displayed."
+        },
+        {
+          "number_of_step": 7,
+          "action": "If it’s not already enabled, select 'Enable' for Console Sharing and Offline Play.",
+          "result": "Your PS5 is set as the primary console for that account."
+        },
+        {
+          "number_of_step": 8,
+          "action": "Ensure that the games you want to share are downloaded and installed on your PS5.",
+          "result": "The desired games are available on your PS5 for sharing."
+        },
+        {
+          "number_of_step": 9,
+          "action": "Other users can create a new account or sign in with their existing account on the same PS5 by going to the top right corner, selecting 'Profile,' then 'Switch User,' and choosing 'Add User.'",
+          "result": "Additional users are added to the PS5."
+        },
+        {
+          "number_of_step": 10,
+          "action": "Have other users access the PS5 with their accounts.",
+          "result": "Other users can access and play shared digital games on the same console."
+        },
+        {
+          "number_of_step": 11,
+          "action": "Play digital games even when not connected to the internet with Console Sharing and Offline Play enabled.",
+          "result": "You can play digital games offline."
+        }
+      ],
+      [
+        {
+          "text": "If you have reached the limit of activated primary consoles, you might need to deactivate the previous primary console. You can do this from the PS5 by going to 'Settings' > 'Users and Accounts' > 'Other' > 'Console Sharing and Offline Play' and choosing 'Disable' on the other console."
+        },
+        {
+          "text": "Console Sharing and Offline Play can only be enabled on one PS5 at a time per account."
+        }
+      ]
+    ]
+  },
+  {
+    "ID": 29,
+    "result": [
+      [
+        {
+          "number_of_step": 1,
+          "action": "Ensure your character is at least 18 years old.",
+          "result": "Your character is eligible to commit crimes like train robberies."
+        },
+        {
+          "number_of_step": 2,
+          "action": "Go to the 'Activities' tab in BitLife.",
+          "result": "You access the list of available activities."
+        },
+        {
+          "number_of_step": 3,
+          "action": "Select 'Crime' from the list of activities.",
+          "result": "You open the crime menu."
+        },
+        {
+          "number_of_step": 4,
+          "action": "Find and click on the 'Train Robbery' option.",
+          "result": "You begin planning the train robbery."
+        },
+        {
+          "number_of_step": 5,
+          "action": "Improve your character’s Smarts and Craziness stats before attempting the robbery.",
+          "result": "Your chances of a successful robbery increase."
+        },
+        {
+          "number_of_step": 6,
+          "action": "Choose your timing and approach for the robbery based on the options provided.",
+          "result": "You select the method and timing for the train robbery."
+        },
+        {
+          "number_of_step": 7,
+          "action": "Proceed with executing the train robbery.",
+          "result": "The outcome of the robbery is determined by your choices and character’s stats."
+        },
+        {
+          "number_of_step": 8,
+          "action": "Deal with the consequences of the robbery.",
+          "result": "If successful, you receive loot; if you fail, you may be caught and sent to prison."
+        },
+        {
+          "number_of_step": 9,
+          "action": "Attempt to rob more trains in future years if desired.",
+          "result": "You can continue to experience train robberies and refine your strategy."
+        }
+      ],
+      [
+        {
+          "text": "Outcomes in BitLife are unpredictable, and there is always a risk of getting caught."
+        },
+        {
+          "text": "Experimenting with different strategies can enhance your enjoyment of the game."
+        }
+      ]
+    ]
+  },
+  {
+    "ID": 30,
+    "result": [
+      [
+        {
+          "number_of_step": 1,
+          "action": "Power on the Steam Deck.",
+          "result": "The Steam Deck is turned on and you are logged into your account."
+        },
+        {
+          "number_of_step": 2,
+          "action": "Press the Steam button on the left side of the device.",
+          "result": "The main menu opens."
+        },
+        {
+          "number_of_step": 3,
+          "action": "Scroll down and select 'Settings' in the menu.",
+          "result": "The Settings menu opens on the right side of the screen."
+        },
+        {
+          "number_of_step": 4,
+          "action": "Scroll down and select 'Display' within the Settings menu.",
+          "result": "The Display section opens, allowing you to adjust various display settings."
+        },
+        {
+          "number_of_step": 5,
+          "action": "Look for the 'Resolution' settings in the Display section.",
+          "result": "You see the current resolution setting."
+        },
+        {
+          "number_of_step": 6,
+          "action": "Select the Resolution option.",
+          "result": "A list of available resolutions appears."
+        },
+        {
+          "number_of_step": 7,
+          "action": "Choose your desired resolution from the list.",
+          "result": "The desired resolution is selected (available options may vary depending on the display in use)."
+        },
+        {
+          "number_of_step": 8,
+          "action": "Confirm the change if prompted by selecting 'Apply', or wait for the system to automatically apply the new resolution.",
+          "result": "The new resolution is set. If not confirmed within a certain time frame, the system may revert to the previous resolution."
+        },
+        {
+          "number_of_step": 9,
+          "action": "Press the 'B' button or the 'Steam' button again to exit the settings menu.",
+          "result": "You return to your previous activity."
+        }
+      ],
+      [
+        {
+          "text": "The Steam Deck's native display resolution is 1280x800. Adjusting to a higher resolution is typically only possible when using an external display."
+        },
+        {
+          "text": "Changing resolution settings may impact performance, especially in graphically demanding games."
+        },
+        {
+          "text": "If you encounter any display issues, you can always return to the Display settings and revert to the original resolution."
+        }
+      ]
+    ]
+  }
+]

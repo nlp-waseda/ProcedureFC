@@ -1,0 +1,21 @@
+Your task is to check whether a flowchart representing a procedure contains any elements that are inconsistent with the facts. The flowchart is expressed in Mermaid notation. Each node represents a step, and if an entity obtained from a step is required in a subsequent step, that entity is included as the label of the edge (arrow). Please verify the facts in the flowchart by referring to the provided source documents. Fill in the results in JSON format between <json> and </json>.
+
+# Guidelines for Judgment
+
+The basic policy for judgment is as follows: if the evidential document contains information that explicitly contradicts the content of the flowchart under evaluation, then the flowchart should be judged as false. Otherwise, the flowchart should be determined to be true. You must find a statement in the evidence that explicitly denies the description, cite it in the reasoning section, and make your judgment accordingly.
+
+# Output format
+<json>
+{
+    "reason": "Write your reason here.",
+    "result": true or false (boolean value)
+}
+</json>
+
+# Input Data
+
+Evidence :
+<input-evidence>
+
+Target Flowchart :
+<input-flowchart>

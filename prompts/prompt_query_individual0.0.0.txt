@@ -1,0 +1,101 @@
+Your task is to select the necessary web search queries to verify the factual accuracy of given statements.
+You will be provided with a list of statements on a certain topic, as well as a set of standard (common) queries related to that topic. For each statement, choose the common queries that would be appropriate for checking its factual correctness. If the common queries are clearly insufficient to verify the information, you should create a new search query yourself. When creating new queries, follow the format: “topic name + entity to be fact-checked.” The entity should be expressed as a single noun or noun phrase. You must minimize the total number of search queries. Therefore, you should actively reuse them across statements. Your output should follow the JSON format. 
+Write the result between `<json>` and `</json>`.
+
+# Examples of Task
+
+## Example 1
+
+================== Beginning of Example 1 ==================
+
+Statements:
+1. In Realmhammer, to craft the Crystal Forge, you need the following materials: Enchanted Iron (2x), Runestone (4x), Crystal Core (1x), and Obsidian Plate (1x).
+2. In Realmhammer, Enchanted Iron can be obtained by smelting Iron Ore in a Mystic Furnace with Arcane Dust as fuel.
+3. In Realmhammer, Runestone is found deep in Cavern Shrines or dropped by Stone Sentinels.
+4. In Realmhammer, Crystal Core is crafted by combining 4 Mana Shards in an Alchemy Table.
+5. In Realmhammer, Obsidian Plate is created by cooling Lava Essence in Water Essence using a Cooling Basin.
+6. In Realmhammer, you can open the Arcane Workbench by pressing the E key or the interaction key for your platform.
+7. In Realmhammer, crafting the Crystal Forge at the Arcane Workbench consumes at least 20 Mana Units.
+8. In Realmhammer, by arranging the materials in the Arcane Workbench’s 3x3 grid as specified: Top Row: Enchanted Iron – Crystal Core – Enchanted Iron; Middle Row: Runestone – Obsidian Plate – Runestone; Bottom Row: Runestone – (Empty) – Runestone, you can craft the Crystal Forge.
+9. In Realmhammer, you can add the crafted item (the Crystal Forge) to your inventory by clicking the crafting result in the output slot of the Arcane Workbench.
+10. In Realmhammer, you need to find a safe location to place the Arcane Workbench, and setting it near a Mana Conduit makes the flow of power more efficient.
+11. In Realmhammer, you can place the Arcane Workbench by selecting it from your hotbar and right-clicking (or using the use key) on a stable surface.
+12. In Realmhammer, you can begin refining crystals by interacting with the placed Arcane Workbench.
+13. In Realmhammer, by inserting raw crystals, mana-infused ores, and rare gemstones into the Arcane Workbench, you can craft advanced crafting materials and artifacts.
+14. In Realmhammer, upgrading your Crystal Forge with Ethereal Gears allows for faster refinement and reduced mana consumption.
+
+Common Queries:
+["Realmhammer Crystal Forge", "Realmhammer Arcane Workbench"]
+
+Output:
+<json>
+[
+    {
+        "number": 1,
+        "queries": ["Realmhammer Crystal Forge"]
+    },
+    {
+        "number": 2,
+        "queries": ["Realmhammer Enchanted Iron"]
+    },
+    {
+        "number": 3,
+        "queries": ["Realmhammer Runestone"]
+    },
+    {
+        "number": 4,
+        "queries": ["Realmhammer Crystal Core"]
+    },
+    {
+        "number": 5,
+        "queries": ["Realmhammer Obsidian Plate"]
+    },
+    {
+        "number": 6,
+        "queries": ["Realmhammer Arcane Workbench"]
+    },
+    {
+        "number": 7,
+        "queries": ["Realmhammer Crystal Forge"]
+    },
+    {
+        "number": 8,
+        "queries": ["Realmhammer Crystal Forge", "Realmhammer Arcane Workbench"]
+    },
+    {
+        "number": 9,
+        "queries": ["Realmhammer Arcane Workbench"]
+    },
+    {
+        "number": 10,
+        "queries": ["Realmhammer Arcane Workbench"]
+    },
+    {
+        "number": 11,
+        "queries": ["Realmhammer Arcane Workbench"]
+    },
+    {
+        "number": 12,
+        "queries": ["Realmhammer Arcane Workbench"]
+    },
+    {
+        "number": 13,
+        "queries": ["Realmhammer Arcane Workbench"]
+    },
+    {
+        "number": 14,
+        "queries": ["Realmhammer Crystal Forge"]
+    }
+]
+</json>
+
+================== End of Example 1 ==================
+
+# Input Data
+Statements:
+<input-statements>
+
+Common Queries:
+[<input-c_queries>]
+
+Now, please perform your task based on the given statements.

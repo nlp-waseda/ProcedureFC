@@ -1,0 +1,148 @@
+[
+  {
+    "ID": 6,
+    "final_result": "succeeded (False task)",
+    "verification_results": [
+      {
+        "reason": "The flowchart states that the character should start as a Foot Model or Junior Model after graduating from high school. However, the evidence from the BitLife - Life Simulator Wiki states that the starting job for a model is Foot Model or Hand Model, not Junior Model. Additionally, the evidence from the wiki shows that the promotion path is Foot Model → Hand Model → Catalog Model → Lingerie Model → Runway Model, which contradicts the flowchart's claim that the character can start as a Junior Model. The flowchart also incorrectly suggests that the character can start as a Foot Model or Junior Model, which is not supported by the evidence.",
+        "result": false
+      },
+      {
+        "reason": "The description states that 'you can start with the right attributes by aiming for 90%+ Looks from birth or boosting it later.' However, the evidential document from the BitLife - Life Simulator Wiki does not support this claim. Instead, it states that 'your character must have looks in the 90% range' to become a model, implying that 90% is the minimum requirement, not a target to aim for. This contradicts the description, which suggests that 90%+ is a goal to strive for rather than a strict requirement. The document does not mention boosting Looks to reach 90%+ as a viable path, only that a high Looks stat is important. Therefore, the description is false.",
+        "result": false
+      },
+      {
+        "reason": "The evidential document states that 'To increase your Looks stat, get successful plastic surgery, go to the gym, cure any of your illnesses, and go to the salon or spa.' This directly supports the description's claim that Looks can be boosted through plastic surgery, going to the gym, curing illnesses, and visiting the salon or spa. There is no contradiction between the description and the evidence.",
+        "result": true
+      },
+      {
+        "reason": "The evidential document states that 'To increase your Looks stat, get successful plastic surgery, go to the gym, cure any of your illnesses, and go to the salon or spa.' This explicitly confirms that plastic surgery, salon visits, makeup, and hair changes are methods to boost the Looks stat in BitLife. Therefore, the description is factually accurate.",
+        "result": true
+      },
+      {
+        "reason": "The evidential document from the BitLife - Life Simulator Wiki states that to become a model in BitLife, your character must have a high Looks stat, specifically at least 70% Looks, and that you can increase your Looks stat through successful plastic surgery, going to the gym, curing illnesses, and visiting the salon or spa. This directly supports the claim in the description that Looks can be boosted through gym and healthy living choices. Additionally, the document confirms the existence of a model career path that requires a high Looks stat to succeed. Therefore, the description is factually accurate.",
+        "result": true
+      },
+      {
+        "reason": "The evidential document does not contain any information that explicitly contradicts the description. The description states that in BitLife, you can maintain high Health by avoiding drugs, excessive alcohol, and risky choices, as well as by eating healthy, exercising, and getting enough sleep. The evidential document does not mention health maintenance strategies, but it also does not deny or contradict these methods. Therefore, the description is consistent with the information provided.",
+        "result": true
+      },
+      {
+        "reason": "The evidential document states that to become a model in BitLife, your character must have looks in the 90% range, take modeling classes, and get a headshot once they graduate high school. Specifically, the document says: 'Once your character starts modeling classes, spam them a few times a year until the progress bar doesn't seem to go up any further.' and 'Take a headshot once your character graduates.' This directly contradicts the claim in the description that you can become a model without taking modeling classes or getting a headshot.",
+        "result": false
+      },
+      {
+        "reason": "The evidential document states that modeling classes can be started at age 13, and a headshot can be taken once the character graduates high school. This contradicts the target description, which claims you must be 18+ to start professional modeling gigs. The evidence shows that the process of becoming a model can begin before the age of 18, specifically after graduating high school, which is typically around age 18 but can be earlier depending on the education system. Therefore, the description is false because it incorrectly implies that being 18+ is a requirement to start professional modeling gigs.",
+        "result": false
+      },
+      {
+        "reason": "The evidential document states that to become a model in BitLife, your character must have looks in the 90% range, and that you should take modeling lessons as a child and get a headshot taken once they've graduated. This implies that maintaining high Looks is important throughout the character's life, including during the teen years. The document does not contradict the description that you can keep Looks high during teen years, which is important for a modeling career.",
+        "result": true
+      },
+      {
+        "reason": "The evidential document states that the Foot Model job is available to characters with no education requirements and can be applied for at any age, as it does not specify a minimum age. However, the description under evaluation claims that the Foot Model job can only be applied for at age 18, which is not supported by the evidence. The evidence does not mention any age restriction for the Foot Model job, contradicting the claim in the description.",
+        "result": false
+      },
+      {
+        "reason": "The evidential document states that the Foot Model job is available to characters with high looks and can be obtained through a modeling agency. This directly supports the description under evaluation. There is no information in the evidence that contradicts the description. Therefore, the description is factually accurate.",
+        "result": true
+      },
+      {
+        "reason": "The evidential document states that the job progression for a model in BitLife is: Foot Model → Hand Model → Catalog Model → Lingerie Model → Runway Model → Superstar Model. The description under evaluation incorrectly states that after Foot Model, you become a Hand Model, then Catalog Model, and then directly become a Superstar Model. The document explicitly contradicts this by showing that there are two additional job steps (Lingerie Model and Runway Model) between Catalog Model and Superstar Model.",
+        "result": false
+      },
+      {
+        "reason": "The target description claims that posting on social media regularly in BitLife can grow followers and increase the likelihood of getting a job in the entertainment industry. However, the evidential document does not contain any information supporting this claim. The document details various jobs, career paths, promotions, and requirements, but it does not mention social media, follower counts, or any connection between social media activity and job opportunities in the entertainment industry. Since there is no evidence in the document to support the description, and no explicit contradiction, the description is not false based on the evidence provided. Therefore, the description is considered true.",
+        "result": true
+      },
+      {
+        "reason": "The evidential document from the BitLife - Life Simulator Wiki states that the modeling career path includes jobs such as Foot Model, Hand Model, Catalog Model, Lingerie Model, Runway Model, and Superstar Model. It also mentions that after becoming a model, you can do go-sees and request gigs from your agency's clients. The document does not explicitly mention photo shoots as a specific activity within the modeling career path. However, the absence of explicit mention does not contradict the description. The description that 'you can do photo shoots when offered' is consistent with the general idea of modeling gigs and does not conflict with any information in the evidence. Therefore, the description is not false.",
+        "result": true
+      },
+      {
+        "reason": "The evidential document does not contain any information about doing commercials in BitLife. The document lists various jobs and their details, including promotions, education requirements, and salaries, but there is no mention of commercials or any job that involves doing commercials. Therefore, the description cannot be verified as true based on the evidence provided.",
+        "result": false
+      },
+      {
+        "reason": "The evidential document states that 'Walk in Fashion Week, if you're selected. For Fashion Week, you will be prompted to complete a couple of multiple-choice events.' This indicates that Fashion Week events are part of the modeling career path and involve multiple-choice questions. The description under evaluation is consistent with this information, as it mentions runway events (which are part of Fashion Week) and the importance of answering questions correctly. There is no contradiction between the description and the evidence.",
+        "result": true
+      },
+      {
+        "reason": "The description claims that attending events, joining a band, or participating in a modeling career are activities in BitLife that increase public exposure and are essential for building a public profile and achieving fame. However, the evidential document from the BitLife - Life Simulator Wiki does not explicitly state that these activities are essential for achieving fame. While the document does mention that modeling can lead to fame (e.g., 'You can become famous once you get promoted to Superstar Model'), it does not claim that attending events or joining a band are essential for building a public profile or achieving fame. The document also does not mention 'attending events' or 'joining a band' as specific activities that increase public exposure. Therefore, the description contains information not supported by the evidence.",
+        "result": false
+      },
+      {
+        "reason": "The evidential document states that after becoming a Foot Model, the next promotions are to Hand Model, then Catalog Model, and then Lingerie Model, and finally Runway Model. This contradicts the description which claims that Catalog Model or Runway Model can be unlocked after gaining experience as a Foot Model. According to the document, Runway Model is the fourth promotion after Foot Model, not the second. Therefore, the description is false.",
+        "result": false
+      },
+      {
+        "reason": "The evidential document states that after completing local modeling gigs and applying to an agency, you can apply to a modeling agency directly. This is confirmed in the section 'How to Become A Supermodel' under step 7: 'Apply for a modeling agency. Tap the Modeling Agencies button to apply for an agency.' This directly supports the description that you can apply to a modeling agency directly. Additionally, the document mentions that you can continue applying through Jobs → Special Careers → Model until accepted, which aligns with the description. Therefore, the description is factually accurate.",
+        "result": true
+      },
+      {
+        "reason": "The evidential document does not contain any information about hiring an agent through the Fame menu after becoming a Famous Model. The document details the process of becoming a model, including taking modeling classes, getting a headshot, applying to agencies, doing go-sees, and completing gigs, but it does not mention an agent being hired through the Fame menu. Therefore, the description is not supported by the evidence.",
+        "result": false
+      },
+      {
+        "reason": "The evidential document from the BitLife - Life Simulator Wiki states that 'You must also be an Elite Model or Supermodel to unlock elite gigs.' This directly contradicts the description, which claims that agents bring elite gigs. The evidence specifies that the character must achieve a certain career level (Elite Model or Supermodel) to unlock these gigs, not that agents are responsible for providing them. Therefore, the description is false.",
+        "result": false
+      },
+      {
+        "reason": "The evidential document does not contain any information stating that elite gigs require a minimum of 95% Looks. The document mentions that to become a model, a character must have looks in the 90% range, but it does not specify that elite gigs require 95% or higher. Therefore, there is no explicit contradiction between the description and the evidence.",
+        "result": true
+      },
+      {
+        "reason": "The evidential document from the BitLife - Life Simulator Wiki confirms that the modeling career path in BitLife includes progressing from Body Part Model to Supermodel. It also mentions that after reaching the Elite Model or Supermodel level, the character can unlock elite gigs. Furthermore, the document explicitly states that there is a 'Fashion Week' event where the character can participate in a high-profile runway show. This information directly supports the claims in the description under evaluation.",
+        "result": true
+      },
+      {
+        "reason": "The evidential document does not contain any information that contradicts the description. The description states that in BitLife, you can always say Yes to auditions, even if you think you might fail, and the game will still allow you to try and learn from your mistakes. The evidential documents, including the Fandom wiki and other guides, confirm that auditions are a part of the modeling career path and that players can attempt them multiple times. The guides provide detailed advice on how to answer audition prompts, which implies that players can attempt auditions and learn from their experiences. There is no statement in the evidence that prevents players from attempting auditions or that the game would not allow them to try even if they think they might fail.",
+        "result": true
+      },
+      {
+        "reason": "The evidential document does not mention 'Fame' as a factor that increases success rate in auditions. The document only emphasizes maintaining high 'Looks' and completing tasks like taking modeling classes, getting a headshot, and applying to modeling agencies. There is no explicit statement in the evidence that 'Fame' affects audition success. Therefore, the description is not contradicted by the evidence.",
+        "result": true
+      },
+      {
+        "reason": "The evidential document states that 'Some careers rapidly provide more social media followers and a massive increase in income after reaching a certain 'breakthrough' (Acting and Composing)'. This directly supports the claim in the description that some careers, such as acting and composing, have a sudden breakthrough that leads to a rapid increase in income and social media followers.",
+        "result": true
+      },
+      {
+        "reason": "The description states that in BitLife, you can avoid taking too many years off to prevent fame and income loss. However, the evidential document does not contain any information about avoiding years off to prevent fame and income loss. The document does confirm that you can become a model by taking modeling lessons, getting a headshot, and applying to modeling agencies, which aligns with the description. Since there is no explicit contradiction in the evidence regarding the claim about avoiding years off, the description is considered true.",
+        "result": true
+      },
+      {
+        "reason": "The evidential document does not contain any information that contradicts the description. The description states that in BitLife, you can continue boosting Looks with surgery or cosmetic care if they drop, which is a key factor in maintaining a successful modeling career. The document from the Fandom wiki mentions that to become a model, you need a high Looks stat and that you can increase your Looks stat through plastic surgery, going to the gym, curing illnesses, and going to the salon or spa. This supports the idea that you can boost Looks through cosmetic care and surgery, which aligns with the description. Therefore, the description is true.",
+        "result": true
+      },
+      {
+        "reason": "The evidential document states that to become a supermodel in BitLife, one must first purchase the Model job pack or the Boss Mode pack, then have a high Looks stat, take modeling classes, get a headshot, apply to a modeling agency, do go-sees and auditions, and complete gigs. The document also mentions that after being a Body Part Model, one can be promoted to Stock Photo Model, then Catalog Model, then Elite Model, and finally Supermodel. This sequence of steps and promotions is consistent with the description that you can become a supermodel by completing a series of steps. There is no information in the evidence that contradicts this claim.",
+        "result": true
+      },
+      {
+        "reason": "The evidential document states that you can become a supermodel in BitLife by following steps such as taking modeling classes, getting a headshot, applying to modeling agencies, and doing go-sees and gigs. It also mentions that you can walk in Fashion Week if selected. This information directly supports the claim in the description that you can do modeling and become a supermodel in BitLife. There is no information in the evidence that contradicts this claim.",
+        "result": true
+      },
+      {
+        "reason": "The evidential document does not contain any information about sponsorship deals being available once Fame is full, nor does it mention using money from such deals to buy a mansion. The document provides detailed information about various jobs, careers, promotions, salaries, and other aspects of the game, but there is no mention of sponsorship deals or purchasing mansions with money from such deals. Therefore, the description cannot be confirmed as true based on the evidence provided.",
+        "result": false
+      },
+      {
+        "reason": "The target description claims that writing books, doing TV talk shows, and getting sponsorship deals boost income and open elite opportunities in BitLife. However, the evidential document does not contain any information about writing books, doing TV talk shows, or getting sponsorship deals as career-related activities or income-boosting actions. The document details various jobs, promotions, and career paths, but none of them mention these specific activities. Therefore, there is no evidence in the document to support the claim made in the description.",
+        "result": false
+      },
+      {
+        "reason": "The evidential document states that 'Upon retiring the character will receive a pension, an annual payment which is less than, but calculated based on, their previous salary.' This directly supports the claim in the description that the pension is less than the previous salary and calculated based on it. There is no contradiction between the description and the evidence.",
+        "result": true
+      },
+      {
+        "reason": "The evidential document does not contain any information about fame dropping after retirement for models in BitLife. The document discusses the career progression of models, including becoming a Supermodel, doing go-sees, and participating in Fashion Week, but it does not mention anything about fame levels after retirement. Therefore, there is no explicit contradiction between the description and the evidence.",
+        "result": true
+      },
+      {
+        "reason": "The evidential document states that to become a model in BitLife, your character must have looks in the 90% range, take modeling classes starting at age 13, get a headshot upon graduation, and apply to modeling agencies. It also recommends doing as many go-sees as possible each year, requesting gigs from clients, and walking in Fashion Week. This information directly supports the description, which claims that a min-max strategy to become a famous model as early as age 18 without failed auditions is available. There is no information in the evidence that contradicts this strategy.",
+        "result": true
+      }
+    ]
+  }
+]

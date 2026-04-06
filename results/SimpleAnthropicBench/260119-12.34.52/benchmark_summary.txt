@@ -1,0 +1,9 @@
+Date and Time:	2026-01-19 12:34:52
+Dataset:	dataset/dataset0.5.3.json
+Model Info:
+	model_name: claude-sonnet-4-5
+	sampling_params: {'max_tokens': 20000, 'tools': [{'name': 'web_search', 'type': 'web_search_20250305'}], 'temperature': 0.5}
+Base Prompt:	prompts/prompt_simple_llm_bench0.0.0.txt
+Accuracy:	0.72 (36/50)
+True Accuracy:	0.50 (10/20)
+False Accuracy:	0.87 (26/30)

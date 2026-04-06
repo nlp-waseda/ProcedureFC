@@ -1,0 +1,86 @@
+{
+    // IntelliSense を使用して利用可能な属性を学べます。
+    // 既存の属性の説明をホバーして表示します。
+    // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python デバッガー: 現在のファイル",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Factcheck",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/Main.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "OpenAIDefaultBench",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/Main.py",
+            "args": ["--openai-default-bench"],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "NoDecompositionBench",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/Main.py",
+            "args": ["--no-decomposition-bench"],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "NoStructureBench",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/Main.py",
+            "args": ["--no-structure-bench"],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "NoIndividualQueryBench",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/Main.py",
+            "args": ["--no-individual-query-bench"],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "OntologyStructureBench",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/Main.py",
+            "args": ["--ontology-structure-bench"],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "SimpleQueryBench",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/Main.py",
+            "args": ["--simple-query-bench"],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "SimpleOpenAIBench",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/Main.py",
+            "args": ["--simple-openai-bench"],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "SimpleAnthropicBench",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/Main.py",
+            "args": ["--simple-anthropic-bench"],
+            "console": "integratedTerminal"
+        }
+    ]
+}

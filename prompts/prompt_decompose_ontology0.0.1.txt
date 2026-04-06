@@ -1,0 +1,100 @@
+Your task is to extract structured steps from a text that describes a procedure.
+If the procedure contains supplementary information such as tips or cautions, distinguish these from the steps.
+The task is carried out in two stages.
+First, break the given procedural text into **Steps** and **Supplementary Information**. At this time, be careful not to combine multiple steps or pieces of supplementary information into one. On the other hand, also be careful not to perform unnecessary decomposition. For example, the procedure “Obtain A, B, and C” represents a single action applied to three objects. The decomposition of steps should be carried out based on this action. Write the result of the decomposition between `<decomposition>` and `</decomposition>`.
+Next, structure the results based on the decomposition. Perform the structuring in accordance with the properties described below. Output the structured result in JSON format, and place it between `<json>` and `</json>`.
+
+# Input Format
+
+The input is a text describing some procedure.
+
+# Output format
+
+<decomposition>
+<steps>
+1. Tap the power switch.
+2. ...
+<supplementary_info>
+1. Power saving mode is not available on older models.
+2. ...
+</decomposition>
+
+<json>
+{
+    "statements": [
+        {
+            "number": 1,
+            "sentence": "Tap the power switch.",
+            "action": "tap",
+            "direct_object": "power switch",
+            "function": "This step enables the power saving mode."
+        },
+        {
+            "number": 2,
+            ...
+        },
+        ...
+        {
+            "number": 1,
+            "sentence": "Power saving mode is not available on older models.",
+            "triple": {
+                "subject": "Power saving mode",
+                "predicate": "has state",
+                "object": "not available"
+            },
+            "condition": "If the controller is an older model."
+        },
+        ...
+    ]
+}
+</json>
+
+## Properties Explanation
+
+The structured format differs between **Steps** and **Supplementary Information**. Each structure must include mandatory properties, and may include optional properties if necessary.
+
+### ＜Steps＞
+
+**Mandatory Properties**
+
+* **{number}** The order in which the steps are executed.
+* **{sentence}** The excerpted part of the original text that corresponds to the step.
+* **{action}** The action performed in the step, expressed as a single verb or verb phrase. Every step must contain an action.
+* **{function}** The role or purpose that the corresponding step has within a series of procedures.
+
+**Optional Properties**
+
+* **{direct\_object}** The entity that is directly operated on in the step, expressed as a single noun or noun phrase.
+* **{input}** An entity that serves as input in the step and is transformed into the entity specified as the output. Multiple entities can be listed as inputs.
+* **{output}** An entity that serves as output in the step and represents a transformed version of the input entity. Multiple entities can be listed as outputs.
+* **{tool}** The tool required to perform the step. This must be different from the direct object.
+* **{location}** Information about the location where the step should be executed. This may include both physical/geographical locations and virtual locations such as those on a computer.
+* **{agent}** If the step needs to be performed by an agent other than the main executor of the procedure, this property specifies that agent.
+* **{beginsAt}** The start time of the step.
+* **{endsAt}** The end time of the step.
+* **{duration}** The time interval during which the step should be continuously performed.
+* **{cost}** The cost required to complete the step.
+* **{condition}** Specific conditions required for the step to be performed.
+
+### ＜Supplementary Information＞
+
+**Mandatory Properties**
+
+* **{number}** The number of the supplementary information.
+* **{sentence}** The excerpted part of the original text that corresponds to the supplementary information.
+* **{triple}** The supplementary information expressed as a knowledge graph triple, consisting of the following three properties:
+
+  * **{subject}**
+  * **{predicate}**
+  * **{object}**
+
+**Optional Properties**
+
+* **{time}** Information related to time.
+* **{location}** Information related to location.
+* **{condition}** Specific conditions required for the supplementary information to hold.
+
+Now, apply this task to the following text describing a procedure.
+
+Procedure:
+<input-procedure>

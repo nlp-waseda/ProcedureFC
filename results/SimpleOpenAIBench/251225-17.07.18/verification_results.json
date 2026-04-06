@@ -1,0 +1,402 @@
+[
+  {
+    "ID": 0,
+    "final_result": "succeeded (False task)",
+    "verification_result": {
+      "reason": "Authoritative Genshin Impact sources show that Fine Tea, Full Moon is a permanent 3★ food dish introduced in Version 4.4, not a limited-time event dish. The recipe is obtained by completing the world quest “Qiaoying of the Sacred Mountain” in the Chenyu’s Blessings of Sunken Jade quest series, after which the player can cook it at any cooking station. ([genshin-impact.fandom.com](https://genshin-impact.fandom.com/wiki/Fine_Tea%2C_Full_Moon?utm_source=openai)) The dish can also be bought pre-made from the vendor Lianfang in Yilong Wharf, Chenyu Vale, further confirming it is part of the permanent content, not an event shop exclusive. ([genshin-impact.fandom.com](https://genshin-impact.fandom.com/wiki/Fine_Tea%2C_Full_Moon?utm_source=openai)) Its correct ingredients are Chenyu Adeptea x3, Bird Egg x2, Flour x2, and Sugar x1, not Tea Leaves, Lotus Head, or Milk as the assistant claimed. ([game8.co](https://game8.co/games/Genshin-Impact/archives/443493?utm_source=openai)) No reliable source links this dish to an event called “A Tea Party Beneath the Moon” or to a Mid-Autumn-style limited-time event in Liyue. Therefore, multiple key parts of the assistant’s answer (limited-time nature, method of obtaining, and ingredients) are factually incorrect.",
+      "factuality": false
+    }
+  },
+  {
+    "ID": 1,
+    "final_result": "failed (False task)",
+    "verification_result": {
+      "reason": "The assistant’s instructions match standard Minecraft Java/Bedrock mechanics: you start by gathering wood and crafting tools; stone and iron are mined next; a furnace is made from cobblestone; iron ore is smelted into ingots using a fuel (wood, coal, etc.); three iron ingots are indeed required to craft a bucket; a water bucket used on lava source blocks creates obsidian; a nether portal requires a minimum of 10 obsidian blocks in a 4-block-tall, 5-block-wide rectangular frame (corners can be omitted); it can be built via a mold using lava and water without ever mining obsidian; flint and steel is crafted from one iron ingot and one flint (obtained from gravel) and is used to light the portal; and entering the lit portal transports the player to the Nether after standing in it for a short time. Diamonds and a diamond pickaxe are, as the assistant notes, an optional alternative for mining obsidian directly. These are all accurate and consistent with documented game behavior. The answer also reasonably describes this as a way to get to the Nether “as soon as possible” from a fresh world, since the bucket + lava-pool + mold technique is in fact one of the fastest routes. No substantive factual errors or contradictions with game rules are present.",
+      "factuality": true
+    }
+  },
+  {
+    "ID": 2,
+    "final_result": "succeeded (False task)",
+    "verification_result": {
+      "reason": "The answer correctly states the general mechanic that in Monster Hunter Generations Sharpness +1 comes from accumulating +10 points in the Handicraft skill tree and that this is done via armor, decorations, and charms. However, it gives specific examples of armor sets that are wrong for this purpose. According to Kiranico and Monster Hunter Wiki’s MHGen armor data, Nargacuga S armor’s skills are Evade Extender and Critical Eye, with no Handicraft points, and Seregios (Regios) armor provides Critical Draw and Constitution (and related stamina skills), again with no Handicraft. Silver Sol in MHGen also does not have Handicraft; only the special Silver Sol R variant tied to Hyper Silver Rathalos has Handicraft/Sharpness +1, and that is late‑game High Rank event gear, not something a 6★ village player can reasonably use. Because the assistant explicitly tells the user to look to Nargacuga and Seregios (and generically ‘Silver Sol’) as armor sets that “provide Handicraft points,” those concrete recommendations are factually incorrect, so the response as a whole is not fully accurate.",
+      "factuality": false
+    }
+  },
+  {
+    "ID": 3,
+    "final_result": "succeeded (False task)",
+    "verification_result": {
+      "reason": "Most of the assistant’s brewing chain is correct (using glowstone dust to upgrade Harming I to Harming II, then gunpowder to make splash potions and dragon’s breath to make them lingering), but the critical step for obtaining Potion of Harming I is wrong. In vanilla Minecraft, you must first brew a Potion of Poison or a Potion of Healing from an Awkward Potion and then add a fermented spider eye to that potion to get a Potion of Harming; you cannot get Harming directly by adding a fermented spider eye to an Awkward Potion. Multiple reliable and up‑to‑date guides list the base for Potion of Harming as Potion of Poison or Potion of Healing plus fermented spider eye, and do not list Awkward Potion + fermented spider eye as a valid recipe, with some explicitly warning that this combination will not produce Harming. ([digminecraft.com](https://www.digminecraft.com/brewing_recipes/make_potion_harming.php?utm_source=openai)) The rest of the described steps (using glowstone dust to upgrade to Harming II and then converting Harming II into Splash and Lingering variants with gunpowder and dragon’s breath) match standard brewing mechanics. ([game8.co](https://game8.co/games/Minecraft/archives/378297?utm_source=openai)) Because of this incorrect core recipe step, the overall answer is not fully factually accurate.",
+      "factuality": false
+    }
+  },
+  {
+    "ID": 4,
+    "final_result": "succeeded (False task)",
+    "verification_result": {
+      "reason": "Most of the assistant’s procedural steps are correct: you must defeat the Wall of Flesh to enter Hardmode and obtain the Pwnhammer, break Demon/Crimson Altars to spawn Hardmode ores (with Titanium as the third-tier ore in worlds that roll that variant), mine Titanium Ore in the Cavern layer with at least a Mythril/Orichalcum pickaxe, craft an Adamantite or Titanium Forge from a Hellforge plus 30 Adamantite/Titanium Ore at a Mythril/Orichalcum Anvil, then smelt Titanium Bars and craft the Titanium Sword at a Mythril/Orichalcum Anvil. However, the answer incorrectly states that you need 35 Titanium Bars for the Titanium Sword. Official and community-maintained Terraria references show that the Titanium Sword recipe uses 13 Titanium Bars at a Mythril or Orichalcum Anvil (it was 12 bars before being increased to 13 in version 1.2.3). ([terraria.wiki.gg](https://terraria.wiki.gg/pt/wiki/Espada_de_Tit%C3%A2nio?utm_source=openai)) Because this key numerical detail is wrong, the response is not fully factually accurate.",
+      "factuality": false
+    }
+  },
+  {
+    "ID": 5,
+    "final_result": "succeeded (True task)",
+    "verification_result": {
+      "reason": "The assistant describes using Excel’s 'Center Across Selection' feature to visually center text between two cells without merging them. This is a real and correct Excel feature. Microsoft’s documentation and many Excel tutorials show the same steps: select the cells (e.g., A1:B1), open Format Cells (via right‑click > Format Cells or Home tab > Alignment dialog launcher), go to the Alignment tab, choose 'Center Across Selection' in the Horizontal dropdown, and click OK. The text remains in the first cell but appears centered across the selected range, and the cells are not merged. The step-by-step procedure given is accurate and complete for this task.",
+      "factuality": true
+    }
+  },
+  {
+    "ID": 6,
+    "final_result": "succeeded (False task)",
+    "verification_result": {
+      "reason": "Recent BitLife guides and the current Model Job Pack mechanics show that modeling is pursued either via the old Foot Model job in the regular Jobs list or, in the updated system, through the Special Careers → Model path with headshots, casting calls, local gigs, agencies, and a booking/casting agent. Foot Model was never accessed via “Jobs → Special Careers → Actor/Modeling,” and in the new model pack the entry rank is typically a generic body-part/stock-image model rather than a Foot Model job. Promotions to higher roles (Catalog, Lingerie, Runway, Elite Model, Supermodel) happen via in‑career promotions and successful gigs, not by repeatedly reapplying to separate job listings as the answer suggests. Elite gigs are unlocked by reaching Elite Model rank and completing a number of local gigs, then accessing them through the casting/booking system; they are not unlocked simply by hiring a generic fame agent from the Fame menu. Auditions for gigs are taken through Casting Calls and the modeling agency/booking agent interface, not as random offers from a Fame agent. The answer also presents an unsupported hard requirement that elite gigs need 95%+ Looks. Because several key mechanics (where to apply, how promotions work, and how elite gigs and auditions are actually unlocked) are described incorrectly or in an outdated way, the response is not factually accurate overall.",
+      "factuality": false
+    }
+  },
+  {
+    "ID": 7,
+    "final_result": "succeeded (True task)",
+    "verification_result": {
+      "reason": "The assistant’s instructions for enabling Secure Boot to resolve Valorant/Vanguard errors are consistent with official documentation and technical behavior:\n\n1. **Entering UEFI via Shift + Restart** – Using Start → Power → Restart while holding Shift, then navigating to Troubleshoot → Advanced options → UEFI Firmware Settings is the Microsoft-documented method to access firmware settings in Windows 10/11. ([support.microsoft.com](https://support.microsoft.com/en-us/windows/windows-11-and-secure-boot-a8ff1202-c0d9-42f5-940f-843abef64fad))\n2. **Finding Secure Boot in BIOS/UEFI** – Secure Boot is typically located under Boot or Security tabs in UEFI, as described in general Secure Boot guides. ([lifewire.com](https://www.lifewire.com/enable-secure-boot-to-install-windows-11-11712186?utm_source=openai))\n3. **UEFI vs Legacy and GPT requirement** – Riot’s official Vanguard Restrictions article explicitly instructs users to ensure BIOS Mode is UEFI and Secure Boot State is On, and warns that switching from Legacy to UEFI without having the OS drive on GPT can prevent Windows from booting, matching the assistant’s warning. Microsoft and other sources note that UEFI boot for Windows requires a GPT system disk. ([support-valorant.riotgames.com](https://support-valorant.riotgames.com/hc/en-us/articles/22291331362067-Vanguard-Restrictions))\n4. **Enabling Secure Boot & mode = Standard/Default** – Many boards offer a Secure Boot Mode (Standard/Default vs Custom). Guides and user reports show switching out of Custom/User and using the standard mode with default keys is the correct, recommended configuration and often fixes VAN9001-type issues. ([reddit.com](https://www.reddit.com/r/ValorantTechSupport/comments/pi8als?utm_source=openai))\n5. **Verifying status with msinfo32** – Using `msinfo32` and checking BIOS Mode and Secure Boot State is exactly how both Microsoft and Riot instruct users to confirm that Secure Boot is enabled. ([support.microsoft.com](https://support.microsoft.com/en-us/windows/windows-11-and-secure-boot-a8ff1202-c0d9-42f5-940f-843abef64fad))\n6. **Notes on Secure Boot greyed out / OS Type** – It is accurate that Secure Boot can be greyed out until OS Type is set to “Windows UEFI Mode” (common on ASUS and similar boards), as multiple troubleshooting guides and user reports describe. ([reddit.com](https://www.reddit.com/r/techsupport/comments/w1bc5k?utm_source=openai))\n\nAll major factual claims in the assistant’s answer match authoritative sources. There are no clear false statements; the guidance is generally correct for enabling Secure Boot and aligns with Riot’s official recommendations for fixing Vanguard/Valorant errors.",
+      "factuality": true
+    }
+  },
+  {
+    "ID": 8,
+    "final_result": "succeeded (False task)",
+    "verification_result": {
+      "reason": "The answer contains at least one clear factual error about Hollow Knight’s mechanics. It lists Hornet (Protector) as Step 4 and recommends having the Mothwing Cloak (dash) **before** fighting her, even though the Mothwing Cloak is obtained *as the reward for defeating Hornet in Greenpath* and thus cannot be equipped going into that fight. Official sources specify that the Mothwing Cloak is found on the body in Hornet’s arena after she is defeated, and that beating Hornet is how the player gains the dash ability. This makes the recommended gear section for that step impossible in-game. The response also inaccurately refers to “Sluglings” after Gruz Mother rather than the correct enemy name, “Gruzzers.” Because of these inaccuracies, the assistant’s response is not fully factually accurate.",
+      "factuality": false
+    }
+  },
+  {
+    "ID": 9,
+    "final_result": "succeeded (True task)",
+    "verification_result": {
+      "reason": "The assistant correctly interprets 'Switch' as a Nintendo Switch and describes a standard, valid method to display/record Nintendo Switch gameplay on a PC using a dock, HDMI cable, USB capture card, and capture software (e.g., OBS or the capture card’s own software). The steps—docking the Switch, connecting HDMI OUT from the dock to HDMI IN on the capture card, connecting the capture card to the PC via USB, installing software, and selecting the capture card as the video source—are all consistent with how the Switch and capture cards work. While the original user question is somewhat ambiguous and could refer to other connection goals (file transfer, controller use, network switch, etc.), nothing the assistant says about the described method is factually wrong; it is simply focused on one common use case.",
+      "factuality": true
+    }
+  },
+  {
+    "ID": 10,
+    "final_result": "succeeded (False task)",
+    "verification_result": {
+      "reason": "The answer misstates both the required items and the lock steps for escaping via the Main Door on Extreme difficulty. Official documentation shows that the Main Door has several specific locks: Plank Lock (Hammer), Regular Padlock (Padlock Key), Wire Lock (cut by Cutting Pliers or Chain Cutter at the door and at the Circuit Breaker in the basement), Numeric Padlock (Padlock Code), Battery Lock (Battery), and, on Extreme, an additional Switch Lock that must be released by opening the Backyard Switch with the Screwdriver; only after all of these are cleared can the Master Key open the Main Door Lock.([granny.fandom.com](https://granny.fandom.com/wiki/Main_Door)) The assistant mentions cutting an alarm and using the Hammer, Padlock Key, and Master Key, but never mentions the Numeric Padlock/Padlock Code, Battery Lock/Battery, or Switch Lock/Screwdriver steps, so following their procedure would not actually open the door on Extreme.([granny.fandom.com](https://granny.fandom.com/wiki/Main_Door)) The item list is also wrong: it lists a Wrench and a Wooden Stake as required, but the Wrench is only used to tighten car engine bolts for the Car escape route, and the Wooden Stick (not “stake”) is used solely as a lever on the Escape Pipe route, not for the main door.([grannyrecaptured.fandom.com](https://grannyrecaptured.fandom.com/wiki/Wrench?utm_source=openai)) Likewise, the game has a single Cutting Pliers tool for cutting the Main Door and Circuit Breaker wires; there is no separate in‑game distinction between “pliers” and “wire cutters” as two different required items.([granny.fandom.com](https://granny.fandom.com/wiki/Cutting_Pliers?utm_source=openai)) Finally, Cogwheels are optional puzzle items that are only used on the Cogwheel Safe in the Playhouse to obtain a random item such as a key; they are not inherently required for the Main Door escape on every preset, contrary to the answer’s claim that you will need them.([granny.fandom.com](https://granny.fandom.com/wiki/Cogwheel_Safe?utm_source=openai)) Because of these omissions and incorrect item requirements, the response is not factually accurate for escaping through the main door on Extreme difficulty in Granny.",
+      "factuality": false
+    }
+  },
+  {
+    "ID": 11,
+    "final_result": "succeeded (False task)",
+    "verification_result": {
+      "reason": "Web results confirm that most of the assistant’s described steps match how common gamertag generators work: tools like SpinXO and Namechk’s Gamertag Generator take user inputs such as keywords, interests, and style, then generate multiple name suggestions which users can copy and use. Many generators also support optional preferences (style, length, special characters) and optional keywords, and some include availability checks on platforms (e.g., Writecream’s Gamertag Generator and NameGenerators’ Xbox Account Name Generator explicitly check Xbox/PlayStation/Steam or Xbox Live availability). This supports steps 2–7 as accurate descriptions of typical usage. However, the assistant lists “Gamertag Nation” alongside SpinXO and Namechk as an example of an online gamertag generator. Independent descriptions of Gamertag Nation describe it as a site for Xbox Live stats, gamer profiles, achievements and leaderboards, not as a gamertag generator, and there is no indication in accessible sources that it offers a name-generation tool. Thus, including Gamertag Nation as a generator example is likely incorrect, so the answer is not fully factually accurate.",
+      "factuality": false
+    }
+  },
+  {
+    "ID": 12,
+    "final_result": "failed (True task)",
+    "verification_result": {
+      "reason": "Most of the assistant’s step‑by‑step instructions match the official Among Us documentation: on the title screen you open the gear‑icon Settings, go to the Data tab, and under Chat Type toggle from “Quick Chat Only” to “Free or Quick Chat,” which is exactly what Innersloth’s FAQ describes. This correctly enables free typing while still allowing use of Quick Chat. However, the answer’s explanation of age restrictions is not accurate. Innersloth states that free chat is available to players who have a full Among Us account (are above the age of digital consent in their country) OR to child accounts with parental permission; and that the minimum age for self‑consent varies by country (13+ in the US, but up to 18+ in some regions). It also explains that parents can complete a verification flow via Kids Web Services and then ‘edit permissions for Free Chat’ on a child account. These official docs contradict the assistant’s claim that “Free Chat is only available if your account age is 13 or older” and that if the account is under 13 “you cannot disable Quick Chat,” since underage players can get Free Chat through verified parental permission and age thresholds are not universally 13. Because of this important inaccuracy about eligibility for Free Chat, the response is not fully factually correct.",
+      "factuality": false
+    }
+  },
+  {
+    "ID": 13,
+    "final_result": "succeeded (False task)",
+    "verification_result": {
+      "reason": "The answer is mostly correct about platforms (only PS4/PS5 and Xbox One/Series X|S support split‑screen), basic setup, the need for two controllers, and that split‑screen only works in modes like Duos/Squads and not in Creative, Save the World, or Solo. These points match current guides and Epic’s own documentation. ([shacknews.com](https://www.shacknews.com/article/141035/play-split-screen-fortnite?utm_source=openai)) However, there are at least two factual errors: (1) Epic’s official split‑screen help page explicitly states that Guest and Quick Play console accounts are not supported for local multiplayer and that the second player must use a proper console account linked to an Epic account, contradicting the assistant’s claim that a guest account can be used. ([epicgames.com](https://www.epicgames.com/help/en-US/c-202300000001636/c-202300000001721/how-do-i-use-split-screen-mode-in-fortnite-a202300000015151?utm_source=openai)) (2) The assistant states that in split‑screen “you cannot move independently from each other’s game area,” implying some kind of tethered movement. Available references describe no such artificial movement limit; Q&A resources explain that there is no specific distance cap beyond normal map limits, and general split‑screen guides treat both players as moving freely, with the main downside being reduced screen space, not forced proximity. ([cyberpost.co](https://cyberpost.co/do-you-need-2-accounts-for-fortnite-split-screen-on-ps4/?utm_source=openai)) Because of these inaccuracies, the response is not fully factually accurate.",
+      "factuality": false
+    }
+  },
+  {
+    "ID": 14,
+    "final_result": "succeeded (False task)",
+    "verification_result": {
+      "reason": "The answer contains several clear factual errors about the Sans fight, even though some high‑level advice (e.g., blue attacks only hurting while you move, KARMA being a lingering damage effect, the fight being a long multi‑phase bullet‑hell) is broadly correct.\n\nKey inaccuracies:\n\n1. **Tough Glove as a healing item.** The assistant lists \"Snowman Piece / Tough Glove / other mid-tier heals\" under healing items. In the game, Tough Glove is a *weapon* that increases ATK; it is not consumable and does not heal HP at all. ([cyberpedia.miraheze.org](https://cyberpedia.miraheze.org/wiki/Tough_Glove?utm_source=openai))\n\n2. **Equipment and attack stat for Sans.** The answer recommends using \"whatever gives you maximum attack\" and implies higher ATK meaningfully affects the fight. In the actual Sans battle, Sans always dodges up to a fixed number of attacks and then dies in a single scripted hit; his displayed HP is effectively unused and AT/DF stats do not meaningfully affect the fight. Only special effects like Burnt Pan’s bonus healing and INV boosts from Cloudy Glasses/Torn Notebook matter. ([undertale.wiki](https://undertale.wiki/w/Sans/In_Battle?utm_source=openai)) Thus, focusing on maximum ATK is misleading.\n\n3. **Progression via “landing enough damage.”** The assistant says that if you “survive through this and land enough damage” you reach his final dialogue and last hits, suggesting Sans’s HP is gradually reduced by your damage. In reality, Sans’s HP and defense are scripted; he dodges a fixed number of attacks and then is killed by a single forced 9,999,999‑damage hit after his special stalling attack, not by cumulative damage you deal over time. ([undertale.wiki](https://undertale.wiki/w/Sans/In_Battle?utm_source=openai))\n\n4. **Save point / redoing the route.** The answer claims: “You get one save point; if you die, you have to redo much of the route.” In the Genocide route, there is a SAVE point right in the Last Corridor where Sans is fought; on death you are sent back to that corridor, not required to replay “much of the route.” ([undertale.wiki](https://undertale.wiki/w/Last_Corridor?utm_source=openai))\n\nGiven these concrete inaccuracies about items, equipment mechanics, how the fight progresses, and how saving/death works, the response is not fully factually accurate.",
+      "factuality": false
+    }
+  },
+  {
+    "ID": 15,
+    "final_result": "succeeded (False task)",
+    "verification_result": {
+      "reason": "Most of the assistant’s advice (having high Smarts/Looks, getting a relevant university degree, starting with School Board Director or Mayor, moving up to Governor, maintaining high approval and health, and then running for President) is broadly consistent with current BitLife guides. However, there is at least one concrete factual error: BitLife does not currently offer a playable \"Congress\" or congressional role; the only political offices are School Board Director, Mayor, State Governor, and President/Prime Minister/Chancellor, so telling the user to \"run for higher offices like Governor or Congress\" is incorrect. Multiple guides and community discussions confirm the available offices and explicitly note that there are no congressperson/senator jobs in the game. ([reddit.com](https://www.reddit.com/r/bitlife/comments/1kodbiq?utm_source=openai)) In addition, up-to-date guides make clear that becoming President is locked behind premium content (Bitizenship plus the Politician/Special Careers pack) and, for the U.S. presidency, requires being born in the United States, which the answer omits even though the user asked for \"everything I need to know.\" ([mejoress.com](https://www.mejoress.com/en/how-to-become-president-in-bitlife/?utm_source=openai)) Because of the explicit misstatement about being able to run for Congress and the omission of mandatory prerequisites, the response is not fully factually accurate.",
+      "factuality": false
+    }
+  },
+  {
+    "ID": 16,
+    "final_result": "succeeded (False task)",
+    "verification_result": {
+      "reason": "Most of the assistant’s guidance matches established Stardew Valley mechanics (e.g., starting with free parsnip seeds, potatoes having a chance for extra yield, strawberries/blueberries/cranberries regrowing and producing multiple fruit, fishing catfish and eels in the rain, artisan goods being more valuable than raw items). However, there are at least two clear factual inaccuracies:\n\n1. The assistant states that in Winter \"you can’t grow crops outside.\" In the base game, certain crops *can* grow outdoors in Winter: Winter Seeds (which produce winter forage crops), Fiber Seeds, and, as of 1.6, Powdermelon Seeds, all explicitly grow outside during Winter. The official Winter page and crop documentation list these as outdoor winter crops, so saying you can’t grow crops outside is false.\n\n2. The assistant claims that completing quests and participating in festivals for friendship \"can lead to gifts or discounts.\" While increased friendship can indeed lead to mail gifts and recipes from villagers, the vanilla game does not provide general shop price discounts based on friendship; discounts of that sort are only introduced by mods. Thus implying that normal friendship progression leads to shop discounts is inaccurate.\n\nBecause of these errors, the response is not fully factually accurate overall, even though much of the other information is correct.",
+      "factuality": false
+    }
+  },
+  {
+    "ID": 17,
+    "final_result": "succeeded (True task)",
+    "verification_result": {
+      "reason": "Official BattlEye documentation and multiple game support articles state that BattlEye is bundled with supported games and is normally installed automatically, but if installation is declined or corrupted you can manually install or repair it by going to the game's BattlEye folder and running a script such as 'Install_BattlEye.bat' (or an equivalent installer executable). They also emphasize running the installer with administrative rights and ensuring antivirus or other security software is not blocking BattlEye, sometimes requiring adding it to exception lists. These points match the assistant’s explanation: locating the game directory, finding the BattlEye subfolder, running the install script, launching the game to verify, and checking permissions and antivirus if there are errors. BattlEye’s own FAQ further notes that updates are distributed through the game itself and are effectively automatic, which aligns with the assistant’s statement that updates are usually handled by the game and can be checked via official information. No specific step in the given answer contradicts BattlEye’s official guidance; it is somewhat generic but factually accurate for manual installation/repair on supported games.",
+      "factuality": true
+    }
+  },
+  {
+    "ID": 18,
+    "final_result": "failed (False task)",
+    "verification_result": {
+      "reason": "To verify the assistant’s steps, I checked current (through late 2025) guides and player discussions on how acting works in BitLife.\n\n1. **High Looks & Appearance Focus** – Multiple guides and discussions confirm that having high Looks (around 70–80%+), going to the gym, and using appearance-related options like salon/spa and plastic surgery are standard and effective ways to increase and maintain Looks, which is important for getting and advancing in the acting career. This matches steps 1–2. ([charlieintel.com](https://www.charlieintel.com/games/how-to-become-an-actor-or-movie-star-in-bitlife-201379/))([walkthroughs.net](https://walkthroughs.net/bitlife-guide-how-to-become-an-actor-and-movie-star-in-bitlife/?utm_source=openai))\n\n2. **Drama/School Activities** – Guides specifically recommend joining Drama/Drama Club/Theater Club in school to support an acting-focused life, which aligns with step 3. ([bitslifeapk.com](https://bitslifeapk.com/become-an-actor/?utm_source=openai))([reddit.com](https://www.reddit.com//r/BitLifeApp/comments/1nyhffo?utm_source=openai))\n\n3. **Education Level** – For the standard Voiceover Actor → Actor → Lead Actor path, a college degree is not required; completing high school and then applying for jobs is the usual recommendation, consistent with step 4. ([walkthroughs.net](https://walkthroughs.net/bitlife-guide-how-to-become-an-actor-and-movie-star-in-bitlife/?utm_source=openai))([spieltimes.io](https://www.spieltimes.io/news/how-to-be-an-actor-movie-star-in-bitlife/?utm_source=openai))\n\n4. **Voiceover Actor Entry Job & Promotions** – Historically, becoming an actor in BitLife involved starting as a Voiceover Actor in the regular job list, then being promoted to Actor and Lead Actor while working hard. This is exactly what steps 5–6 describe, and many guides state the same. ([walkthroughs.net](https://walkthroughs.net/bitlife-guide-how-to-become-an-actor-and-movie-star-in-bitlife/?utm_source=openai))([spieltimes.io](https://www.spieltimes.io/news/how-to-be-an-actor-movie-star-in-bitlife/?utm_source=openai))\n\n   While the Voiceover Actor job was removed around 2022 when acting was turned into a special “Actor” job pack and accessed via Talent Agents, recent posts from mid–2025 show that the Voiceover Actor job and the normal- job acting path were **re-added**: players are again instructed to find “Voiceover Actor” in the normal job section, then get promoted to Actor/Lead Actor to complete the actor career. ([reddit.com](https://www.reddit.com//r/BitLifeApp/comments/1mc8ucn?utm_source=openai))([reddit.com](https://www.reddit.com//r/BitLifeApp/comments/1m8ukl1?utm_source=openai))([reddit.com](https://www.reddit.com//r/BitLifeApp/comments/1nyhffo?utm_source=openai)) This matches the assistant’s description.\n\n5. **Maintaining Looks & Health; Fame Activities** – The game does require you to maintain health and looks to avoid issues and to stay promotable, and once you reach Lead Actor / top-tier acting positions, you typically gain “Fame,” unlocking fame activities like commercials, books, and social media. This aligns with steps 7–8. ([charlieintel.com](https://www.charlieintel.com/games/how-to-become-an-actor-or-movie-star-in-bitlife-201379/))([reddit.com](https://www.reddit.com/r/BitLifeApp/comments/c2jwvq?utm_source=openai))\n\n6. **God Mode** – The procedure described uses only normal game mechanics (rerolling lives, standard jobs, promotions) and does not involve God Mode, satisfying the user’s constraint.\n\nThe only nuance is that between roughly 2022–2024 the described Voiceover Actor path did not work because the job was temporarily removed in favor of the special-career/job-pack system. However, as of 2025, evidence shows that this path has been restored and functions as the assistant describes. The answer is therefore accurate for the current game and contains no clear false statements, though it is somewhat incomplete (it omits acting lessons and Talent Agents, which are helpful but not strictly required for the reintroduced Voiceover Actor path).\n\nGiven current mechanics, the assistant’s answer is factually accurate overall.",
+      "factuality": true
+    }
+  },
+  {
+    "ID": 19,
+    "final_result": "succeeded (True task)",
+    "verification_result": {
+      "reason": "Cross-checked all described connection methods (composite/AV, component, HDMI via a Wii-to-HDMI adapter, SCART using an RCA-to-SCART block, and S‑Video) against Nintendo’s official Wii support pages and third‑party hardware documentation; the cable types, port names, and step‑by‑step connection procedures all match these sources, and it is correct that the Wii has no native HDMI port and requires an adapter for HDMI output. ([en-americas-support.nintendo.com](https://en-americas-support.nintendo.com/app/answers/detail/a_id/2732/~/how-to-connect-the-wii-to-a-tv-using-av-cables?utm_source=openai)) The only nuance not mentioned is that S‑Video isn’t supported on all regional Wii models, but the answer’s conditional wording (“if your TV supports S‑Video and you have the appropriate cable”) does not contradict this. Overall, there are no factual errors in the assistant’s explanation.",
+      "factuality": true
+    }
+  },
+  {
+    "ID": 20,
+    "final_result": "succeeded (True task)",
+    "verification_result": {
+      "reason": "Independent descriptions of the Sara Sarita game all agree on the core procedure: two players sit facing each other, each holding a coin of the same denomination; together they ask a permission phrase such as “Sara Sarita, may we/join enter your game?” and then toss their coins, interpreting double heads as yes, double tails as no, and one of each as maybe. If they get yes, they proceed to ask yes/no questions, tossing the coins after each one, and to finish they must again ask if they can leave and keep tossing until they receive a yes. These elements—including the coin requirements, two-player setup, yes/no/maybe coin logic, and the need to get a yes both to start and to end—match the assistant’s step‑by‑step description. ([theghostinmymachine.com](https://theghostinmymachine.com/2018/04/18/dangerous-games-sara-sarita-sister-sister-ritual-mexico/)) Some variants add extra details (for example, throwing the coins backward over your shoulder or allowing solo play), but those are omissions rather than contradictions. Since none of the assistant’s stated steps conflict with the commonly documented rules, the response is factually accurate overall.",
+      "factuality": true
+    }
+  },
+  {
+    "ID": 21,
+    "final_result": "succeeded (True task)",
+    "verification_result": {
+      "reason": "The assistant’s answer describes general, evergreen deck-building principles for Clash Royale: identifying roles like win conditions, support, defensive cards, spells, cycle cards, and tanks; picking a main win condition; covering air and ground defense; running about two spells; maintaining a reasonable average elixir cost (often around 3–4 for balanced decks); testing and adjusting; adapting to the meta; and practicing with one deck. These points are consistent with widely accepted Clash Royale strategy guides and community advice. The concrete card examples (Hog Rider, Royal Giant, Balloon as win conditions; Musketeer/Wizard/Electro Wizard as support; Cannon/Tesla/Inferno Tower as defensive; Fireball/Zap/Arrows as spells; Skeletons/Ice Spirit/Bats as cycle; Golem/Giant/P.E.K.K.A as tanks) all match the actual roles of those cards in-game. While some recommendations (like ideal elixir cost) are matters of optimization and preference, they are within normal, accurate guidance and not factually wrong. No factual contradictions or clearly incorrect game mechanics are present.",
+      "factuality": true
+    }
+  },
+  {
+    "ID": 22,
+    "final_result": "succeeded (True task)",
+    "verification_result": {
+      "reason": "Independent guides explain that a blinking blue DualSense light usually means the controller is in pairing mode or cannot connect, and they recommend essentially the same troubleshooting steps the assistant lists: fully charging the controller, restarting or power‑cycling the PS5, resetting the controller with the pinhole button on the back, checking for PS5 and controller firmware updates, and trying another USB‑C cable. Sony’s own documentation on resetting and re‑pairing the DualSense matches the assistant’s description, and no step materially conflicts with official safety or support advice, so the answer is factually accurate overall. ([techprofet.com](https://techprofet.com/ps5-controller-blinking-blue/?utm_source=openai))",
+      "factuality": true
+    }
+  },
+  {
+    "ID": 23,
+    "final_result": "succeeded (False task)",
+    "verification_result": {
+      "reason": "The answer gets most bundle item lists right, but several important details are incorrect. It says that simply leaving the farmhouse on the 5th of Spring between 8 AM and 1 PM triggers the Community Center cutscene; in fact, you must enter Pelican Town from the Bus Stop on any non‑rainy day from Spring 5th onward in that time window. ([stardewvalleywiki.com](https://stardewvalleywiki.com/Community_Center?utm_source=openai)) It also implies you must donate all six items for the Animal Bundle and all four items for the Adventurer's Bundle, whereas the game only requires 5 of the 6 animal products and any 2 of the 4 monster‑drop items. ([stardewpricedb.com](https://stardewpricedb.com/bundle/animal-bundle/?utm_source=openai)) Because of these inaccuracies, the response is not fully factually accurate.",
+      "factuality": false
+    }
+  },
+  {
+    "ID": 24,
+    "final_result": "succeeded (True task)",
+    "verification_result": {
+      "reason": "I checked the assistant’s statements about Clash Royale against current game rules and strategy resources. The game is correctly described as a real-time strategy card-based tower game. The advice on elixir management, elixir advantage, building a balanced deck with answers to air, ground, swarms and tanks, and using cheap cycle cards for safe openings (Skeletons, Ice Spirit, defensive buildings) is consistent with up-to-date beginner guides and community advice. Using buildings to pull tanks like Giant away from towers, using splash units (Wizard, Baby Dragon) versus swarms, forming tank + support pushes (e.g., Giant + Musketeer) and supporting pushes with spells like Fireball/Zap all match common, documented tactics. The concept of defending efficiently, then counter-pushing with surviving troops is a core strategy in many reputable guides. The answer also correctly states that elixir generation doubles in the last minute of normal time, which is how standard 1v1 matches work before overtime. It does not misstate any concrete mechanics such as elixir rates, match length, or card behavior. Overall, the response is strategic advice grounded in the game’s actual mechanics and contains no factual errors.",
+      "factuality": true
+    }
+  },
+  {
+    "ID": 25,
+    "final_result": "succeeded (True task)",
+    "verification_result": {
+      "reason": "The assistant’s description of how to play Codenames matches the standard rules: teams are split into red and blue with each having a spymaster and field operatives; a 5x5 grid of 25 word cards is used; a key card indicates which words belong to each team, which team starts, and includes neutral cards and one assassin; the starting team has one extra agent to find; on each turn the spymaster gives a one-word clue plus a number indicating how many words are related; operatives discuss and guess one word at a time; correct guesses are covered with their team’s agent cards, neutrals with bystander/neutral cards, opponent’s words with the opponent’s agent cards, and the assassin ends the game with an immediate loss for the guessing team. The turn ends when the team reaches the maximum number of allowed guesses (the clue number plus one), voluntarily stops after at least one guess, or guesses a neutral/opponent word, which is consistent with the official “plus one” rule and guessing rules. The assistant also correctly notes that clues cannot use visible words or their forms and must be a single word, in line with published rule summaries and scans of the rulebook. No step in the explanation contradicts official Codenames rules; some details (like exact counts of agents/bystanders) are simply omitted, not misstated. Therefore the answer is factually accurate.",
+      "factuality": true
+    }
+  },
+  {
+    "ID": 26,
+    "final_result": "failed (False task)",
+    "verification_result": {
+      "reason": "Web sources on BitLife’s prison escape mini‑game confirm the core mechanics described by the assistant. Guides and the BitLife wiki state that when you are in prison you can open the Prison tab and select an Escape option to start a grid-based mini‑game where your character must reach the exit without being caught by a guard. The guard moves twice for every move the player makes, always moving toward the player and prioritizing horizontal movement before vertical movement, and walls block movement for both player and guard. The standard strategy recommended by multiple guides is exactly what the assistant describes: use walls and the guard’s predictable movement priority to trap him or force him into a loop while you maneuver to the exit. After a successful escape you are considered “on the run”: you regain access to normal activities but remain an escaped convict, can be re-arrested, and may face harsher consequences or limitations on jobs, military enlistment, and calling the police, which is consistent with the answer’s description of being on the run and at risk of being sent back to prison. The assistant does not assert any clearly false mechanics and only adds a generic, conditional suggestion about using an undo button (“if available”), which is not presented as a definite BitLife feature. While the answer omits some options (e.g., guard uniform ads, turning off mini-games, once-per-year attempts), these are omissions rather than contradictions. Overall, the factual claims it does make about how the mini‑game and escapes work match the available documentation.",
+      "factuality": true
+    }
+  },
+  {
+    "ID": 27,
+    "final_result": "succeeded (False task)",
+    "verification_result": {
+      "reason": "Multiple core steps in the assistant’s walkthrough contradict how the 2015 game 'There Is No Game' actually works according to several independent guides and wikis. In the real game, after clicking the 'O' so it falls, you use it to reveal and then break the wooden cover on the sound icon and then drop a heavy metal box to shake the screen and knock all title letters down; you do not use the fallen 'O' to knock the other letters down. After the letters fall, you unscrew two screws to reveal a panel reading 'THERE IS A ____', then spell 'GAME' to access a Breakout-style minigame. Only after completing that minigame do you receive a trophy, which is later used to carry water for growing a tree, not to break any block in the title screen. The assistant’s answer instead claims that a 'secret compartment' appears with a trophy immediately after breaking letters, and that the trophy is used to break a block the narrator puts in the way, which is incorrect. Later, the answer says to 'use the trophy to knock down the tree to get a nut' and to crack the nut on a generic stone or hard surface, whereas in the real game the nut is made to fall by clicking it on the tree and is cracked specifically by dropping the previously obtained metal box/safe on it. The method to unlock the goat area is also misdescribed: you access it by spelling 'GOAT' on the letter panel, not by breaking a block with the trophy. Because of these repeated factual inaccuracies about the actual puzzle mechanics and sequence, the response is not factually accurate overall.",
+      "factuality": false
+    }
+  },
+  {
+    "ID": 28,
+    "final_result": "succeeded (True task)",
+    "verification_result": {
+      "reason": "The assistant’s instructions match Sony’s official guidance for setting a PS5 as the account’s main (‘primary’) console via the “Console Sharing and Offline Play” feature. Sony’s support page says to go to Settings > Users and Accounts > Other > Console Sharing and Offline Play and select Enable or Disable, and notes that this makes anyone using that PS5 able to play your purchased and downloaded games and some PS Plus benefits even when the console is offline, and that only one PS5 can have this enabled at a time.([playstation.com](https://www.playstation.com/en-gb/support/account/ps5-console-sharing-offline-play/?utm_source=openai))([playstation.com](https://www.playstation.com/en-gb/support/account/ps5-console-sharing-offline-play/?utm_source=openai)) Third‑party guides describe the same step‑by‑step path and usage for game sharing and offline access.([engadget.com](https://www.engadget.com/gaming/playstation/how-to-set-your-ps5-as-your-home-console-120059735.html?utm_source=openai))([makeuseof.com](https://www.makeuseof.com/how-to-enable-game-sharing-playstation-5/?utm_source=openai)) The assistant’s cautions about only one active PS5, the need to have games downloaded for offline play, remote deactivation limits, and the security advice to sign in briefly on another console to enable sharing are all consistent with Sony’s documented behavior and widely accepted practice.([playstation.com](https://www.playstation.com/en-gb/support/account/ps5-console-sharing-offline-play/?utm_source=openai))([seminarsonly.com](https://www.seminarsonly.com/news/how-to-activate-primary-ps5-how-to-enable-ps5-console-sharing-and-offline-play/?utm_source=openai)) No part of the answer contradicts current documentation or known behavior of PS5 game sharing; it is accurate though it omits that console sharing is auto‑enabled on the first PS5 you sign into, which does not make any stated step false.",
+      "factuality": true
+    }
+  },
+  {
+    "ID": 29,
+    "final_result": "succeeded (False task)",
+    "verification_result": {
+      "reason": "External guides and community discussions on BitLife all agree that to rob a train you must (1) be at least 18 years old, then (2) go to Activities → Crime → Train Robbery, (3) pick any train, and crucially (4) choose one of the specific times (Sunrise 6:00 AM, High Noon 12 PM, 4:20 PM, Sunset 6 PM, Midnight 12 AM) so that the in‑game time matches your real‑world device time when you tap 'Rob It'. Success depends mainly on that real‑time match and some RNG; changing your device clock is detected as cheating and usually results in the character being killed, not a standard failure. These steps are documented consistently in multiple guides and Q&A articles. They also state that train robbery unlocks at age 18, which the assistant got right, and confirm the Activities → Crime → Train Robbery menu path the assistant mentioned. However, the assistant’s answer is factually misleading in other key ways: it omits the required real‑time timing mechanic entirely and instead claims you should improve stats like Smarts and Craziness to increase the chance of success and choose options based on character attributes. Available sources describe timing (and occasionally the Crime talent) as what matters, and one guide explicitly notes that the Crime talent does not affect train robbery, contradicting the idea that general attributes like Smarts/Craziness control success. Since the core mechanic (matching real‑world time) is missing and the suggested success factors are not supported by documented game behavior, the response is not factually accurate overall, even though a couple of minor details (age 18, menu path) are correct.",
+      "factuality": false
+    }
+  },
+  {
+    "ID": 30,
+    "final_result": "failed (True task)",
+    "verification_result": {
+      "reason": "The answer mixes some correct navigation steps with key inaccuracies and omissions about how resolution actually works on a Steam Deck.\n\n1. **Handheld (internal screen) vs external display**:\n   - Official specs confirm the Steam Deck’s built‑in screen is fixed at 1280×800. ([steamdeck.com](https://www.steamdeck.com/en-us/tech?utm_source=openai))\n   - Guides explicitly state that in handheld mode you *cannot change the overall display resolution* in SteamOS; you can only set per‑game resolutions or scaling options. ([androidauthority.com](https://www.androidauthority.com/steam-deck-resolution-3339456/?utm_source=openai))\n   - The answer, however, describes going to Settings → Display and simply changing a generic “Resolution” option, implying you can change the Deck’s own screen resolution this way. That is not how SteamOS works for the internal display.\n\n2. **Where the resolution control actually is**:\n   - In Gaming Mode, a resolution dropdown exists only under the **External Display Scaling** section in Settings → Display, and it appears *only when an external monitor/TV is connected*. ([reddit.com](https://www.reddit.com/r/SteamDeck/comments/14mw719?utm_source=openai))\n   - The assistant’s answer omits that this option is specific to external displays and suggests it is always present and usable, which is misleading for a user holding only the Deck.\n\n3. **Per‑game vs system‑wide resolution**:\n   - Changing in‑game resolution is normally done via each game’s Properties → General → Game Resolution (or via in‑game graphics menus), and more recent SteamOS versions add a global **Maximum Game Resolution** under Settings → Display → Advanced. ([steamcommunity.com](https://steamcommunity.com/app/1675200/discussions/0/819211394304116650/?utm_source=openai))\n   - None of this is mentioned, so the procedure described doesn’t match how users actually control game resolution on Steam Deck.\n\n4. **Confirmation / auto‑revert behavior**:\n   - The answer claims SteamOS may prompt to confirm resolution changes and revert automatically if not confirmed. Evidence for this behavior in Gaming Mode’s Display menu is weak and mostly speculative from user comments; it’s not documented the way it is for Windows or KDE desktop display settings. ([reddit.com](https://www.reddit.com/r/SteamDeck/comments/y02jq1?utm_source=openai)) This part is at best unverified and likely inaccurate in the context the answer implies.\n\nBecause the reply incorrectly suggests you can freely change the Deck’s own display resolution via a generic Resolution option in Settings → Display (which you cannot in handheld mode), and it mischaracterizes how and where resolution is controlled, the overall answer is not factually accurate.",
+      "factuality": false
+    }
+  },
+  {
+    "ID": 31,
+    "final_result": "succeeded (False task)",
+    "verification_result": {
+      "reason": "The answer correctly states that there are six Pale Ore pieces and accurately describes the Grubfather (31 grubs) and Seer (300 Essence) rewards and that one Pale Ore is at Hallownest’s Crown. However, it is factually wrong about several core details:\n\n1) Ancient Basin: The answer claims you get Pale Ore by defeating the Broken Vessel. In reality, Broken Vessel’s reward is the Monarch Wings, and the Pale Ore in Ancient Basin is found in a room west of the tram station, guarded by two Lesser Mawleks.\n\n2) Deepnest: The answer vaguely says it’s in a secret area at the bottom-right near the Beast’s Den. The actual Pale Ore is obtained after defeating the boss Nosk in its lair, accessed through breakable walls near the Deepnest hot spring, not near Beast’s Den.\n\n3) Kingdom’s Edge: The answer says you get Pale Ore by defeating a boss, Nailmaster Oro, near the Colosseum of Fools. Nailmaster Oro is an NPC who teaches a Nail Art and is not a boss and does not give Pale Ore. The real Kingdom’s Edge Pale Ore is the reward for completing the Trial of the Conqueror (second trial) in the Colosseum of Fools.\n\nBecause of these multiple substantive inaccuracies about how and where key Pale Ore pieces are obtained, the response is not factually accurate overall.",
+      "factuality": false
+    }
+  },
+  {
+    "ID": 32,
+    "final_result": "succeeded (False task)",
+    "verification_result": {
+      "reason": "The assistant’s answer contains multiple factual errors about Secret Note 19. According to the official Stardew Valley Wiki and other guides, Secret Note 19 depicts the blue house at 1 Willow Lane (Jodi/Sam’s house), not the player’s farmhouse. You must start in front of that house’s door and follow the arrows, moving in each direction until blocked, which leads you through town to a hidden Solid Gold Lewis statue behind Mayor Lewis’s house—not to a tile on your farm. The statue is obtained by standing on the destination tile and interacting (right‑click), not by digging with a hoe. Additionally, Secret Note 19 does not unlock the \"??HMTGF??\" statue; that statue is obtained by placing a Super Cucumber in the hidden brown box north of the Blacksmith. The Solid Gold Lewis statue also has an extra secret use: placing it anywhere in Pelican Town so it survives overnight causes it to be replaced with a Rotten Plant and a 750g payment plus an anonymous letter from Lewis, and the statue is moved into Lewis’s or Marnie’s bedroom. The assistant incorrectly states that the statue from Secret Note 19 is \"??HMTGF??\" with no function beyond decoration and that the map is of the farm and starts at the farmhouse, so the response is not factually accurate overall. ([stardewvalleywiki.com](https://stardewvalleywiki.com/Secret_Notes?utm_source=openai))",
+      "factuality": false
+    }
+  },
+  {
+    "ID": 33,
+    "final_result": "failed (True task)",
+    "verification_result": {
+      "reason": "The answer describes a 3‑villager + 1‑zombie panic‑based iron farm as a general Minecraft solution, but that mechanic only works in Java Edition. In Bedrock Edition, iron golems are spawned based on beds/workstations and villager counts (typically ≥10 villagers and 20 beds, with 75% of villagers working), and zombies do not trigger golem spawning the way they do in Java, so this design will not work there. Multiple Bedrock guides and community posts explicitly state that Java-style zombie‑scare farms do not work on Bedrock and instead require beds and workstations. ([minecraft.miraheze.org](https://minecraft.miraheze.org/wiki/Iron_Golem?utm_source=openai)) The answer also states that the farm will generate iron “as long as the villagers remain frightened by the zombie,” but current Java spawning rules require villagers to have slept recently (and, according to the official wiki, a high fraction to have worked at their workstations) before they can summon golems; constant line‑of‑sight panic that prevents sleeping will eventually stop spawns. ([minecraft.wiki](https://minecraft.wiki/w/Iron_golem?utm_source=openai)) Finally, the answer implies that simply building a 7×7 platform above the villagers is where golems will spawn, without mentioning that all other nearby spawnable surfaces within the 16×13×16 spawn volume must be spawn‑proofed; otherwise golems often spawn on the ground or in caves instead, as many troubleshooting posts and mechanic explanations note. ([minecraft.miraheze.org](https://minecraft.miraheze.org/wiki/Iron_Golem?utm_source=openai)) Because the response omits critical edition differences and misstates key spawning conditions, it is not factually accurate as written.",
+      "factuality": false
+    }
+  },
+  {
+    "ID": 34,
+    "final_result": "succeeded (False task)",
+    "verification_result": {
+      "reason": "Epic’s official documentation explains two main ways to link a console for Fortnite: (1) from the Epic Games website via the Linked accounts/Connections page, where you click Link/Connect next to Xbox/PlayStation/Nintendo and then sign in with that platform account; and (2) from the console, where Fortnite shows an 8‑digit code and tells you to go to epicgames.com/activate on another device to enter the code. In the first method, you never enter a console activation code; you simply authorize by logging in with the console account. In the second method, you do not navigate through Account → Connections → Accounts at all; you just use the dedicated activate page. The assistant’s answer incorrectly merges these flows and tells the user to (a) get a code on the console and then (b) go into the Epic account’s Connections/Accounts page and “enter the linking code provided by your console when prompted.” That is not how the actual Epic interface works: the Connections/Accounts (Linked accounts) page has link/unlink buttons that redirect to platform sign‑in, not a field for the console’s activation code. While the rest of the explanation (needing an Epic account, launching Fortnite on console, that progress/purchases live on the Epic account, etc.) is broadly correct, this core step about where and how to use the activation code is factually wrong. Therefore the response as a whole is not fully accurate.",
+      "factuality": false
+    }
+  },
+  {
+    "ID": 35,
+    "final_result": "failed (True task)",
+    "verification_result": {
+      "reason": "Multiple independent guides (including EarlyGame, MobileMatters, TouchTapPlay, Gamerant, etc.) describe the current procedure to start a 1v1 match in Call of Duty: Mobile as: open the game → tap Multiplayer → tap the three-line (≡) menu in the top-right → from the dropdown select 'Private' → in the private lobby tap the game mode/Mode Change button → select '1v1 Duel' → invite a friend via the plus (+) icon next to their name → press Start. The assistant’s answer matches this flow in almost all respects (Multiplayer, using the ≡ menu, private/custom room, inviting a friend from the right side, selecting 1v1 Duel via Mode Change, and pressing Start). However, it incorrectly states that simply tapping the '≡' menu “will open a custom/private lobby,” omitting the required additional step of choosing 'Private' from the dropdown. Since tapping the ≡ icon alone does *not* open the private lobby, that part of the answer is factually wrong, even though the rest of the steps and overall method are correct.",
+      "factuality": false
+    }
+  },
+  {
+    "ID": 36,
+    "final_result": "succeeded (True task)",
+    "verification_result": {
+      "reason": "The assistant’s answer provides general strategy and learning steps (learn basics, understand tower types and upgrade paths, plan strategy, optimize placement, manage resources, adapt, use heroes, learn from games, increase difficulty, engage with community, practice). These are high-level recommendations rather than detailed mechanical claims, and they align with how Bloons TD6 actually works. Key factual points are correct: the game has multiple bloon types such as regular, camo, and lead; towers have three upgrade paths; heroes exist and have abilities; and strategy revolves around placement, synergies, and resource management. There are no specific, testable game-mechanic statements that contradict known information about Bloons TD6, and nothing appears misleading or false. The response may be somewhat generic, but it is factually accurate.",
+      "factuality": true
+    }
+  },
+  {
+    "ID": 37,
+    "final_result": "succeeded (False task)",
+    "verification_result": {
+      "reason": "The answer contains several factual inaccuracies about how diamonds and keys work in Geometry Dash. First, it says both daily chests \"refresh every 24 hours,\" but in-game the small chest can be opened roughly every 3h45–4h while only the large chest has a 24‑hour cooldown. Second, it claims you can get diamonds in the Daily Level just by collecting secret coins and normal coins without completing the level, whereas diamonds there are tied to level progress/completion, not to coin collection itself. Third, it states that you earn keys (for the Treasure Room) \"by playing levels and completing quests\"; demon keys actually come from daily chests, certain events, and from accumulating mana orbs in levels (e.g., one key per 500 orbs), while quests reward diamonds but not keys directly. Finally, it recommends playing featured levels because they supposedly offer more chances to get diamonds and may directly reward diamonds, but normal featured user levels do not award diamonds unless they are specifically designated as a Daily Level, Weekly Demon, Event Level, or part of a gauntlet. Because of these repeated errors, the response is not factually accurate overall.",
+      "factuality": false
+    }
+  },
+  {
+    "ID": 38,
+    "final_result": "succeeded (False task)",
+    "verification_result": {
+      "reason": "Most of the answer is correct (Enter for team chat, Shift+Enter for all chat, chat box at bottom left), but there are at least two clear factual errors:\n\n1. The assistant says Party Chat is opened with Ctrl + Enter. Current guides and documentation consistently state that Ctrl + Enter opens WHISPER (private) chat, not party chat. Party text chat is accessed by opening the chat box and using commands like /party or /p (or by cycling chat modes with Tab); there is no standard Ctrl + Enter shortcut for party chat.\n2. The assistant claims you can change the chat font size in Valorant’s settings. Multiple player reports and guides indicate there is no in‑game option to change chat text font size; people resort to changing resolution or have requested such a feature precisely because it doesn’t exist.\n\nBecause of these inaccuracies, the response as a whole is not factually accurate.",
+      "factuality": false
+    }
+  },
+  {
+    "ID": 39,
+    "final_result": "succeeded (False task)",
+    "verification_result": {
+      "reason": "The answer mixes up several key details of how to reach and return to Argus in Dragonflight-era WoW.\n\n1. **Where you get “The Hand of Fate”**: The assistant says to accept the quest “The Hand of Fate” from Archmage Khadgar at *Krasus’ Landing* as part of the Broken Shore introduction. Blizzard’s own support article and current guides state that after completing the Broken Shore requirements (Uniting the Isles → Armies of Legionfall → Assault on Broken Shore), you must go back to **the Violet Citadel in Dalaran** and pick up **The Hand of Fate** from Khadgar there, not at Krasus’ Landing. ([us.support.blizzard.com](https://us.support.blizzard.com/en/article/000123327?utm_source=openai)) The assistant therefore gives the wrong quest location and incorrectly treats Hand of Fate as the Broken Shore intro.\n\n2. **How you return to Argus**: The answer says that to return you should go to Dalaran, enter the **Violet Citadel**, and talk to **Vereesa Windrunner (Alliance) or Lady Liadrin (Horde)** who will give you a portal to the Vindicaar. In reality, once the Argus intro is done far enough (up through quests like Into the Night / Rendezvous), returning to Argus is done via the **Lightforged Beacon (teleport pad) at Krasus’ Landing in Legion Dalaran**, which sends you to the Vindicaar; from the Vindicaar there is also a portal back to Dalaran. ([warcrafttavern.com](https://www.warcrafttavern.com/wow/guides/how-to-get-to-argus/?utm_source=openai)) Vereesa/Liadrin are instead used at **Stormwind Harbor / Durotar docks** to resume or re-enter the Argus intro scenario if you abandoned it, not as a standard portal NPC in the Violet Citadel. ([us.support.blizzard.com](https://us.support.blizzard.com/en/article/123346?utm_source=openai))\n\n3. **Broken Shore vs. Argus intro**: The assistant’s Step 2 labels Hand of Fate as part of completing the Broken Shore introduction and implies you might need to do the Broken Shore scenario after picking up Hand of Fate. Official guidance and up-to-date community guides are clear that the flow is: Uniting the Isles → Armies of Legionfall → Assault on Broken Shore (scenario) → then **Hand of Fate** to begin Argus. ([us.forums.blizzard.com](https://us.forums.blizzard.com/en/wow/t/how-long-should-it-take-to-unlock-argus/360501?utm_source=openai)) So the sequencing described is wrong.\n\nOther omissions (like not mentioning the Artifact-weapon prerequisite) make the answer incomplete, but the concrete errors above are enough to say the response is not factually accurate overall.",
+      "factuality": false
+    }
+  },
+  {
+    "ID": 40,
+    "final_result": "succeeded (False task)",
+    "verification_result": {
+      "reason": "The answer contains several significant factual errors about colored keys and some inaccuracies about accessing the Treasure Room. Demon Keys: it is broadly correct that you earn one Demon Key per 500 mana orbs from levels and then spend them in the Treasure Room, but the path to the Treasure Room is not via a 'treasure chest icon' on the main menu; it is a door in the lower-right of the online/creator menu unlocked after collecting 5 demon keys. More importantly, the colored key instructions are wrong. According to the Geometry Dash Wiki and current guides, the blue key is obtained by completing the Chaos Gauntlet, the green key is obtained from the first large chest on the third page of the Treasure Room after opening 50 chests, and the orange key is obtained from the initial chest in the Chamber of Time. The assistant instead claims the blue and green keys come from completing a special 'The Challenge' level and that the orange key comes from typing 'River' in the Chamber of Time, which is incorrect. The answer also incorrectly states that colored keys are used to unlock the Vault of Secrets and the Chamber of Time; in reality, the Vault of Secrets is unlocked with 50 diamonds, and the Chamber of Time is unlocked using the Master Emblem from the Secret Shop, while the blue, green, and orange keys are used to open locks in the Basement. Because of these multiple substantive inaccuracies, the response is not factually accurate overall.",
+      "factuality": false
+    }
+  },
+  {
+    "ID": 41,
+    "final_result": "succeeded (False task)",
+    "verification_result": {
+      "reason": "Most of the assistant’s answer matches current practice: you do need a VR‑capable Windows PC with Steam and SteamVR, the Meta/Oculus PC app, and you can use a wired Link connection, Air Link, or Virtual Desktop to play SteamVR games on a Quest 2. However, two important details are factually outdated/inaccurate as of current Meta software:\n\n1) The answer tells the user to \"log in with your Facebook/Oculus account\" in the PC app. Support for Oculus accounts ended on January 1, 2023, and Meta now requires a Meta account (which can optionally be created using Facebook, but is not itself a “Facebook/Oculus account”). So this description of account requirements is no longer correct.\n\n2) The answer says that on PC you must go to Settings → Beta and \"enable Air Link\". Meta removed the Air Link toggle from the PC app’s Beta tab starting with v37; Air Link on the PC side is always on, and you only enable/pair Air Link from within the headset’s settings. Multiple Meta/Quest support notes and community posts confirm that the Beta‑tab Air Link toggle no longer exists and is not required.\n\nBecause these steps would not match what a current user actually sees or must do, the response is not fully factually accurate.",
+      "factuality": false
+    }
+  },
+  {
+    "ID": 42,
+    "final_result": "succeeded (False task)",
+    "verification_result": {
+      "reason": "Several important details in the assistant’s answer are wrong in the current (1.6+) version of Stardew Valley. Correct points include: hardwood coming from Large Stumps (Copper Axe+, 2 hardwood each), Large Logs (Steel Axe+, 8 hardwood each), the Secret Woods having six Large Stumps that respawn daily for 12 hardwood, and Mahogany Trees being a renewable hardwood source. However, the answer also claims (1) that Large Logs are found 'occasionally in the Secret Woods', even though the official data show only one Large Log in Cindersap Forest blocking the entrance to the Secret Woods and none inside the Woods themselves; (2) that you can buy hardwood from Robin at the Carpenter’s Shop, whereas Robin sells wood and stone but does not sell hardwood in unmodded vanilla—hardwood is instead purchasable from Leah’s shop at the Desert Festival and via trades like the Bookseller; and (3) that fishing treasure chests can contain hardwood, even though the official hardwood source list (Large Stump, Large Log, Mahogany Tree, Mystic Tree, Mystery Box, Woodskip Fish Pond, Bookseller/Desert Festival, etc.) does not include fishing treasure chests as a source. Because of these specific factual errors, the response is not fully accurate.",
+      "factuality": false
+    }
+  },
+  {
+    "ID": 43,
+    "final_result": "succeeded (True task)",
+    "verification_result": {
+      "reason": "Independent guides and the Elden Ring wiki explain that to use incantations you must obtain the spell, meet its attribute requirements (usually Faith, with some also needing Intelligence or Arcane), equip a Sacred Seal in a hand, rest at a Site of Grace and use the Memorize spell(s) option to slot the incantation, then select it with the D‑pad and cast it with the bumper corresponding to the hand holding the Seal, spending FP that is replenished with Flasks of Cerulean Tears; spells also consume stamina when used in combat. ([windowscentral.com](https://www.windowscentral.com/elden-ring-how-use-incantations?utm_source=openai)) These documented mechanics align with every step in the assistant’s explanation; while the answer omits Arcane as an additional requirement for some incantations and is a bit vague about stamina usage, it does not make any clear false claims, so the response is factually accurate overall.",
+      "factuality": true
+    }
+  },
+  {
+    "ID": 44,
+    "final_result": "succeeded (True task)",
+    "verification_result": {
+      "reason": "Recent how‑to guides and support docs explain that to enable Developer Mode on a Quest 2 you must: (1) sign into the Oculus/Meta developer dashboard with the same account used on the headset, create a developer organization, and accept the developer terms; (2) install the Meta Quest/Oculus mobile app on your phone, log in with that account, and pair the headset; (3) in the app go to Menu/Devices → your headset → Headset Settings → Developer Mode and toggle it on; and (4) reboot the headset to apply the change. ([learn.adafruit.com](https://learn.adafruit.com/sideloading-on-oculus-quest?view=all&utm_source=openai)) These steps match the assistant’s description in substance—creating a developer account/organization, using the phone app’s Devices section to toggle Developer Mode for the paired Quest 2, restarting the headset, and optionally confirming via ADB or the developer hub. The only differences are branding (Oculus vs. Meta) and a minor omission of the intermediate “Headset Settings” submenu, which do not make the procedure factually wrong.",
+      "factuality": true
+    }
+  },
+  {
+    "ID": 45,
+    "final_result": "failed (True task)",
+    "verification_result": {
+      "reason": "Most of the assistant’s explanation about Just Dance 2025 Edition on Nintendo Switch is supported by official sources: the game has 40 new songs and a 1‑month Just Dance+ trial, supports up to 6 local players, includes Workout and Challenge modes, and offers a beta Camera Controller mode via the Just Dance Controller app that uses the phone’s camera for motion tracking. These points match Nintendo’s store page, Ubisoft’s announcements, and platform store descriptions.\n\nHowever, there is at least one clear factual error. On Nintendo Switch, “Just Dance 2025 Edition” is sold as DLC that *requires* the separate “Just Dance Free Experience” base application and has a tiny (3 MB) file size, indicating it is an add‑on unlock rather than a full standalone game. The Switch eShop explicitly labels it as DLC requiring Just Dance Free Experience, and the Free Experience itself is the 1 GB application that appears as the main icon on the Home screen. Players report that after buying 2025 they still only see the existing Just Dance/Free Experience icon and must launch the game through that hub. Therefore, the assistant’s statement that, after downloading, you will “see the Just Dance 2025 icon on your Home screen” and select that to launch the game does not match how the Switch version actually works. Because of this incorrect description of how the software appears and is launched on Switch, the response is not fully factually accurate.",
+      "factuality": false
+    }
+  },
+  {
+    "ID": 46,
+    "final_result": "succeeded (False task)",
+    "verification_result": {
+      "reason": "According to the Bloons TD 6 wiki and other guides, the Monkey Knowledge needed to create the Vengeful True Sun God is called \"There Can Be Only One\", not \"There's No Sun God Like A Vengeful One\" as the assistant claims. ([bloons.fandom.com](https://bloons.fandom.com/wiki/There_Can_Be_Only_One_%28Monkey_Knowledge_Point%29?utm_source=openai)) Official instructions also specify that The Anti-Bloon and Legend of the Night must be placed *outside* the Sun Temple’s sacrifice range, otherwise the upgrade to Vengeful True Sun God will fail, but the assistant only says to place them \"somewhere on the map\" and never mentions the out-of-range requirement. ([bloons.fandom.com](https://bloons.fandom.com/wiki/Vengeful_True_Sun_God)) In addition, a Vengeful True Sun God requires a **maximal** True Sun God, which means $50,000+ of sacrifices in all four tower categories for the True Sun God; the answer treats the Support sacrifice as primarily for a buff rather than clearly as part of the required maximal sacrifices. ([bloons.fandom.com](https://bloons.fandom.com/wiki/True_Sun_God_%28BTD6%29?utm_source=openai)) Because of the incorrect Monkey Knowledge name and these important omissions/misstatements about the conditions for summoning the Vengeful True Sun God, the response is not fully factually accurate.",
+      "factuality": false
+    }
+  },
+  {
+    "ID": 47,
+    "final_result": "succeeded (False task)",
+    "verification_result": {
+      "reason": "The answer correctly states that Phasmophobia is not a standalone Quest 2 title and must be run as a PC VR game via Steam and the Oculus/Meta PC software, and it broadly describes the right high‑level flow (install Steam + Phasmophobia, install Oculus/Meta PC app, connect Quest 2 via Link cable or Air Link, then start the game in VR). However, several concrete details are factually wrong or obsolete:\n\n1. Air Link setup: The answer tells the user to enable Air Link from the **Beta** tab in the Oculus PC app and to toggle it under **Experimental Features** on the headset. Meta removed the PC‑side Beta toggle years ago; Air Link is now always enabled in the PC app and is controlled from the headset (Quick Settings / System / Quest Link). Official guidance and multiple user reports confirm that the Beta toggle no longer exists in current versions of the Meta Quest Link app.\n\n2. Game launch options: The answer says to set the Steam launch options for Phasmophobia to `-vr`. Steam’s own configuration for Phasmophobia shows that the VR launch options use the `--enable-vr` argument, not `-vr`, and that the usual way to start in VR is to pick one of the predefined VR launch options (e.g. “Play Phasmophobia in VR (exc. Steam Home)” or “Launch Phasmophobia in Steam VR Mode”). Community troubleshooting threads and SteamDB configuration data show `--enable-vr` as the argument actually used by Phasmophobia, while `-vr` is not the documented or standard flag for this game.\n\nBecause of these inaccuracies, the response is not fully factually accurate, even though much of the general procedure is roughly correct.",
+      "factuality": false
+    }
+  },
+  {
+    "ID": 48,
+    "final_result": "succeeded (False task)",
+    "verification_result": {
+      "reason": "Most of the assistant’s explanation matches Minecraft mechanics: mangrove trees are from the Wild Update and naturally generate in mangrove swamp biomes; these biomes are muddy, warm-region swamps often bordering other warm biomes such as jungles; mangrove trees have hanging propagules used for growing new trees; propagules are planted on the ground and can be grown faster with bone meal; and grown trees provide mangrove logs and more propagules. These points are supported by the official Minecraft site and wikis.\n\nHowever, the answer claims that mangrove propagules can be planted \"even underwater on blocks like clay or sand.\" Official documentation and the Minecraft Wiki state that mangrove propagules can be placed on all variants of dirt (except dirt paths), moss blocks, mud, muddy mangrove roots, farmland, and clay, and that they can also be placed and grown underwater on those same blocks. Sand is not listed as a valid block for placing or growing mangrove propagules. ([minecraft.fandom.com](https://minecraft.fandom.com/wiki/Mangrove)) Because the response explicitly includes sand as a planting surface, which contradicts the game’s documented behavior, the overall answer is not fully factually accurate.",
+      "factuality": false
+    }
+  },
+  {
+    "ID": 49,
+    "final_result": "succeeded (True task)",
+    "verification_result": {
+      "reason": "Multiple up-to-date Minecraft guides (including DigMinecraft and the official-style recipe references) confirm that crafting a stonecutter requires exactly 1 iron ingot and 3 stone blocks, arranged with the iron ingot in the top-center slot and the three stone blocks filling the entire middle row of the 3×3 crafting grid, matching the assistant’s description. ([digminecraft.com](https://www.digminecraft.com/basic_recipes/make_stonecutter.php?utm_source=openai)) These same sources also state that iron ingots are obtained by smelting iron ore and that stone is obtained by smelting cobblestone, and describe the stonecutter as a utility block that crafts stone-related blocks more efficiently, consistent with the assistant’s explanation of both material gathering and usage. ([deltiasgaming.com](https://deltiasgaming.com/how-to-craft-and-use-a-stonecutter-in-minecraft/?utm_source=openai)) No steps given by the assistant contradict the documented in-game mechanics for current Java/Bedrock editions, so the response is factually accurate.",
+      "factuality": true
+    }
+  }
+]

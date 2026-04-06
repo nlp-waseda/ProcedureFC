@@ -1,0 +1,8 @@
+Date and Time:	2025-08-25 13:39:35
+Dataset:	dataset/dataset0.4.0.json
+Decomposition Prompt:	prompts/prompt_decompose7.2.0.txt
+Query Prompt:	prompts/prompt_query0.1.0.txt
+Verification Prompt:	prompts/prompt_verify1.2.1.txt
+Accuracy:	0.6129032258064516
+True Accuracy:	0.42857142857142855
+False Accuracy:	0.7647058823529411
