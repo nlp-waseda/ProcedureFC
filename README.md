@@ -1,6 +1,8 @@
 # ProcedureFC
 
-このコードは Python 3.11 で動作確認されています。
+LLMの手順型応答を自動でファクトチェックするフレームワークです。
+
+<img width="600" alt="ProcedureFCの外観図" src="https://github.com/user-attachments/assets/1746cc58-005d-44b3-adb1-836b8d45bc90" />
 
 ## セットアップ
 
